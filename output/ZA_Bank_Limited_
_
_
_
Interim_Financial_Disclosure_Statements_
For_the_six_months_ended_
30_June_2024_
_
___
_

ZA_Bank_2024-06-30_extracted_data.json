@@ -1,0 +1,226 @@
+{
+  "income_statement": {
+    "data": [
+      {
+        "Item": "Interest income",
+        "2024": 2.0,
+        "2023": 440016.0,
+        "Change": -440014.0,
+        "Change%": -99.99954547107379
+      },
+      {
+        "Item": "Interest expense",
+        "2024": 2.0,
+        "2023": -232399.0,
+        "Change": 232401.0,
+        "Change%": -100.00086058890099
+      },
+      {
+        "Item": "Net interest income",
+        "2024": 207617.0,
+        "2023": 112597.0,
+        "Change": 95020.0,
+        "Change%": 84.3894597547004
+      },
+      {
+        "Item": "Fee and commission income",
+        "2024": 77220.0,
+        "2023": 65751.0,
+        "Change": 11469.0,
+        "Change%": 17.443080713601315
+      },
+      {
+        "Item": "Fee and commission expense",
+        "2024": -28703.0,
+        "2023": -30508.0,
+        "Change": 1805.0,
+        "Change%": -5.9164809230365805
+      },
+      {
+        "Item": "Net fee and commission income",
+        "2024": 48517.0,
+        "2023": 35243.0,
+        "Change": 13274.0,
+        "Change%": 37.66421700763272
+      },
+      {
+        "Item": "Net (loss)/gain from other financial instruments",
+        "2024": -11722.0,
+        "2023": 24215.0,
+        "Change": -35937.0,
+        "Change%": -148.40801156308075
+      },
+      {
+        "Item": "Other income",
+        "2024": 10098.0,
+        "2023": 2348.0,
+        "Change": 7750.0,
+        "Change%": 330.06814310051107
+      },
+      {
+        "Item": "Operating expenses",
+        "2024": 3.0,
+        "2023": -302076.0,
+        "Change": 302079.0,
+        "Change%": -100.00099312755731
+      },
+      {
+        "Item": "Operating loss before impairment losses",
+        "2024": -47566.0,
+        "2023": -171862.0,
+        "Change": 124296.0,
+        "Change%": -72.323142986815
+      },
+      {
+        "Item": "Credit impairment losses on other financial assets",
+        "2024": 1310.0,
+        "2023": 485.0,
+        "Change": 825.0,
+        "Change%": 170.10309278350516
+      },
+      {
+        "Item": "Loss before income tax",
+        "2024": -109258.0,
+        "2023": -199910.0,
+        "Change": 90652.0,
+        "Change%": -45.34640588264719
+      },
+      {
+        "Item": "Net loss for the period",
+        "2024": -109258.0,
+        "2023": -199910.0,
+        "Change": 90652.0,
+        "Change%": -45.34640588264719
+      },
+      {
+        "Item": "Total comprehensive loss for the period",
+        "2024": -44496.0,
+        "2023": -116649.0,
+        "Change": 72153.0,
+        "Change%": -61.854795154694855
+      }
+    ],
+    "metadata": {
+      "current_year": "2024",
+      "previous_year": "2023",
+      "currency": "HKD",
+      "unit": "千",
+      "extraction_time": "2025-03-23 00:28:43"
+    }
+  },
+  "balance_sheet": {
+    "data": [
+      {
+        "Item": "Cash and balances",
+        "Category": "Assets",
+        "2024": 4.0,
+        "2023": 1561012.0,
+        "Change": -1561008.0,
+        "Change%": -99.9997437559737
+      },
+      {
+        "Item": "Investment securities measured at FVOCI",
+        "Category": "Assets",
+        "2024": 7.0,
+        "2023": 12667707.0,
+        "Change": -12667700.0,
+        "Change%": -99.99994474138059
+      },
+      {
+        "Item": "Loans and advances to customers",
+        "Category": "Assets",
+        "2024": 6.0,
+        "2023": 5467926.0,
+        "Change": -5467920.0,
+        "Change%": -99.99989026918067
+      },
+      {
+        "Item": "Intangible assets",
+        "Category": "Assets",
+        "2024": 8.0,
+        "2023": 34139.0,
+        "Change": -34131.0,
+        "Change%": -99.97656639034535
+      },
+      {
+        "Item": "Other assets",
+        "Category": "Assets",
+        "2024": 221697.0,
+        "2023": 141885.0,
+        "Change": 79812.0,
+        "Change%": 56.2511893434824
+      },
+      {
+        "Item": "Total assets",
+        "Category": "Assets",
+        "2024": 19952965.0,
+        "2023": 13930057.0,
+        "Change": 6022908.0,
+        "Change%": 43.236779289560694
+      },
+      {
+        "Item": "Deposits from customers",
+        "Category": "Liabilities",
+        "2024": 10.0,
+        "2023": 16801498.0,
+        "Change": -16801488.0,
+        "Change%": -99.99994048149755
+      },
+      {
+        "Item": "Total liabilities",
+        "Category": "Liabilities",
+        "2024": 18042037.0,
+        "2023": 11979916.0,
+        "Change": 6062121.0,
+        "Change%": 50.60236649405555
+      },
+      {
+        "Item": "Share capital",
+        "Category": "Equity",
+        "2024": 11.0,
+        "2023": 4100000.0,
+        "Change": -4099989.0,
+        "Change%": -99.99973170731707
+      },
+      {
+        "Item": "Reserves",
+        "Category": "Equity",
+        "2024": -90967.0,
+        "2023": -161012.0,
+        "Change": 70045.0,
+        "Change%": -43.502968722828115
+      },
+      {
+        "Item": "Accumulated losses",
+        "Category": "Equity",
+        "2024": -2098105.0,
+        "2023": -1988847.0,
+        "Change": -109258.0,
+        "Change%": 5.493534696233547
+      },
+      {
+        "Item": "Total equity",
+        "Category": "Equity",
+        "2024": 1910928.0,
+        "2023": 1950141.0,
+        "Change": -39213.0,
+        "Change%": -2.010777682229131
+      }
+    ],
+    "metadata": {
+      "current_year": "2024",
+      "previous_year": "2023",
+      "currency": "HKD",
+      "unit": "千",
+      "extraction_time": "2025-03-23 00:28:43"
+    }
+  },
+  "company_info": {
+    "Company Name": "ZA Bank Limited \n \n \n \nInterim Financial Disclosure Statements \nFor the six months ended \n30 June 2024 \n \n   \n \n\nZA Bank",
+    "Report Date": "2024-06-30",
+    "Currency": "HK$",
+    "Type": "Virtual Bank",
+    "Region": "Hong Kong",
+    "Unit": "千"
+  }
+}
