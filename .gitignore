@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+logs/
+*.log
+output/errors/
+output/archive/
+output/extraction_results/json/
+output/extraction_results/csv/extraction_results_*.csv
+output/visualizations/
+output/dashboards/
+output/analytics/
+
+# Temporary files
+*.tmp
+*.temp
+extraction_log.txt
+
+# API Keys (never commit these!)
+.env
+config/secrets.yaml
+config/api_keys.yaml

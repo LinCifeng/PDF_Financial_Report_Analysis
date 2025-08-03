@@ -1,167 +1,148 @@
-# 金融分析系统
+# 财务报表数据提取与分析系统
+Financial Report Data Extraction and Analysis System
 
-> FinTech 公司财务报告分析系统
+## 项目简介 Project Overview
 
-专为分析 FinTech 公司财务报告而设计的综合工具，支持财报收集状况统计分析、多年趋势分析和专业图表生成。
+本项目是一个自动化的财务数据提取和分析系统，专门用于从PDF格式的财务报表中提取关键财务指标。主要针对香港虚拟银行等金融科技公司的财务报告进行优化。
 
-## 🚀 核心功能
+This is an automated financial data extraction and analysis system designed to extract key financial metrics from PDF financial reports, with a focus on Hong Kong virtual banks and fintech companies.
 
-### 📊 财报收集状况分析
+## 主要特性 Key Features
 
-- **收集率统计** - 分析 FinTech 公司财务报告收集情况
-- **年份覆盖分析** - 统计报告年份分布和覆盖范围
-- **公司分类统计** - 按收集状态分类统计公司数量
-- **Markdown 报告生成** - 生成专业格式的分析报告
+- 📄 **多层次PDF提取**: 支持正则表达式、表格提取、OCR等多种方式
+- 🤖 **AI增强提取**: 使用LLM（DeepSeek）提升复杂数据的提取准确率
+- 📊 **智能数据处理**: 自动识别负数（亏损）、处理多语言（中英文）
+- 🔧 **模块化架构**: 清晰的代码结构，易于扩展和维护
+- 📈 **批量处理**: 支持大规模PDF文件的并行处理
 
-### 📈 多年趋势分析
+## 最新提取效果 Latest Extraction Performance
 
-- **资产趋势图表** - 生成多年资产变化趋势图
-- **资产结构演变** - 分析资产结构变化情况
-- **财务指标对比** - 核心财务指标年度对比
-- **数据整合输出** - 生成统一的 JSON 数据文件
+| 指标 | 提取率 | 说明 |
+|------|--------|------|
+| 总资产 | 30.6% | Total Assets |
+| 总负债 | 47.2% | Total Liabilities |
+| 营业收入 | 34.3% | Revenue |
+| **净利润** | **41.7%** | Net Profit/Loss |
+| 成功率 | 55.6% | Overall Success Rate |
 
-### 🎨 专业可视化
-
-- **英文图表** - 专业的英文财务图表
-- **多维度分析** - 总资产、负债、权益等多角度分析
-- **增长率计算** - 自动计算各项指标增长率
-- **现代化设计** - 基于 matplotlib 的现代化图表设计
-
-## 🏗️ 项目结构
+## 项目结构 Project Structure
 
 ```
 FinancialAnalysis/
-├── financial_analyzer/           # 核心分析模块
-│   ├── data_extraction/         # 数据提取模块
-│   │   └── pdf_extractor.py     # PDF数据提取工具
-│   ├── analysis/                # 分析模块
-│   │   ├── financial_analyzer.py # 财务分析器
-│   │   └── report_generator.py   # 报告生成器
-│   ├── visualization/           # 可视化模块
-│   │   └── chart_generator.py   # 图表生成器（含多年趋势分析）
-│   ├── output/                  # 输出示例
-│   └── main.py                  # 主模块
-├── data/                        # 数据目录
-│   ├── Company_Financial_report.csv # 财报收集记录
-│   ├── collection_status_analysis.py # 收集状况分析脚本
-│   ├── ZABank2020.pdf          # ZA Bank 2020年报
-│   ├── ZABank2021.pdf          # ZA Bank 2021年报
-│   ├── ZABank2022.pdf          # ZA Bank 2022年报
-│   ├── ZABank2023.pdf          # ZA Bank 2023年报
-│   └── ZABank2024.pdf          # ZA Bank 2024年报
-├── generate_za_bank_trends.py  # ZA Bank趋势分析启动脚本
-└── requirements.txt            # 项目依赖
+├── scripts/              # 可执行脚本
+│   ├── main.py          # 主程序入口
+│   ├── simple_extract.py # 简单提取
+│   └── extract_data_optimized.py # 优化版提取
+├── src/                 # 核心代码库
+│   ├── core/           # 核心模块
+│   ├── extractors/     # 数据提取器
+│   │   ├── pdf/       # PDF相关提取器
+│   │   └── llm/       # LLM提取器
+│   ├── processors/     # 数据处理器
+│   └── data/          # 数据管理
+├── data/               # 数据目录
+│   └── raw_reports/   # PDF财报存放
+├── output/            # 输出结果
+└── logs/             # 日志文件
 ```
 
-## 📦 安装配置
+## 快速开始 Quick Start
+
+### 1. 安装依赖 Install Dependencies
 
 ```bash
-# 创建虚拟环境
-python3 -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-
-# 安装依赖
 pip install -r requirements.txt
 ```
 
-## 🚀 使用方法
+### 2. 准备数据 Prepare Data
 
-### 1. 财报收集状况分析
+将PDF财报文件放入 `data/raw_reports/` 目录
 
+### 3. 运行提取 Run Extraction
+
+#### 简单提取（快速）
 ```bash
-# 运行收集状况分析
-cd data
-python3 collection_status_analysis.py
+python main.py extract
 ```
 
-**生成报告包含：**
-
-- 总体数据统计（575 家公司，127 家有报告）
-- 收集率分析（22.1%整体收集率）
-- 年份覆盖范围（主要覆盖 2018-2024 年）
-- 每家公司平均报告数量（11.7 份）
-- Markdown 格式专业报告
-
-### 2. ZA Bank 多年趋势分析
-
+#### 优化版提取（推荐）
 ```bash
-# 运行ZA Bank趋势分析
-python3 generate_za_bank_trends.py
+python scripts/extract_data_optimized.py
 ```
 
-**生成内容包含：**
+#### LLM增强提取（需要API密钥）
+```bash
+export DEEPSEEK_API_KEY="your-api-key"
+python main.py extract-llm
+```
 
-- **4 张专业英文图表：**
-  - `ZA_Bank_Total_Assets_Trend.png` - 总资产趋势图
-  - `ZA_Bank_Asset_Structure_Evolution.png` - 资产结构演变图
-  - `ZA_Bank_Balance_Comparison.png` - 资产负债对比图
-  - `ZA_Bank_Core_Metrics.png` - 核心指标图
-- **统一 JSON 数据文件：** `ZA_Bank_Multi_Year_Analysis_*.json`
-- **增长率统计：** 总资产增长 379.41%（41.6 亿 →199.5 亿港币）
+### 4. 查看结果 View Results
 
-## 📊 输出文件说明
+提取结果保存在 `output/` 目录：
+- `simple_extraction_results.csv` - 简单提取结果
+- `optimized_extraction_results.csv` - 优化提取结果
+- `all_financial_data.csv` - LLM增强提取结果
 
-### 财报收集状况分析输出
+## 技术架构 Technical Architecture
 
-| 文件名                                                      | 描述             | 格式     |
-| ----------------------------------------------------------- | ---------------- | -------- |
-| `collection_status_of_financial_reports_YYYYMMDD_HHMMSS.md` | 收集状况分析报告 | Markdown |
+### 提取器层次 Extractor Hierarchy
 
-### ZA Bank 趋势分析输出
+1. **基础提取器** (`src/extractors/base.py`)
+   - 所有提取器的基类
+   - 提供通用功能：数据验证、格式化等
 
-| 文件名                                  | 描述           | 格式 |
-| --------------------------------------- | -------------- | ---- |
-| `ZA_Bank_Total_Assets_Trend.png`        | 总资产趋势图   | PNG  |
-| `ZA_Bank_Asset_Structure_Evolution.png` | 资产结构演变图 | PNG  |
-| `ZA_Bank_Balance_Comparison.png`        | 资产负债对比图 | PNG  |
-| `ZA_Bank_Core_Metrics.png`              | 核心财务指标图 | PNG  |
-| `ZA_Bank_Multi_Year_Analysis_*.json`    | 整合数据文件   | JSON |
+2. **PDF提取器** (`src/extractors/pdf/`)
+   - `basic.py`: 正则表达式提取
+   - `table.py`: 表格数据提取
+   - `ocr.py`: OCR文字识别
 
-## 📈 数据覆盖范围
+3. **LLM提取器** (`src/extractors/llm/`)
+   - `improved.py`: 使用DeepSeek API的智能提取
 
-### 财报收集数据集
+4. **智能提取器** (`src/extractors/smart.py`)
+   - 整合所有提取方式
+   - 自动选择最佳提取策略
 
-- **575 家** FinTech 公司
-- **127 家** 有财报数据的公司
-- **平均 11.7 份** 报告每家公司
-- **2018-2024 年** 主要覆盖期间
-- **22.1%** 整体收集率
+## 配置说明 Configuration
 
-### ZA Bank 分析数据
+在 `config/config.yaml` 中配置：
+- API密钥设置
+- 提取参数调整
+- 输出格式配置
 
-- **2020-2024 年** 连续 5 年数据
-- **总资产增长** 379.41%（41.6 亿 →199.5 亿港币）
-- **总负债增长** 506.05%
-- **股东权益增长** 61.25%
-- **资产负债率** 从 71.53%上升至 90.42%
+## 依赖项 Dependencies
 
-## 🛠️ 核心技术依赖
+主要依赖：
+- `pdfplumber`: PDF文本提取
+- `pandas`: 数据处理
+- `requests`: API调用
+- `tqdm`: 进度显示
 
-- **数据处理**: pandas, numpy
-- **PDF 处理**: pdfplumber, PyPDF2
-- **可视化**: matplotlib, seaborn
-- **网页抓取**: selenium, beautifulsoup4
-- **机器学习**: scikit-learn
+可选依赖（用于增强功能）：
+- `camelot-py`: 高级表格提取
+- `paddleocr`: 中文OCR
+- `pymupdf`: PDF渲染
 
-## 🎯 支持的报告类型
+## 常见问题 FAQ
 
-当前系统优化支持：
+**Q: 为什么有些PDF文件提取失败？**
+A: 可能是PDF文件损坏或加密。项目中约有19个Ant Bank和ZA Bank的PDF文件无法打开。
 
-- **香港虚拟银行** (ZA Bank, WeLab Bank, Airstar Bank 等)
-- **国际数字银行** (Revolut, Klarna, Wise 等)
-- **FinTech 公司** (Square, Affirm, Upstart 等)
+**Q: 如何提高净利润的提取率？**
+A: 使用优化版提取脚本 `extract_data_optimized.py`，它包含了更全面的正则表达式模式和负数处理逻辑。
 
-## 🔄 版本更新历史
+**Q: LLM提取需要付费吗？**
+A: 是的，需要DeepSeek API密钥。但基础提取和优化提取是免费的。
 
-- **v2.0** - 新增 ZA Bank 多年趋势分析功能，整合 JSON 输出
-- **v1.2** - 添加 Markdown 格式报告输出
-- **v1.1** - 添加财报收集状况分析功能
-- **v1.0** - 基础 PDF 分析和可视化功能
+## 贡献指南 Contributing
 
-## 📧 联系方式
+欢迎提交Issue和Pull Request！
 
-如有问题或建议，请联系数据团队。
+## 许可证 License
+
+MIT License
 
 ---
 
-_由金融分析系统生成 | 香港大学毕业设计项目_
+**作者 Author**: Lin Cifeng  
+**最后更新 Last Updated**: 2025-08-04

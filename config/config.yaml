@@ -1,0 +1,81 @@
+# Configuration file for Financial Analysis System
+
+# API Settings
+apis:
+  deepseek:
+    api_key: ${DEEPSEEK_API_KEY}  # Set via environment variable
+    model: deepseek-chat
+    max_tokens: 2000
+
+# Data Paths
+paths:
+  data_dir: data
+  output_dir: output
+  raw_reports_dir: data/raw_reports
+  processed_data_dir: data/processed
+  logs_dir: logs
+
+# Database
+database:
+  financial_reports_csv: data/Company_Financial_report.csv
+
+# Processing Settings
+processing:
+  batch_size: 10
+  max_workers: 4
+  retry_attempts: 3
+  retry_delay: 5  # seconds
+  use_smart_extractor: true  # Use AI-powered extraction
+  use_ocr: true              # Enable OCR for scanned PDFs
+  use_llm: true              # Enable LLM verification
+  confidence_threshold: 0.7   # LLM confidence threshold
+
+# Supported Report Formats
+supported_formats:
+  - pdf
+  - html
+  - xlsx
+
+# Bank-specific configurations
+banks:
+  za_bank:
+    name: "ZA Bank Limited"
+    patterns:
+      income_statement: ["income statement", "profit and loss", "損益表"]
+      balance_sheet: ["balance sheet", "statement of financial position", "資產負債表"]
+      cash_flow: ["cash flow statement", "現金流量表"]
+  
+  welab_bank:
+    name: "WeLab Bank Limited"
+    patterns:
+      income_statement: ["income statement", "profit and loss"]
+      balance_sheet: ["balance sheet", "statement of financial position"]
+      cash_flow: ["cash flow statement"]
+  
+  ant_bank:
+    name: "Ant Bank (Hong Kong) Limited"
+    patterns:
+      income_statement: ["income statement", "profit and loss", "損益表"]
+      balance_sheet: ["balance sheet", "statement of financial position", "資產負債表"]
+      cash_flow: ["cash flow statement", "現金流量表"]
+
+# Output Formats
+output:
+  formats:
+    - json
+    - csv
+    - excel
+  
+  standardized_fields:
+    - company_name
+    - fiscal_year
+    - quarter
+    - report_type
+    - total_assets
+    - total_liabilities
+    - total_equity
+    - revenue
+    - net_profit
+    - operating_cash_flow
+    - extracted_date
+    - source_url

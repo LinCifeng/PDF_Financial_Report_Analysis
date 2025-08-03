@@ -1,17 +1,43 @@
+# Configuration
+PyYAML>=6.0
+
+# Web scraping and automation
 selenium>=4.10.0
 webdriver-manager>=4.0.0
-pandas>=1.3.5
 requests>=2.31.0
 beautifulsoup4>=4.12.0
-pdfplumber>=0.7.0
-PyPDF2>=2.10.0
-matplotlib>=3.5.1
-reportlab>=4.0.0
-numpy>=1.22.0
 lxml>=4.9.0
 html5lib>=1.1
+
+# Data processing
+pandas>=1.3.5
+numpy>=1.22.0
 openpyxl==3.1.2
+
+# PDF processing
+pdfplumber>=0.7.0
+PyPDF2>=2.10.0
+reportlab>=4.0.0
 fpdf==1.7.2
+PyMuPDF>=1.23.0  # For PDF to image conversion
+
+# OCR and table extraction (optional - install as needed)
+# pytesseract>=0.3.10
+# paddlepaddle>=2.5.0
+# paddleocr>=2.7.0
+# camelot-py[cv]>=0.11.0
+# tabula-py>=2.8.0
+# opencv-python>=4.8.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.22.0
+
+# Visualization
+matplotlib>=3.5.1
+seaborn>=0.11.2
+
+# Other utilities
 python-magic==0.4.27
 scikit-learn>=1.0.2
-seaborn>=0.11.2 
+tqdm>=4.65.0 
