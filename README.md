@@ -1,6 +1,8 @@
 # 财务报表数据提取与分析系统
 Financial Report Data Extraction and Analysis System
 
+**作者 Author**: Lin Cifeng
+
 ## 项目简介 Project Overview
 
 本项目是一个自动化的财务数据提取和分析系统，专门用于从PDF格式的财务报表中提取关键财务指标。主要针对香港虚拟银行等金融科技公司的财务报告进行优化。
@@ -138,11 +140,6 @@ A: 是的，需要DeepSeek API密钥。但基础提取和优化提取是免费�
 
 欢迎提交Issue和Pull Request！
 
-## 许可证 License
-
-MIT License
-
 ---
 
-**作者 Author**: Lin Cifeng  
 **最后更新 Last Updated**: 2025-08-04
