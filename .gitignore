@@ -38,6 +38,11 @@ output/visualizations/
 output/dashboards/
 output/analytics/
 
+# Financial reports (large files)
+data/raw_reports/
+data/corrupted_backup/
+data/duplicate_backup/
+
 # Temporary files
 *.tmp
 *.temp

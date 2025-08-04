@@ -27,6 +27,15 @@ This is an automated financial data extraction and analysis system designed to e
 | **净利润** | **41.7%** | Net Profit/Loss |
 | 成功率 | 55.6% | Overall Success Rate |
 
+## 数据集概况 Dataset Overview
+
+- **财报数据库**: 1,478份财报链接，涵盖126家公司
+- **已下载财报**: 1,032份（910 PDF + 122 HTML）
+- **下载覆盖率**: 69.8%
+- **公司覆盖率**: 67.5% (85/126家公司)
+- **支持格式**: PDF, HTML
+- **数据规模**: 约15GB
+
 ## 项目结构 Project Structure
 
 ```
@@ -34,7 +43,14 @@ FinancialAnalysis/
 ├── scripts/              # 可执行脚本
 │   ├── main.py          # 主程序入口
 │   ├── simple_extract.py # 简单提取
-│   └── extract_data_optimized.py # 优化版提取
+│   ├── extract_data_optimized.py # 优化版提取
+│   ├── extract_all_data.py # 批量提取
+│   ├── download_all_reports.py # 批量下载所有财报
+│   ├── check_and_clean_pdfs.py # 检查和清理PDF文件
+│   ├── generate_download_summary.py # 生成下载统计
+│   └── analysis/       # 分析脚本
+│       ├── analyze_companies.py # 公司分析
+│       └── analyze_download_coverage.py # 下载覆盖率分析
 ├── src/                 # 核心代码库
 │   ├── core/           # 核心模块
 │   ├── extractors/     # 数据提取器
@@ -43,7 +59,8 @@ FinancialAnalysis/
 │   ├── processors/     # 数据处理器
 │   └── data/          # 数据管理
 ├── data/               # 数据目录
-│   └── raw_reports/   # PDF财报存放
+│   ├── raw_reports/   # PDF财报存放
+│   └── Company_Financial_report.csv # 公司财报链接数据
 ├── output/            # 输出结果
 └── logs/             # 日志文件
 ```
@@ -64,7 +81,9 @@ pip install -r requirements.txt
 
 #### 简单提取（快速）
 ```bash
-python main.py extract
+python scripts/main.py extract
+# 或者直接运行
+python scripts/simple_extract.py
 ```
 
 #### 优化版提取（推荐）
@@ -75,7 +94,9 @@ python scripts/extract_data_optimized.py
 #### LLM增强提取（需要API密钥）
 ```bash
 export DEEPSEEK_API_KEY="your-api-key"
-python main.py extract-llm
+python scripts/main.py extract-llm
+# 或者直接运行
+python scripts/extract_all_data.py
 ```
 
 ### 4. 查看结果 View Results

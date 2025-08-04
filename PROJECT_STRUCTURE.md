@@ -1,101 +1,89 @@
-# 项目结构说明 Project Structure
+# 项目结构说明 Project Structure Guide
 
 ## 目录结构 Directory Structure
 
 ```
 FinancialAnalysis/
-├── main.py                 # 项目主入口
-├── requirements.txt        # Python依赖
-├── README.md              # 项目说明
-├── PROJECT_STRUCTURE.md   # 本文档
+├── main.py              # 项目主入口（根目录）
+├── requirements.txt     # Python依赖列表
+├── README.md           # 项目说明文档
+├── .gitignore          # Git忽略文件配置
 │
-├── config/                # 配置文件
-│   └── settings.yaml     # 项目配置
+├── scripts/            # 可执行脚本目录
+│   ├── main.py        # 命令行主程序
+│   ├── simple_extract.py          # 基础PDF数据提取
+│   ├── extract_data_optimized.py  # 优化版数据提取
+│   ├── extract_all_data.py        # 批量数据提取
+│   └── analysis/                  # 分析相关脚本
+│       ├── analyze_companies.py   # 公司财报分析
+│       └── analyze_download_coverage.py # 下载覆盖率分析
 │
-├── data/                  # 数据目录
-│   ├── raw_reports/      # 原始PDF财报
-│   └── processed/        # 处理后的数据
+├── src/                # 源代码库
+│   ├── __init__.py
+│   ├── core/          # 核心功能模块
+│   ├── extractors/    # 数据提取器
+│   │   ├── base.py   # 基础提取器
+│   │   ├── pdf/      # PDF相关提取器
+│   │   └── llm/      # LLM增强提取器
+│   ├── processors/    # 数据处理器
+│   └── data/         # 数据管理模块
 │
-├── output/               # 输出目录
-│   ├── all_financial_data.csv     # 提取的财务数据
-│   ├── simple_extraction_results.csv # 简化提取结果
-│   └── extraction_summary.txt     # 提取总结
+├── data/              # 数据目录
+│   ├── raw_reports/   # PDF财报文件（108个文件）
+│   └── Company_Financial_report.csv # 财报链接数据（1478条记录）
 │
-├── logs/                 # 日志文件
+├── output/            # 输出结果目录
+│   ├── simple_extraction_results.csv
+│   ├── optimized_extraction_results.csv
+│   ├── all_financial_data.csv
+│   └── download_coverage_report.md
 │
-└── src/                  # 源代码
-    ├── core/            # 核心模块
-    │   ├── config.py    # 配置管理
-    │   └── models.py    # 数据模型
-    │
-    ├── extractors/      # 数据提取器
-    │   ├── base_extractor.py     # 基础提取器
-    │   ├── pdf_extractor.py      # PDF提取器
-    │   ├── table_extractor.py    # 表格提取器
-    │   ├── ocr_extractor.py      # OCR提取器
-    │   ├── llm_extractor.py      # LLM提取器
-    │   └── improved_llm_extractor.py # 改进的LLM提取器
-    │
-    ├── processors/      # 批处理器
-    │   └── batch_processor.py    # 批量处理
-    │
-    ├── scripts/         # 可执行脚本
-    │   ├── simple_extract.py     # 简单提取脚本
-    │   ├── extract_all_data.py  # 完整提取脚本(带LLM)
-    │   └── analyze_companies.py  # 数据分析脚本
-    │
-    └── utils/          # 工具函数
+├── logs/              # 日志文件目录
+│   └── extraction.log
+│
+└── config/            # 配置文件目录
+    └── config.yaml    # 项目配置文件
 ```
 
-## 使用方法 Usage
+## 文件命名规范 File Naming Convention
 
-### 1. 简单数据提取（不使用LLM）
+1. **Python文件**: 使用小写字母和下划线 (snake_case)
+2. **类名**: 使用驼峰命名法 (PascalCase)
+3. **函数名**: 使用小写字母和下划线 (snake_case)
+4. **常量**: 使用大写字母和下划线 (UPPER_SNAKE_CASE)
+
+## 使用说明 Usage Guide
+
+### 运行数据提取
 ```bash
-python main.py extract
-```
-- 使用正则表达式从PDF中提取财务数据
-- 速度快，但提取率较低
-- 结果保存到 `output/simple_extraction_results.csv`
+# 基础提取
+python scripts/simple_extract.py
 
-### 2. 完整数据提取（使用LLM增强）
+# 优化提取（推荐）
+python scripts/extract_data_optimized.py
+
+# LLM增强提取
+python scripts/extract_all_data.py
+```
+
+### 运行分析脚本
 ```bash
-python main.py extract-llm
+# 分析公司财报情况
+python scripts/analysis/analyze_companies.py
+
+# 分析下载覆盖率
+python scripts/analysis/analyze_download_coverage.py
 ```
-- 先用正则提取，然后用LLM补充缺失数据
-- 需要配置DeepSeek API密钥
-- 提取率更高，但速度较慢
-- 结果保存到 `output/all_financial_data.csv`
-
-### 3. 数据分析
-```bash
-python main.py analyze
-```
-- 分析已提取的财务数据
-- 生成统计报告和可视化
-
-## 主要功能模块 Main Modules
-
-### Extractors 提取器
-- **PDFExtractor**: 使用pdfplumber提取PDF文本和基本财务数据
-- **TableExtractor**: 专门提取PDF中的表格数据
-- **OCRExtractor**: 处理扫描版PDF（需要安装OCR依赖）
-- **LLMExtractor**: 使用大语言模型提取复杂财务数据
-
-### Scripts 脚本
-- **simple_extract.py**: 快速提取，适合大批量处理
-- **extract_all_data.py**: 完整提取，适合需要高质量数据的场景
-- **analyze_companies.py**: 数据分析和报告生成
 
 ## 数据流程 Data Flow
 
-1. **输入**: `data/raw_reports/` 中的PDF财报
-2. **处理**: 使用不同提取器提取财务数据
-3. **输出**: CSV文件保存到 `output/` 目录
-4. **分析**: 生成统计报告和可视化图表
+1. **输入**: PDF财报文件 (data/raw_reports/)
+2. **处理**: 提取器提取关键财务指标
+3. **输出**: CSV格式的结构化数据 (output/)
 
-## 配置说明 Configuration
+## 关键指标 Key Metrics
 
-在 `config/settings.yaml` 中配置：
-- API密钥（DeepSeek等）
-- 提取参数
-- 输出格式设置
+- 总资产 (Total Assets)
+- 总负债 (Total Liabilities)  
+- 营业收入 (Revenue)
+- 净利润 (Net Profit/Loss)
