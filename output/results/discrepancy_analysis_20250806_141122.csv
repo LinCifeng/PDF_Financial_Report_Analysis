@@ -1,0 +1,23 @@
+company,year,file_name,field,regex_value,llm_value,final_value,similarity,selection_reason
+Airstarbank,2020,Airstarbank_2020_Annual.pdf,total_assets,2880469.0,,2880469.0,0.0,Regex only
+Airstarbank,2020,Airstarbank_2020_Annual.pdf,total_liabilities,1677433.0,,1677433.0,0.0,Regex only
+Airstarbank,2020,Airstarbank_2020_Annual.pdf,revenue,5.0,15572000,5.0,0.0,Regex selected (simple field)
+Airstarbank,2020,Airstarbank_2020_Annual.pdf,net_profit,,-232088000,-232088000,0.0,LLM only
+Airstarbank,2020,Airstarbank_2020_Q1_Q2.pdf,revenue,2.0,10617573,2.0,0.0,Regex selected (simple field)
+Airstarbank,2020,Airstarbank_2020_Q1、Q2.pdf,revenue,2.0,10617573,2.0,0.0,Regex selected (simple field)
+Airstarbank,2021,Airstarbank_2021_Q1_Q2.pdf,total_assets,3464490.0,3464490000,3464490.0,0.0,Regex selected (simple field)
+Airstarbank,2021,Airstarbank_2021_Q1_Q2.pdf,total_liabilities,2390450.0,2390450000,2390450000,0.0,LLM selected (complex field)
+Airstarbank,2021,Airstarbank_2021_Q1_Q2.pdf,revenue,2.0,13715000,2.0,0.0,Regex selected (simple field)
+Airstarbank,2021,Airstarbank_2021_Q1_Q2.pdf,net_profit,-123375.0,-123375000,-123375000,0.0,LLM selected (complex field)
+Airstarbank,2021,Airstarbank_2021_Q1、Q2.pdf,total_assets,3464490.0,3464490000,3464490.0,0.0,Regex selected (simple field)
+Airstarbank,2021,Airstarbank_2021_Q1、Q2.pdf,total_liabilities,2390450.0,2390450000,2390450000,0.0,LLM selected (complex field)
+Airstarbank,2021,Airstarbank_2021_Q1、Q2.pdf,revenue,2.0,13715000,2.0,0.0,Regex selected (simple field)
+Airstarbank,2021,Airstarbank_2021_Q1、Q2.pdf,net_profit,-123375.0,-123375000,-123375000,0.0,LLM selected (complex field)
+Airstarbank,2022,Airstarbank_2022_Q1_Q2.pdf,total_assets,2857826.0,2857826000,2857826.0,0.0,Regex selected (simple field)
+Airstarbank,2022,Airstarbank_2022_Q1_Q2.pdf,total_liabilities,1996911.0,1996911000,1996911000,0.0,LLM selected (complex field)
+Airstarbank,2022,Airstarbank_2022_Q1_Q2.pdf,revenue,2.0,33134000,2.0,0.0,Regex selected (simple field)
+Airstarbank,2022,Airstarbank_2022_Q1_Q2.pdf,net_profit,-97755.0,-97755000,-97755000,0.0,LLM selected (complex field)
+Airstarbank,2022,Airstarbank_2022_Q1、Q2.pdf,total_assets,2857826.0,2857826000,2857826.0,0.0,Regex selected (simple field)
+Airstarbank,2022,Airstarbank_2022_Q1、Q2.pdf,total_liabilities,1996911.0,1996911000,1996911000,0.0,LLM selected (complex field)
+Airstarbank,2022,Airstarbank_2022_Q1、Q2.pdf,revenue,2.0,33134000,2.0,0.0,Regex selected (simple field)
+Airstarbank,2022,Airstarbank_2022_Q1、Q2.pdf,net_profit,-97755.0,-97755000,-97755000,0.0,LLM selected (complex field)

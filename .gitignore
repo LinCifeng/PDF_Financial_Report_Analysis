@@ -30,18 +30,13 @@ Thumbs.db
 # Project specific
 logs/
 *.log
-output/errors/
+output/cache/llm_cache/
 output/archive/
-output/extraction_results/json/
-output/extraction_results/csv/extraction_results_*.csv
-output/visualizations/
-output/dashboards/
-output/analytics/
-
-# Financial reports (large files)
-data/raw_reports/
-data/corrupted_backup/
-data/duplicate_backup/
+output/old_extractions/
+output/visualizations/*.png
+data/raw_reports/corrupted_backup/
+data/raw_reports/duplicate_backup/
+data/raw_reports/backup/
 
 # Temporary files
 *.tmp

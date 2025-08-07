@@ -1,50 +1,76 @@
-# CLAUDE.md
+# CLAUDE.md - 项目配置与指南
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Project Overview
+## 项目概述 Project Overview
 
-This is a financial report data extraction and analysis system focused on extracting key financial metrics from PDF financial reports, particularly for Hong Kong virtual banks and fintech companies. The system uses multiple extraction methods including regex, table extraction, OCR, and LLM-enhanced extraction.
+财务分析系统 v3.1 - 自动化财务数据提取和分析平台
+Financial Analysis System v3.1 - Automated Financial Data Extraction and Analysis Platform
 
-## Key Commands
+This is a financial report data extraction and analysis system focused on extracting key financial metrics from PDF/HTML financial reports, particularly for Hong Kong virtual banks and fintech companies. The system uses multiple extraction methods including regex, table extraction, OCR, and LLM-enhanced extraction.
 
-### Running Data Extraction
+## 关键命令 Key Commands
+
+### 基础操作 Basic Operations
 
 ```bash
-# Simple extraction (fast, regex-based)
-python scripts/simple_extract.py
+# 下载财报
+python main.py download --limit 100
 
-# Optimized extraction (recommended, better accuracy)
-python scripts/extract_data_optimized.py
+# 提取数据
+python main.py extract --batch-size 200
 
-# LLM-enhanced extraction (requires DeepSeek API key)
+# 分析结果
+python main.py analyze --type extraction
+
+# 清理损坏的PDF
+python main.py utils --clean-pdfs
+
+# 生成项目摘要
+python main.py utils --summary
+```
+
+### 高级提取 Advanced Extraction
+
+```bash
+# 使用主提取器（推荐）
+python scripts/extractors/master_extractor.py
+
+# 批量处理
+python scripts/utilities/batch_processor.py
+
+# LLM增强提取（需要API密钥）
 export DEEPSEEK_API_KEY="your-api-key"
-python scripts/extract_all_data.py
+python scripts/utilities/deepseek_client.py
+
+# 交叉验证结果
+python scripts/utilities/cross_validator.py
 ```
 
-### Analysis and Utility Scripts
+### 分析和可视化 Analysis and Visualization
 
 ```bash
-# Download all financial reports (supports PDF and HTML)
-python scripts/download_all_reports.py
+# 生成性能报告
+python scripts/visualizers/visualize_performance.py
 
-# Check and clean corrupted PDFs
-python scripts/check_and_clean_pdfs.py
+# 分析提取失败案例
+python scripts/analyzers/analyze_extraction_failures.py
 
-# Generate download summary statistics
-python scripts/generate_download_summary.py
-
-# Analyze company financial reports coverage
-python scripts/analysis/analyze_companies.py
-
-# Check download coverage against CSV database
-python scripts/analysis/analyze_download_coverage.py
+# 生成综合分析报告
+python scripts/analyzers/data_analyzer.py
 ```
 
-### Running Tests
+### 测试和验证 Testing and Validation
 ```bash
-# No test framework is currently set up
-# Verify extraction by checking output CSVs in output/ directory
+# Python代码检查
+python -m pylint financial_analysis/
+python -m mypy financial_analysis/
+
+# 快速测试提取功能
+python scripts/fast_extraction_test.py
+
+# 验证提取结果
+ls -la output/extractions/
 ```
 
 ## Core Architecture
@@ -92,7 +118,7 @@ The extraction system follows a hierarchical design:
 
 ### PDF Report Sources
 - `data/Company_Financial_report.csv` contains 1,478 financial report links from 126 companies
-- Currently 1,032 reports downloaded (910 PDFs + 122 HTML) - 69.8% coverage
+- Currently 1,224 reports downloaded (1,059 PDFs + 165 HTML) - 82.8% coverage
 - Corrupted files are moved to `data/raw_reports/corrupted_backup/`
 - Duplicate files are moved to `data/duplicate_backup/`
 - Download script supports both PDF and HTML formats with automatic detection
@@ -120,3 +146,23 @@ The extraction system follows a hierarchical design:
 - Output CSVs should maintain consistent column structure
 - Check `data/raw_reports/corrupted_backup/` for problematic PDFs
 - LLM extraction requires API key but provides best results for complex PDFs
+
+## 版本更新 Version Updates
+
+### v3.1 (2024-08-07)
+- 完善项目文档结构
+- 优化脚本组织
+- 增强错误处理机制
+- 添加FAQ和故障排除指南
+
+### v3.0 (2024-08-06)
+- 重构项目结构
+- 统一功能接口
+- 添加LLM支持
+- 优化批量处理性能
+
+## 作者 Author
+Lin Cifeng
+
+---
+最后更新 Last Updated: 2024-08-07

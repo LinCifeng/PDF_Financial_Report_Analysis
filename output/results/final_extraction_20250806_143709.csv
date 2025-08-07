@@ -1,0 +1,51 @@
+company,year,file_name,total_assets,total_liabilities,revenue,net_profit,total_assets_source,total_liabilities_source,revenue_source,net_profit_source,regex_status,llm_status,unit_detected,unit_multiplier
+Airstarbank,2019,Airstarbank_2019_Annual.pdf,1523878862.0,101915382.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Airstarbank,2020,Airstarbank_2020_Annual.pdf,2880469.0,1677433.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Airstarbank,2020,Airstarbank_2020_Q1_Q2.pdf,1836307098,497993666,10617573,-91707674,llm,llm,llm,llm,Partial,Complete,yuan,1
+Airstarbank,2020,Airstarbank_2020_Q1、Q2.pdf,1836307098,497993666,10617573,-91707674,llm,llm,llm,llm,Partial,Complete,yuan,1
+Airstarbank,2021,Airstarbank_2021_Annual.pdf,3227586.0,2266139.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Airstarbank,2021,Airstarbank_2021_Q1_Q2.pdf,3464490000,2390450000,13715000,-123375000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Airstarbank,2021,Airstarbank_2021_Q1、Q2.pdf,3464490000,2390450000,13715000,-123375000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Airstarbank,2022,Airstarbank_2022_Annual.pdf,,,,,none,none,none,none,Error: No /Root object! - Is this really a PDF?,Error: No /Root object! - Is this really a PDF?,unknown,1
+Airstarbank,2022,Airstarbank_2022_Q1_Q2.pdf,2857826000,1996911000,33134000,-97755000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Airstarbank,2022,Airstarbank_2022_Q1、Q2.pdf,2857826000,1996911000,33134000,-97755000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Airstarbank,2023,Airstarbank_2023_Annual.pdf,2325593.0,1768056.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Airstarbank,2023,Airstarbank_2023_Q1_Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Airstarbank,2023,Airstarbank_2023_Q1、Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Airstarbank,2024,Airstarbank_2024_Q1_Q2.pdf,2707842000,1836897000,20160000,-131230000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Airstarbank,2024,Airstarbank_2024_Q1、Q2.pdf,2707842000,1836897000,20160000,-131230000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Fusion,2018,Fusion_Bank_2018_Annual.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Fusion,2019,Fusion_Bank_2019_Annual.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Fusion,2020,Fusion_Bank_2020_Annual.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Fusion,2021,Fusion_Bank_2021_Annual.pdf,,,,,none,none,none,none,Failed,Failed,yuan,1
+Fusion,2021,Fusion_Bank_2021_Q1Q2.pdf,2836531000,2268024000,,-181599000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2021,Fusion_Bank_2021_Q1_Q2.pdf,2836531000,2268024000,,-181599000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2021,Fusion_Bank_2021_Q1、Q2.pdf,2836531000,2268024000,,-181599000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2022,Fusion_Bank_2022_Annual.pdf,,,,,none,none,none,none,Failed,Failed,yuan,1
+Fusion,2022,Fusion_Bank_2022_Q1Q2.pdf,4185956000,3450477000,,-254834000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2022,Fusion_Bank_2022_Q1_Q2.pdf,4185956000,3450477000,,-254834000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2022,Fusion_Bank_2022_Q1、Q2.pdf,4185956000,3450477000,,-254834000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2023,Fusion_Bank_2023_Annual.pdf,5680000000,,42000000,-410000000,llm,none,llm,llm,Failed,Partial,thousand,1000
+Fusion,2023,Fusion_Bank_2023_Q1Q2.pdf,3491423000,2870504000,,-185553000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2023,Fusion_Bank_2023_Q1_Q2.pdf,3491423000,2870504000,,-185553000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2023,Fusion_Bank_2023_Q1、Q2.pdf,3491423000,2870504000,,-185553000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2024,Fusion_Bank_2024_Q1Q2.pdf,7098969000,6225409000,,-127040000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2024,Fusion_Bank_2024_Q1_Q2.pdf,7098969000,6225409000,,-127040000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Fusion,2024,Fusion_Bank_2024_Q1、Q2.pdf,7098969000,6225409000,,-127040000,llm,llm,none,llm,Failed,Partial,thousand,1000
+Livi,2019,Livi_Bank_2019_Annual.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2020,Livi_Bank_2020_Annual.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2020,Livi_Bank_2020_Q1Q2.pdf,2421633.0,308131.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Livi,2020,Livi_Bank_2020_Q1_Q2.pdf,2421633.0,308131.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Livi,2020,Livi_Bank_2020_Q1、Q2.pdf,2421633.0,308131.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Livi,2021,Livi_Bank_2021_Annual.pdf,4350796.0,3157185.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Livi,2021,Livi_Bank_2021_Q1Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2021,Livi_Bank_2021_Q1_Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2021,Livi_Bank_2021_Q1、Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2022,Livi_Bank_2022_Annual.pdf,4097698.0,3317183.0,,,regex,regex,none,none,Partial,Failed,yuan,1
+Livi,2022,Livi_Bank_2022_Q1Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2022,Livi_Bank_2022_Q1_Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2022,Livi_Bank_2022_Q1、Q2.pdf,,,,,none,none,none,none,Empty PDF,Empty PDF,unknown,1
+Livi,2023,Livi_Bank_2023_Annual.pdf,4895186.0,2884270.0,125435.0,,regex,regex,regex,none,Partial,Failed,yuan,1
+Livi,2023,Livi_Bank_2023_Q1Q2.pdf,3934782000,2667890000,32841000,-308011000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Livi,2023,Livi_Bank_2023_Q1_Q2.pdf,3934782000,2667890000,32841000,-308011000,llm,llm,llm,llm,Partial,Complete,yuan,1
+Livi,2023,Livi_Bank_2023_Q1、Q2.pdf,3934782000,2667890000,32841000,-308011000,llm,llm,llm,llm,Partial,Complete,yuan,1

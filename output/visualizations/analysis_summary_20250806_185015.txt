@@ -1,0 +1,49 @@
+HONG KONG VIRTUAL BANKS FINANCIAL DATA EXTRACTION ANALYSIS
+============================================================
+
+Generated: 2025-08-06 18:50:15
+
+1. DATA OVERVIEW
+----------------------------------------
+Total Reports Analyzed: 10
+Unique Companies: 5
+Year Range: 2018 - 2024
+
+2. EXTRACTION PERFORMANCE
+----------------------------------------
+Total Assets: 40.0%
+Total Liabilities: 50.0%
+Revenue: 40.0%
+Net Profit: 40.0%
+
+Complete Extraction (4 fields): 4 (40.0%)
+
+3. FINANCIAL METRICS SUMMARY
+----------------------------------------
+Average Total Assets: 5.1M HKD
+Median Total Assets: 4.5M HKD
+Range: 2.7M - 8.7M HKD
+
+Average Revenue: 0.0M HKD
+Median Revenue: 0.0M HKD
+
+Profitable Banks: 0 out of 4 (0.0%)
+Average Net Profit: -0.2M HKD
+Median Net Profit: -0.1M HKD
+
+4. TOP PERFORMING BANKS
+----------------------------------------
+
+Largest Banks by Total Assets:
+  weLab (2024): 8.7M HKD
+  Livi (2023): 4.9M HKD
+  ZA (2020): 4.2M HKD
+  Airstarbank (2024): 2.7M HKD
+  Fusion (2018): nanM HKD
+
+Most Profitable Banks:
+  weLab (2024): -0.1M HKD
+  ZA (2020): -0.1M HKD
+  Airstarbank (2024): -0.1M HKD
+  Livi (2023): -0.6M HKD
+  Fusion (2018): nanM HKD

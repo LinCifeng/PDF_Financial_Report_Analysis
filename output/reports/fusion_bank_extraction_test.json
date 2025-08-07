@@ -1,0 +1,41 @@
+{
+  "test_date": "2025-08-06 16:38:19",
+  "files_tested": [
+    "Fusion_Bank_2018_Annual.pdf",
+    "Fusion_Bank_2023_Q1、Q2.pdf",
+    "Fusion_Bank_2021_Q1_Q2.pdf",
+    "Fusion_Bank_2022_Annual.pdf",
+    "Fusion_Bank_2021_Q1Q2.pdf"
+  ],
+  "success_rate": 80.0,
+  "results": [
+    {
+      "status": "Failed",
+      "message": "No data extracted"
+    },
+    {
+      "revenue": 56179000.0,
+      "status": "Success",
+      "extraction_method": "text",
+      "unit_multiplier": 1000
+    },
+    {
+      "revenue": 10400000.0,
+      "status": "Success",
+      "extraction_method": "text",
+      "unit_multiplier": 1000
+    },
+    {
+      "revenue": 27691.0,
+      "status": "Success",
+      "extraction_method": "text",
+      "unit_multiplier": 1
+    },
+    {
+      "revenue": 10400000.0,
+      "status": "Success",
+      "extraction_method": "text",
+      "unit_multiplier": 1000
+    }
+  ]
+}
