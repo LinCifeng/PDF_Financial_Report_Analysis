@@ -30,13 +30,11 @@ Thumbs.db
 # Project specific
 logs/
 *.log
-output/cache/llm_cache/
+output/cache/
 output/archive/
 output/old_extractions/
 output/visualizations/*.png
-data/raw_reports/corrupted_backup/
-data/raw_reports/duplicate_backup/
-data/raw_reports/backup/
+data/raw_reports/
 
 # Temporary files
 *.tmp
