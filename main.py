@@ -10,14 +10,17 @@ import argparse
 import sys
 from pathlib import Path
 
-# 导入核心功能
-from financial_analysis import (
-    extract_financial_data,
-    download_reports,
-    analyze_data,
-    clean_pdfs,
-    generate_summary
-)
+# 导入核心模块
+from financial_analysis.download import batch_download
+from financial_analysis.extractor import MasterExtractor
+from financial_analysis.analysis import analyze_extraction_results
+from financial_analysis.visualization import create_charts
+from financial_analysis.utils import clean_pdfs, generate_summary
+
+# 为了向后兼容，保留旧的接口
+from financial_analysis.extractor.regex_extractor import extract_financial_data
+from financial_analysis.download.downloader import download_reports
+from financial_analysis.analysis.analyzer import analyze_data
 
 
 def main():
@@ -56,6 +59,8 @@ def main():
     extract_parser = subparsers.add_parser('extract', help='提取财务数据')
     extract_parser.add_argument('--limit', type=int, help='限制处理文件数')
     extract_parser.add_argument('--batch-size', type=int, default=100, help='批处理大小')
+    extract_parser.add_argument('--use-llm', action='store_true', help='使用LLM增强提取')
+    extract_parser.add_argument('--method', choices=['regex', 'master'], default='regex', help='提取方法')
     
     # 分析命令
     analyze_parser = subparsers.add_parser('analyze', help='分析数据')
@@ -80,10 +85,17 @@ def main():
             
         elif args.command == 'extract':
             print("开始提取财务数据...")
-            output_file, success_rate = extract_financial_data(
-                limit=args.limit,
-                batch_size=args.batch_size
-            )
+            if args.method == 'master' or args.use_llm:
+                # 使用高级提取器
+                extractor = MasterExtractor(use_llm=args.use_llm)
+                print("使用Master Extractor进行提取...")
+                # TODO: 添加批处理逻辑
+            else:
+                # 使用基础提取器
+                output_file, success_rate = extract_financial_data(
+                    limit=args.limit,
+                    batch_size=args.batch_size
+                )
             
         elif args.command == 'analyze':
             print(f"开始{args.type}分析...")

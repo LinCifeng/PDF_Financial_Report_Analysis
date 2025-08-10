@@ -1,9 +1,0 @@
-Company,Total Assets,Total Liabilities,Revenue,Net Profit,Fields Extracted,Method
-Airstarbank,2707842000.0,1836897000.0,2000.0,-131230000.0,4,enhanced_regex
-ZA Bank,4152327000.0,3260623000.0,62406000.0,-101936000.0,4,enhanced_regex
-Livi Bank,4857726000.0,4316028000.0,167831000.0,-551813000.0,4,enhanced_regex
-Fusion Bank,,52858000.0,,,1,enhanced_regex
-WeLab Bank,,,,,0,none
-PAO Bank,986073000.0,,144665000.0,-20665000.0,3,enhanced_regex
-Ant Bank,,,,,0,none
-WeLab Bank 2023,1693866000.0,,29291000.0,,2,enhanced_regex
