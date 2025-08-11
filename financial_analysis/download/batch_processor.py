@@ -23,11 +23,11 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # 添加项目路径
-project_root = Path(__file__).parent.parent
+project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
-from scripts.master_extractor import MasterExtractor
-from scripts.cross_validator import CrossValidator
+from financial_analysis.extractor import MasterExtractor
+from .cross_validator import CrossValidator
 
 
 class BatchProcessor:
@@ -162,15 +162,22 @@ class BatchProcessor:
         # 创建结果DataFrame
         results_df = pd.DataFrame(results)
         
+        # 创建results和reports子目录
+        results_dir = output_path / "results"
+        reports_dir = output_path / "reports"
+        results_dir.mkdir(exist_ok=True)
+        reports_dir.mkdir(exist_ok=True)
+        
         # 保存结果
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        date = datetime.now().strftime("%Y-%m-%d")
         
-        # 保存详细结果
-        detail_file = output_path / f"batch_extraction_{timestamp}.csv"
+        # 保存详细结果到results目录
+        detail_file = results_dir / f"extraction_result_{date}_{timestamp}.csv"
         results_df.to_csv(detail_file, index=False, encoding='utf-8')
         
-        # 保存统计信息
-        stats_file = output_path / f"batch_stats_{timestamp}.json"
+        # 保存统计报告到reports目录
+        stats_file = reports_dir / f"extraction_report_{date}_{timestamp}.json"
         with open(stats_file, 'w', encoding='utf-8') as f:
             json.dump(self.stats, f, ensure_ascii=False, indent=2)
         
@@ -178,8 +185,8 @@ class BatchProcessor:
         self._print_summary(failed_files)
         
         print(f"\n结果已保存至:")
-        print(f"  - 详细结果: {detail_file}")
-        print(f"  - 统计信息: {stats_file}")
+        print(f"  - 详细结果: {detail_file.relative_to(Path.cwd())}")
+        print(f"  - 统计报告: {stats_file.relative_to(Path.cwd())}")
         
         return results_df
     
@@ -308,10 +315,14 @@ class BatchProcessor:
     def generate_final_report(self, results_df: pd.DataFrame, output_dir: str = "output"):
         """生成最终报告"""
         output_path = Path(output_dir)
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        reports_dir = output_path / "reports"
+        reports_dir.mkdir(exist_ok=True)
         
-        # 生成Excel报告
-        excel_file = output_path / f"extraction_report_{timestamp}.xlsx"
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        date = datetime.now().strftime("%Y-%m-%d")
+        
+        # 生成Excel报告到reports目录
+        excel_file = reports_dir / f"extraction_report_{date}_{timestamp}.xlsx"
         
         with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
             # 主要结果

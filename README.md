@@ -29,14 +29,18 @@ python main.py extract
 
 # 分析结果
 python main.py analyze
+
+# 工具功能
+python main.py utils --clean-pdfs  # 清理损坏的PDF
+python main.py utils --summary      # 生成项目摘要
 ```
 
 ## 📊 当前数据统计 Current Statistics
 
 - **财报数据库**: 1,478 份财报链接，涵盖 126 家公司
-- **已下载财报**: 1,224 份（1,059 PDF + 165 HTML）
-- **下载覆盖率**: 82.8%
-- **提取成功率**: ~34% (基于测试样本)
+- **已下载财报**: 1,325 份（1,158 PDF + 167 HTML）
+- **下载覆盖率**: 89.6%
+- **提取成功率**: ~34% (正则) / ~60% (Master提取器)
 - **支持格式**: PDF, HTML
 - **支持语言**: 中文、英文、日文
 
@@ -44,29 +48,36 @@ python main.py analyze
 
 ```
 FinancialAnalysis/
-├── main.py                    # 主入口文件
-├── financial_analysis/        # 核心功能包
+├── main.py                     # 主入口文件
+├── financial_analysis/         # 核心功能包
 │   ├── __init__.py
-│   ├── extract.py            # 数据提取
-│   ├── download.py           # 财报下载
-│   ├── analyze.py            # 数据分析
-│   ├── utils.py              # 工具函数
-│   └── models.py             # 数据模型
-├── scripts/                  # 高级工具脚本
-│   ├── master_extractor.py   # 主提取器
-│   ├── batch_processor.py    # 批量处理器
-│   ├── llm_client.py        # LLM集成
-│   └── ...                  # 更多工具
-├── data/                     # 数据目录
-│   ├── raw_reports/          # PDF/HTML财报
+│   ├── models.py              # 数据模型
+│   ├── download/              # 下载模块
+│   │   ├── downloader.py      # 下载器
+│   │   ├── pdf_utils.py       # PDF工具函数
+│   │   ├── batch_processor.py # 批处理器
+│   │   ├── cross_validator.py # 交叉验证器
+│   │   └── pdf_manager.py     # PDF管理器
+│   ├── extractor/             # 提取模块
+│   │   ├── regex_extractor.py # 正则提取器
+│   │   ├── master_extractor.py# 主提取器(推荐)
+│   │   └── llm_extractor.py   # LLM提取器
+│   ├── analysis/              # 分析模块
+│   │   └── analyzer.py        # 数据分析器
+│   └── visualization/         # 可视化模块
+│       └── visualizer.py      # 图表生成器
+├── test/                      # 测试脚本
+│   ├── utilities/             # 测试工具
+│   ├── analyzers/             # 分析测试
+│   └── visualizers/           # 可视化测试
+├── data/                      # 数据目录
+│   ├── raw_reports/           # PDF/HTML财报
 │   └── Company_Financial_report.csv
-├── output/                   # 输出结果
-│   ├── extractions/          # 提取结果
-│   ├── summaries/            # 汇总报告
-│   └── visualizations/       # 可视化图表
-├── config/                   # 配置文件
-├── docs/                     # 文档
-└── requirements.txt          # 依赖包
+├── output/                    # 输出结果
+│   ├── results/               # 提取结果
+│   └── reports/               # 分析报告
+├── config/                    # 配置文件
+└── requirements.txt           # 依赖包
 ```
 
 ## 📖 详细用法 Detailed Usage
@@ -87,11 +98,14 @@ python main.py download --workers 10
 ### 2. 提取财务数据
 
 ```bash
-# 提取所有PDF
+# 基础正则提取
 python main.py extract
 
-# 限制处理文件数
-python main.py extract --limit 50
+# 使用Master提取器（推荐）
+python main.py extract --method master
+
+# 启用LLM增强（需要API密钥）
+python main.py extract --use-llm --limit 50
 
 # 调整批处理大小
 python main.py extract --batch-size 200
@@ -100,8 +114,8 @@ python main.py extract --batch-size 200
 ### 3. 数据分析
 
 ```bash
-# 分析公司覆盖情况
-python main.py analyze
+# 分析公司数据
+python main.py analyze --type companies
 
 # 分析提取结果
 python main.py analyze --type extraction
@@ -117,141 +131,76 @@ python main.py utils --clean-pdfs
 python main.py utils --summary
 ```
 
-## 🔑 主要功能 Key Features
+## 🔧 高级功能 Advanced Features
 
-- **智能提取**: 使用正则表达式匹配中英文财务数据
-- **并发下载**: 支持多线程并发下载提高效率
-- **批量处理**: 可处理大量 PDF/HTML 文件
-- **数据分析**: 自动生成统计报告和可视化图表
-- **错误处理**: 自动识别和隔离损坏文件
-- **多策略提取**: 支持正则、OCR、LLM 等多种提取方法
-- **交叉验证**: 多重验证确保数据准确性
-- **缓存机制**: LLM 结果缓存，避免重复调用
+### 多策略提取
 
-## 📈 提取指标 Extracted Metrics
+系统提供三种提取策略：
 
-- 总资产 (Total Assets)
-- 总负债 (Total Liabilities)
-- 营业收入 (Revenue)
-- 净利润 (Net Profit/Loss)
+1. **RegexExtractor**: 基于正则表达式，速度快，适合标准格式
+2. **LLMExtractor**: 使用DeepSeek API，智能理解复杂布局
+3. **MasterExtractor**: 综合多种方法，成功率最高（推荐）
 
-## 🛠️ 技术栈 Tech Stack
+### 批量处理
 
-### 核心依赖 Core Dependencies
+```python
+from financial_analysis.download.batch_processor import BatchProcessor
 
-- Python 3.6+
-- pdfplumber - PDF 文本提取
-- PyPDF2 - PDF 处理
-- requests - 网络请求
-- concurrent.futures - 并发处理
-
-### 数据处理 Data Processing
-
-- pandas - 数据分析框架
-- numpy - 数值计算
-- openpyxl - Excel 文件处理
-
-### 可视化 Visualization
-
-- matplotlib - 图表绘制
-- seaborn - 统计图表
-
-### Web 相关 Web Related
-
-- selenium - 网页自动化
-- beautifulsoup4 - HTML 解析
-- lxml - XML/HTML 处理
-
-### 可选组件 Optional Components
-
-- PyMuPDF - PDF 转图像
-- pytesseract - OCR 文字识别
-- paddleocr - 高精度 OCR
-
-## 📝 注意事项 Notes
-
-1. 确保有足够的磁盘空间存储财报文件（约 15GB）
-2. 部分 PDF 可能因加密或损坏无法提取
-3. 网络下载可能因服务器限制而失败
-
-## 🚀 高级功能 Advanced Features
-
-### 使用 LLM 增强提取
-
-```bash
-# 使用LLM提取（需要配置API密钥）
-python scripts/llm_client.py --pdf "data/raw_reports/sample.pdf"
+processor = BatchProcessor()
+processor.process_batch(pdf_files, batch_size=100)
 ```
 
-### 批量处理与分析
+### 交叉验证
 
-```bash
-# 批量处理所有PDF
-python scripts/batch_processor.py --input-dir data/raw_reports
+```python
+from financial_analysis.download.cross_validator import CrossValidator
 
-# 生成性能分析报告
-python scripts/visualize_performance.py
+validator = CrossValidator()
+validator.validate_results(extraction_results)
 ```
 
-### 数据交叉验证
+## 📈 提取的财务指标
+
+- **资产负债表**: 总资产、总负债、股东权益
+- **损益表**: 营业收入、净利润/亏损
+- **现金流量表**: 经营现金流、投资现金流、融资现金流
+- **关键比率**: ROA、ROE、资产负债率等
+
+## 🛠️ 配置说明
+
+### 环境变量
 
 ```bash
-# 验证提取结果准确性
-python scripts/cross_validator.py --input output/extractions/
+# 设置DeepSeek API密钥（可选）
+export DEEPSEEK_API_KEY="your-api-key"
 ```
 
-## 🔄 更新日志 Changelog
+### 输出格式
 
-### v3.1 (2024-08-07)
+提取结果支持多种格式：
+- CSV: 默认格式，便于Excel处理
+- JSON: 结构化数据，便于程序处理
+- Excel: 带格式的表格输出
 
-- 添加高级脚本工具集
-- 增强 LLM 集成功能
-- 改进提取算法准确率
-- 添加数据可视化功能
-- 优化项目文档结构
+## 📝 注意事项
 
-### v3.0 (2024-08-06)
+1. **大文件处理**: 系统自动处理大型PDF（>100MB）
+2. **损坏文件**: 自动检测并隔离损坏的PDF文件
+3. **API限制**: 使用LLM提取时注意API调用限制和成本
+4. **内存管理**: 批量处理时自动管理内存使用
 
-- 完全重构项目结构
-- 统一所有功能到单一包
-- 简化命令行接口
-- 提高代码可维护性
+## 🤝 贡献指南
 
-### v2.0
+欢迎提交Issue和Pull Request来改进系统。
 
-- 添加并发下载支持
-- 改进数据提取算法
-- 添加数据分析功能
+## 📄 许可证
 
-### v1.0
+MIT License
 
-- 初始版本
-- 基础 PDF 提取功能
+## 📞 联系方式
 
-## ❓ 常见问题 FAQ
+如有问题或建议，请通过GitHub Issues联系。
 
-### Q: 如何处理加密的 PDF 文件？
+---
 
-A: 系统会自动跳过加密的 PDF 文件并记录到日志中。如需处理，请先手动解密。
-
-### Q: 提取失败的常见原因？
-
-A:
-
-- PDF 文件损坏或加密
-- 财务数据格式不标准
-- 表格嵌入为图片而非文本
-
-### Q: 如何提高提取成功率？
-
-A:
-
-- 使用 LLM 增强提取模式
-- 启用 OCR 处理扫描版 PDF
-- 使用交叉验证确保准确性
-
-### Q: 支持哪些财务报表格式？
-
-A: 支持标准的资产负债表、损益表、现金流量表等，中英文均可。
-
-如有问题或建议，欢迎提交 Issue！
+**最后更新 Last Updated**: 2025-08-10

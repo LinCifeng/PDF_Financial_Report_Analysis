@@ -1,11 +1,10 @@
 """
-工具函数模块
-Utility Functions Module
+PDF工具函数模块
+PDF Utility Functions Module
 """
-import os
 import shutil
 from pathlib import Path
-from typing import List, Dict
+from typing import Dict
 import pdfplumber
 
 

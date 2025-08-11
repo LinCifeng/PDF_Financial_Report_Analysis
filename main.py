@@ -15,7 +15,7 @@ from financial_analysis.download import batch_download
 from financial_analysis.extractor import MasterExtractor
 from financial_analysis.analysis import analyze_extraction_results
 from financial_analysis.visualization import create_charts
-from financial_analysis.utils import clean_pdfs, generate_summary
+from financial_analysis.download.pdf_utils import clean_pdfs, generate_summary
 
 # 为了向后兼容，保留旧的接口
 from financial_analysis.extractor.regex_extractor import extract_financial_data

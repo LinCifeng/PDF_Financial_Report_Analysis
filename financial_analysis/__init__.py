@@ -13,7 +13,8 @@ from .download import Downloader, batch_download
 from .extractor import MasterExtractor, RegexExtractor
 from .analysis import Analyzer, analyze_extraction_results
 from .visualization import Visualizer, create_charts
-from .utils import clean_pdfs, generate_summary
+# 从 download/pdf_utils.py 文件导入工具函数
+from .download.pdf_utils import clean_pdfs, generate_summary
 
 # 为了向后兼容，保留旧接口
 from .extractor.regex_extractor import extract_financial_data
