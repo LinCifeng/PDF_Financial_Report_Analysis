@@ -1,0 +1,5742 @@
+{
+  "Acorns_2023_24_Q1_Q2.pdf": {
+    "company": "Acorns",
+    "year": 2023,
+    "total_assets": 1233946951.0,
+    "total_liabilities": 381074.0,
+    "revenue": 50974450.0,
+    "net_profit": 48993546.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:42:38.547407"
+  },
+  "Shawbrook_Bank_2011_Annual.pdf": {
+    "company": "Shawbrook",
+    "year": 2011,
+    "total_assets": 217132.0,
+    "total_liabilities": 186334.0,
+    "revenue": null,
+    "net_profit": -7992.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T00:42:45.057157"
+  },
+  "Creditas_2024_Q2.pdf": {
+    "company": "Creditas",
+    "year": 2024,
+    "total_assets": 5906337.0,
+    "total_liabilities": 5559535.0,
+    "revenue": 474932.0,
+    "net_profit": -1154191.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:42:54.573008"
+  },
+  "LINE_Pay_2024_Q2.pdf": {
+    "company": "LINE",
+    "year": 2024,
+    "total_assets": 12783431.0,
+    "total_liabilities": 6986580.0,
+    "revenue": 113.0,
+    "net_profit": 159207.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:42:56.036331"
+  },
+  "Card_by_Coinbase_2024_Q3.pdf": {
+    "company": "Card",
+    "year": 2024,
+    "total_assets": 290558608.0,
+    "total_liabilities": 281830486.0,
+    "revenue": 1205193.0,
+    "net_profit": 75495.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:43:13.051549"
+  },
+  "Azlo_2013_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2013,
+    "total_assets": 1.31,
+    "total_liabilities": 258734.0,
+    "revenue": 3955.0,
+    "net_profit": 1004.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:43:17.975549"
+  },
+  "Stori_2024_Q1.pdf": {
+    "company": "Stori",
+    "year": 2024,
+    "total_assets": 758996,
+    "total_liabilities": 59073,
+    "revenue": 7217,
+    "net_profit": -31424,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:47:27.849504"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2020_Q1\u3001Q2\u3001Q3.pdf": {
+    "company": "digibank",
+    "year": 2020,
+    "total_assets": 90781028,
+    "total_liabilities": 81429070,
+    "revenue": 4889583,
+    "net_profit": -99680,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:47:31.458620"
+  },
+  "Ollo_2003_Annual.pdf": {
+    "company": "Ollo",
+    "year": 2003,
+    "total_assets": 288163,
+    "total_liabilities": 267927,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T00:48:04.489675"
+  },
+  "Magnetis_Investimentos_2018_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2018,
+    "total_assets": 160744460,
+    "total_liabilities": 160744460,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T00:48:10.953553"
+  },
+  "Digio_2020_Q3\u3001Q4.pdf": {
+    "company": "Digio",
+    "year": 2020,
+    "total_assets": 2807956,
+    "total_liabilities": 2435494,
+    "revenue": null,
+    "net_profit": -22826,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T00:48:19.052662"
+  },
+  "Wise_2021_22_Q1_Q2.pdf": {
+    "company": "Wise",
+    "year": 2021,
+    "total_assets": 5652.0,
+    "total_liabilities": 5313.4,
+    "revenue": 256.3,
+    "net_profit": 12.7,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:48:26.470168"
+  },
+  "Ollo_1997_Annual.pdf": {
+    "company": "Ollo",
+    "year": null,
+    "total_assets": 109319.3,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T00:48:30.280565"
+  },
+  "kubo.financiero_2023_Annual.pdf": {
+    "company": "kubo.financiero",
+    "year": 2023,
+    "total_assets": 2602729,
+    "total_liabilities": 2310041,
+    "revenue": 866185,
+    "net_profit": -73941,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:48:34.044107"
+  },
+  "ZA_Bank_2020_Annual.pdf": {
+    "company": "ZA",
+    "year": 2020,
+    "total_assets": 4162025,
+    "total_liabilities": 2976969,
+    "revenue": null,
+    "net_profit": -126155,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T00:48:35.626383"
+  },
+  "KakaoBank_2016_Annual.pdf": {
+    "company": "KakaoBank",
+    "year": 2016,
+    "total_assets": 283020394543,
+    "total_liabilities": 2652024228,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T00:48:38.082000"
+  },
+  "KakaoBank_2021_Annual.pdf": {
+    "company": "KakaoBank",
+    "year": 2021,
+    "total_assets": 36040068,
+    "total_liabilities": 30518698,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T00:48:47.584001"
+  },
+  "CIMB_2015_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2015,
+    "total_assets": 461577143,
+    "total_liabilities": 419344515,
+    "revenue": 15395790,
+    "net_profit": 2849509,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T00:49:02.591430"
+  },
+  "Mintos_2018_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2018,
+    "total_assets": 1550330,
+    "total_liabilities": 769457,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T00:49:11.343892"
+  },
+  "Acorns_2017_18_Annual.pdf": {
+    "company": "Acorns",
+    "year": 2017,
+    "total_assets": 203556853.0,
+    "total_liabilities": 25547.0,
+    "revenue": 13859930.0,
+    "net_profit": 13880855.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T01:07:35.299665"
+  },
+  "Acorns_2018_19_Annual.pdf": {
+    "company": "Acorns",
+    "year": 2018,
+    "total_assets": 354038314.0,
+    "total_liabilities": 66066.0,
+    "revenue": 27181059.0,
+    "net_profit": 26400133.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T01:07:36.038450"
+  },
+  "Acorns_2020_21_Annual.pdf": {
+    "company": "Acorns",
+    "year": 2020,
+    "total_assets": 811815120.0,
+    "total_liabilities": 184536.0,
+    "revenue": 120721521.0,
+    "net_profit": 118730064.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T01:07:37.728147"
+  },
+  "Acorns_2019_20_Annual.pdf": {
+    "company": "Acorns",
+    "year": 2019,
+    "total_assets": 464180375.0,
+    "total_liabilities": 113807.0,
+    "revenue": 2315071.0,
+    "net_profit": 982679.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T01:07:38.008616"
+  },
+  "Acorns_2022_23_Q1_Q2.pdf": {
+    "company": "Acorns",
+    "year": 2022,
+    "total_assets": 981886940.0,
+    "total_liabilities": 296819.0,
+    "revenue": 36234783.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T01:07:43.275283"
+  },
+  "Acorns_2021_22_Annual.pdf": {
+    "company": "Acorns",
+    "year": 2021,
+    "total_assets": 894430361.0,
+    "total_liabilities": 221571.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T01:07:44.325626"
+  },
+  "Acorns_2022_23_Annual.pdf": {
+    "company": "Acorns",
+    "year": 2022,
+    "total_assets": 1151041210.0,
+    "total_liabilities": 359473.0,
+    "revenue": 109532376.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T01:07:45.299538"
+  },
+  "Acorns_2024_25_Q1_Q2.pdf": {
+    "company": "Acorns",
+    "year": 2024,
+    "total_assets": 1634266937.0,
+    "total_liabilities": 394647.0,
+    "revenue": 108823581.0,
+    "net_profit": 106450166.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T01:07:49.668221"
+  },
+  "Acorns_2023_24_Annual.pdf": {
+    "company": "Acorns",
+    "year": 2023,
+    "total_assets": 1417127147.0,
+    "total_liabilities": 425126.0,
+    "revenue": 158666832.0,
+    "net_profit": 154479446.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T01:07:50.830470"
+  },
+  "Acorns_2021_22_Q1_Q2.pdf": {
+    "company": "Acorns",
+    "year": 2021,
+    "total_assets": 977367928.0,
+    "total_liabilities": 226692.0,
+    "revenue": 17974107.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T01:07:51.059180"
+  },
+  "Afterpay_2015_Annual.pdf": {
+    "company": "Afterpay",
+    "year": 2015,
+    "total_assets": 894772.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": -179817.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T01:08:02.710623"
+  },
+  "Afterpay_2016_Annual.pdf": {
+    "company": "Afterpay",
+    "year": 2016,
+    "total_assets": 1211362.0,
+    "total_liabilities": null,
+    "revenue": 686618.0,
+    "net_profit": -171590.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T01:08:09.333865"
+  },
+  "Afterpay_2018_Annual.pdf": {
+    "company": "Afterpay",
+    "year": 2018,
+    "total_assets": 3281023.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": -38453.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T01:08:11.888047"
+  },
+  "Afterpay_2017_Annual.pdf": {
+    "company": "Afterpay",
+    "year": 2017,
+    "total_assets": 2187270.0,
+    "total_liabilities": null,
+    "revenue": 983963.0,
+    "net_profit": -62813.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T01:08:12.093480"
+  },
+  "Afterpay_2019_Annual.pdf": {
+    "company": "Afterpay",
+    "year": 2019,
+    "total_assets": 4551258.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T01:08:20.208821"
+  },
+  "Afterpay_2023_Annual.pdf": {
+    "company": "Afterpay",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 2011.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T09:28:25.243506"
+  },
+  "Airstarbank_2019_Annual.pdf": {
+    "company": "Airstarbank",
+    "year": 2019,
+    "total_assets": 1523878862.0,
+    "total_liabilities": 101915382.0,
+    "revenue": null,
+    "net_profit": -83221658.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:26.585635"
+  },
+  "Airstarbank_2020_Annual.pdf": {
+    "company": "Airstarbank",
+    "year": 2020,
+    "total_assets": 2880469.0,
+    "total_liabilities": 1677433.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:28.136118"
+  },
+  "Airstarbank_2020_Q1_Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2020,
+    "total_assets": 1836307098.0,
+    "total_liabilities": 497993666.0,
+    "revenue": null,
+    "net_profit": -91707674.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:28.615660"
+  },
+  "Airstarbank_2020_Q1\u3001Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2020,
+    "total_assets": 1836307098.0,
+    "total_liabilities": 497993666.0,
+    "revenue": null,
+    "net_profit": -91707674.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:29.648907"
+  },
+  "Airstarbank_2021_Q1_Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2021,
+    "total_assets": 3464490.0,
+    "total_liabilities": 2390450.0,
+    "revenue": null,
+    "net_profit": -123375.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:32.084160"
+  },
+  "Airstarbank_2021_Q1\u3001Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2021,
+    "total_assets": 3464490.0,
+    "total_liabilities": 2390450.0,
+    "revenue": null,
+    "net_profit": -123375.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:33.062620"
+  },
+  "Afterpay_2024_Annual.pdf": {
+    "company": "Afterpay",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 2011.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T09:28:33.512099"
+  },
+  "Airstarbank_2022_Q1_Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2022,
+    "total_assets": 2857826.0,
+    "total_liabilities": 1996911.0,
+    "revenue": null,
+    "net_profit": -97755.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:36.562100"
+  },
+  "Airstarbank_2022_Q1\u3001Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2022,
+    "total_assets": 2857826.0,
+    "total_liabilities": 1996911.0,
+    "revenue": null,
+    "net_profit": -97755.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:36.971137"
+  },
+  "Airstarbank_2021_Annual.pdf": {
+    "company": "Airstarbank",
+    "year": 2021,
+    "total_assets": 3227586.0,
+    "total_liabilities": 2266139.0,
+    "revenue": null,
+    "net_profit": -244255.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:38.464628"
+  },
+  "Airstarbank_2024_Q1_Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2024,
+    "total_assets": 2707842.0,
+    "total_liabilities": 1836897.0,
+    "revenue": null,
+    "net_profit": -131230.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:40.327911"
+  },
+  "Airstarbank_2024_Q1\u3001Q2.pdf": {
+    "company": "Airstarbank",
+    "year": 2024,
+    "total_assets": 2707842.0,
+    "total_liabilities": 1836897.0,
+    "revenue": null,
+    "net_profit": -131230.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:42.174189"
+  },
+  "Airstarbank_2023_Annual.pdf": {
+    "company": "Airstarbank",
+    "year": 2023,
+    "total_assets": 2325593.0,
+    "total_liabilities": 1768056.0,
+    "revenue": null,
+    "net_profit": -208263.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:42.937017"
+  },
+  "Aprila_Bank_2018_Annual.pdf": {
+    "company": "Aprila",
+    "year": 2018,
+    "total_assets": 133500.0,
+    "total_liabilities": 5999.0,
+    "revenue": null,
+    "net_profit": 0.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:28:44.804312"
+  },
+  "Aprila_Bank_2018_Q2.pdf": {
+    "company": "Aprila",
+    "year": 2018,
+    "total_assets": 144269.0,
+    "total_liabilities": 2715.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:46.105203"
+  },
+  "Aprila_Bank_2018_Q3.pdf": {
+    "company": "Aprila",
+    "year": 2018,
+    "total_assets": 138591.0,
+    "total_liabilities": 4174.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:46.266409"
+  },
+  "Airstarbank_2022_Annual.pdf": {
+    "company": "Airstarbank",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T09:28:46.793401"
+  },
+  "Aprila_Bank_2018_Q4.pdf": {
+    "company": "Aprila",
+    "year": 2018,
+    "total_assets": 133.0,
+    "total_liabilities": 5.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:48.128562"
+  },
+  "Aprila_Bank_2019_Q1.pdf": {
+    "company": "Aprila",
+    "year": 2019,
+    "total_assets": 127454.0,
+    "total_liabilities": 9781.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:48.527814"
+  },
+  "Aprila_Bank_2019_Q2.pdf": {
+    "company": "Aprila",
+    "year": 2019,
+    "total_assets": 118429.0,
+    "total_liabilities": 6761.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:49.322453"
+  },
+  "Aprila_Bank_2019_Q3.pdf": {
+    "company": "Aprila",
+    "year": 2019,
+    "total_assets": 143287.0,
+    "total_liabilities": 40134.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:50.873640"
+  },
+  "Aprila_Bank_2019_Q4.pdf": {
+    "company": "Aprila",
+    "year": 2019,
+    "total_assets": 170.0,
+    "total_liabilities": 77.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:53.021720"
+  },
+  "Aprila_Bank_2020_Q1.pdf": {
+    "company": "Aprila",
+    "year": 2020,
+    "total_assets": 170447.0,
+    "total_liabilities": 90922.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:54.914258"
+  },
+  "Aprila_Bank_2020_Q3.pdf": {
+    "company": "Aprila",
+    "year": 2020,
+    "total_assets": 255956.0,
+    "total_liabilities": 128115.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:56.055652"
+  },
+  "Aprila_Bank_2020_Q2.pdf": {
+    "company": "Aprila",
+    "year": 2020,
+    "total_assets": 256737.0,
+    "total_liabilities": 117687.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:57.428683"
+  },
+  "Aprila_Bank_2020_Q4.pdf": {
+    "company": "Aprila",
+    "year": 2020,
+    "total_assets": 439858.0,
+    "total_liabilities": 326844.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:28:57.523189"
+  },
+  "Aprila_Bank_2021_Q1.pdf": {
+    "company": "Aprila",
+    "year": 2021,
+    "total_assets": 413983.0,
+    "total_liabilities": 316983.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:00.534169"
+  },
+  "Aprila_Bank_2021_Q2.pdf": {
+    "company": "Aprila",
+    "year": 2021,
+    "total_assets": 343582.0,
+    "total_liabilities": 253840.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:00.848407"
+  },
+  "Aprila_Bank_2021_Q3.pdf": {
+    "company": "Aprila",
+    "year": 2021,
+    "total_assets": 377964.0,
+    "total_liabilities": 293773.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:03.005555"
+  },
+  "Aprila_Bank_2021_Q4.pdf": {
+    "company": "Aprila",
+    "year": 2021,
+    "total_assets": 465994.0,
+    "total_liabilities": 357437.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:03.534416"
+  },
+  "Aprila_Bank_2022_Q1.pdf": {
+    "company": "Aprila",
+    "year": 2022,
+    "total_assets": 530007.0,
+    "total_liabilities": 426533.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:06.068578"
+  },
+  "Aprila_Bank_2022_Q2.pdf": {
+    "company": "Aprila",
+    "year": 2022,
+    "total_assets": 625183.0,
+    "total_liabilities": 459512.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:07.062905"
+  },
+  "Aprila_Bank_2022_Q3.pdf": {
+    "company": "Aprila",
+    "year": 2022,
+    "total_assets": 657399.0,
+    "total_liabilities": 495011.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:08.986838"
+  },
+  "Aprila_Bank_2022_Q4.pdf": {
+    "company": "Aprila",
+    "year": 2022,
+    "total_assets": 786673.0,
+    "total_liabilities": 594562.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:10.163005"
+  },
+  "Aprila_Bank_2023_Q1.pdf": {
+    "company": "Aprila",
+    "year": 2023,
+    "total_assets": 838183.0,
+    "total_liabilities": 648004.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T09:29:12.310243"
+  },
+  "Aprila_Bank_2023_Q2.pdf": {
+    "company": "Aprila",
+    "year": 2023,
+    "total_assets": 997004.0,
+    "total_liabilities": 798960.0,
+    "revenue": null,
+    "net_profit": 5794.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:29:12.916935"
+  },
+  "Aprila_Bank_2023_Q4.pdf": {
+    "company": "Aprila",
+    "year": 2023,
+    "total_assets": 1061600.0,
+    "total_liabilities": 844924.0,
+    "revenue": null,
+    "net_profit": 23086.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:29:16.136093"
+  },
+  "Aprila_Bank_2023_Q3.pdf": {
+    "company": "Aprila",
+    "year": 2023,
+    "total_assets": 1085305.0,
+    "total_liabilities": 879513.0,
+    "revenue": null,
+    "net_profit": 13525.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:29:17.894664"
+  },
+  "Aprila_Bank_2024_Q1.pdf": {
+    "company": "Aprila",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 52.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T09:29:18.751625"
+  },
+  "Aprila_Bank_2024_Q2.pdf": {
+    "company": "Aprila",
+    "year": 2024,
+    "total_assets": 1227979.0,
+    "total_liabilities": 949292.0,
+    "revenue": null,
+    "net_profit": 5794.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:29:19.056196"
+  },
+  "Aprila_Bank_2024_Q3.pdf": {
+    "company": "Aprila",
+    "year": 2024,
+    "total_assets": 1382447.0,
+    "total_liabilities": 1094526.0,
+    "revenue": null,
+    "net_profit": 13525.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:29:20.332706"
+  },
+  "Aprila_Bank_2024_Q4.pdf": {
+    "company": "Aprila",
+    "year": 2024,
+    "total_assets": 1415564.0,
+    "total_liabilities": 1118696.0,
+    "revenue": null,
+    "net_profit": 23086.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T09:29:21.246841"
+  },
+  "Azlo_2006_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2006,
+    "total_assets": 94914.0,
+    "total_liabilities": 85455.0,
+    "revenue": 1792.0,
+    "net_profit": 381.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:30:22.176915"
+  },
+  "Azlo_2006_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2006,
+    "total_assets": 93257.0,
+    "total_liabilities": 83849.0,
+    "revenue": 1748.0,
+    "net_profit": 354.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:30:22.909687"
+  },
+  "Azlo_2006_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2006,
+    "total_assets": 101820.0,
+    "total_liabilities": 90147.0,
+    "revenue": 3120.0,
+    "net_profit": 2595.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:30:25.154512"
+  },
+  "Azlo_2006_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2006,
+    "total_assets": 98436.0,
+    "total_liabilities": 87270.0,
+    "revenue": 2326.0,
+    "net_profit": 1484.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:30:25.573813"
+  },
+  "Azlo_2007_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2007,
+    "total_assets": 122563.0,
+    "total_liabilities": 106457.0,
+    "revenue": 1620.0,
+    "net_profit": 459.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:31:27.469203"
+  },
+  "Azlo_2007_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2007,
+    "total_assets": 500.0,
+    "total_liabilities": 122412.0,
+    "revenue": 57.0,
+    "net_profit": 1467.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:31:31.413540"
+  },
+  "Azlo_2007_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2007,
+    "total_assets": 131366.0,
+    "total_liabilities": 115161.0,
+    "revenue": 1757.0,
+    "net_profit": 407.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:31:31.905085"
+  },
+  "Azlo_2007_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2007,
+    "total_assets": 125651.0,
+    "total_liabilities": 109777.0,
+    "revenue": 1721.0,
+    "net_profit": 423.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:31:32.100076"
+  },
+  "Azlo_2008_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2008,
+    "total_assets": 139991.0,
+    "total_liabilities": 123560.0,
+    "revenue": 1830.0,
+    "net_profit": 377.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:32:34.294900"
+  },
+  "Azlo_2008_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2008,
+    "total_assets": 145610.0,
+    "total_liabilities": 129322.0,
+    "revenue": 1654.0,
+    "net_profit": 248.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:32:36.862889"
+  },
+  "Azlo_2008_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2008,
+    "total_assets": 142771.0,
+    "total_liabilities": 125654.0,
+    "revenue": 2039.0,
+    "net_profit": 505.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:32:37.398367"
+  },
+  "Azlo_2008_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2008,
+    "total_assets": 291081.0,
+    "total_liabilities": 263433.0,
+    "revenue": 7190.0,
+    "net_profit": 882.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:32:38.962797"
+  },
+  "Azlo_2009_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2009,
+    "total_assets": 1.62,
+    "total_liabilities": 250287.0,
+    "revenue": 3987.0,
+    "net_profit": 207.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:33:42.399623"
+  },
+  "Azlo_2009_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2009,
+    "total_assets": 291081.0,
+    "total_liabilities": 263433.0,
+    "revenue": 7190.0,
+    "net_profit": 882.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:33:46.281458"
+  },
+  "Azlo_2009_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2009,
+    "total_assets": 2.08,
+    "total_liabilities": 239744.0,
+    "revenue": 4048.0,
+    "net_profit": 559.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:33:46.587700"
+  },
+  "Azlo_2009_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2009,
+    "total_assets": 1.21,
+    "total_liabilities": 257766.0,
+    "revenue": 3871.0,
+    "net_profit": 530.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:33:46.953731"
+  },
+  "Azlo_2010_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2010,
+    "total_assets": 2.46,
+    "total_liabilities": 235962.0,
+    "revenue": 3763.0,
+    "net_profit": 671.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:34:51.750333"
+  },
+  "Azlo_2010_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2010,
+    "total_assets": 108.0,
+    "total_liabilities": 231446.0,
+    "revenue": 15176.0,
+    "net_profit": 3397.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:34:53.648095"
+  },
+  "Azlo_2010_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2010,
+    "total_assets": 2.26,
+    "total_liabilities": 230705.0,
+    "revenue": 3912.0,
+    "net_profit": 803.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:34:56.061662"
+  },
+  "Azlo_2010_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2010,
+    "total_assets": 2.18,
+    "total_liabilities": 227467.0,
+    "revenue": 3598.0,
+    "net_profit": 1103.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:34:56.525494"
+  },
+  "Azlo_2011_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2011,
+    "total_assets": 125.0,
+    "total_liabilities": 233959.0,
+    "revenue": 14326.0,
+    "net_profit": 3071.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:36:04.883068"
+  },
+  "Azlo_2011_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2011,
+    "total_assets": 2.03,
+    "total_liabilities": 225661.0,
+    "revenue": 3631.0,
+    "net_profit": 832.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:36:07.565531"
+  },
+  "Azlo_2011_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2011,
+    "total_assets": 1.7,
+    "total_liabilities": 228244.0,
+    "revenue": 3602.0,
+    "net_profit": 912.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T09:36:08.365582"
+  },
+  "Azlo_2011_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2011,
+    "total_assets": 1.59,
+    "total_liabilities": 232228.0,
+    "revenue": 3544.0,
+    "net_profit": 834.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:39:37.778248"
+  },
+  "Azlo_2012_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2012,
+    "total_assets": null,
+    "total_liabilities": 263342.0,
+    "revenue": 15512.0,
+    "net_profit": 3001.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:39:43.005434"
+  },
+  "Azlo_2012_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2012,
+    "total_assets": 1.39,
+    "total_liabilities": 259361.0,
+    "revenue": 3623.0,
+    "net_profit": 546.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:39:45.129372"
+  },
+  "Azlo_2012_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2012,
+    "total_assets": 1.47,
+    "total_liabilities": 257647.0,
+    "revenue": 3732.0,
+    "net_profit": 811.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:39:49.311251"
+  },
+  "Azlo_2012_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2012,
+    "total_assets": 1.34,
+    "total_liabilities": 259001.0,
+    "revenue": 4088.0,
+    "net_profit": 925.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:46:24.441954"
+  },
+  "Azlo_2013_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2013,
+    "total_assets": null,
+    "total_liabilities": 276199.0,
+    "revenue": 16012.0,
+    "net_profit": 4227.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:46:43.832088"
+  },
+  "Azlo_2013_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2013,
+    "total_assets": 1.17,
+    "total_liabilities": 265777.0,
+    "revenue": 3920.0,
+    "net_profit": 1039.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:46:43.928221"
+  },
+  "Azlo_2013_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2013,
+    "total_assets": 1.24,
+    "total_liabilities": 262474.0,
+    "revenue": 4064.0,
+    "net_profit": 1123.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:46:44.695583"
+  },
+  "Azlo_2014_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2014,
+    "total_assets": null,
+    "total_liabilities": 298998.0,
+    "revenue": 15375.0,
+    "net_profit": 7.44,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:47:29.305674"
+  },
+  "Azlo_2014_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2014,
+    "total_assets": 334424.0,
+    "total_liabilities": 288429.0,
+    "revenue": 3841.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:47:55.402245"
+  },
+  "Azlo_2014_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2014,
+    "total_assets": 1.02,
+    "total_liabilities": 278505.0,
+    "revenue": 3777.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:47:55.741810"
+  },
+  "Azlo_2014_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2014,
+    "total_assets": 327064.0,
+    "total_liabilities": 281271.0,
+    "revenue": 3810.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:47:58.242355"
+  },
+  "Azlo_2015_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2015,
+    "total_assets": null,
+    "total_liabilities": 312513.0,
+    "revenue": 15225.0,
+    "net_profit": 4143.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:48:34.381302"
+  },
+  "Azlo_2015_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2015,
+    "total_assets": 350960.0,
+    "total_liabilities": 304522.0,
+    "revenue": 3731.0,
+    "net_profit": 1004.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:48:59.577323"
+  },
+  "Azlo_2015_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2015,
+    "total_assets": 353945.0,
+    "total_liabilities": 308033.0,
+    "revenue": 3866.0,
+    "net_profit": 1044.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:49:04.617305"
+  },
+  "Azlo_2015_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2015,
+    "total_assets": 362125.0,
+    "total_liabilities": 315847.0,
+    "revenue": 3775.0,
+    "net_profit": 1073.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:49:07.944285"
+  },
+  "Azlo_2016_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2016,
+    "total_assets": null,
+    "total_liabilities": 319526.0,
+    "revenue": 15162.0,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:49:42.725302"
+  },
+  "Azlo_2016_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2016,
+    "total_assets": 360985.0,
+    "total_liabilities": 314657.0,
+    "revenue": 3665.0,
+    "net_profit": 943.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:50:02.971898"
+  },
+  "Azlo_2016_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2016,
+    "total_assets": 361335.0,
+    "total_liabilities": 314636.0,
+    "revenue": 3794.0,
+    "net_profit": 989.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:50:12.811669"
+  },
+  "Azlo_2016_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2016,
+    "total_assets": 369348.0,
+    "total_liabilities": 322503.0,
+    "revenue": 3829.0,
+    "net_profit": 1006.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:50:13.569921"
+  },
+  "Azlo_2017_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2017,
+    "total_assets": null,
+    "total_liabilities": 333183.0,
+    "revenue": 16329.0,
+    "net_profit": 5388.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:51:02.999052"
+  },
+  "Azlo_2017_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2017,
+    "total_assets": 370944.0,
+    "total_liabilities": 325041.0,
+    "revenue": 3884.0,
+    "net_profit": 1074.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:51:04.757170"
+  },
+  "Azlo_2017_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2017,
+    "total_assets": 372190.0,
+    "total_liabilities": 326005.0,
+    "revenue": 4060.0,
+    "net_profit": 1097.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:51:17.019095"
+  },
+  "Azlo_2017_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2017,
+    "total_assets": 375191.0,
+    "total_liabilities": 328739.0,
+    "revenue": 4125.0,
+    "net_profit": 1126.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:51:41.221987"
+  },
+  "Azlo_2018_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": 334545.0,
+    "revenue": 17132.0,
+    "net_profit": 5346.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:52:21.168384"
+  },
+  "Azlo_2018_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2018,
+    "total_assets": 11.3,
+    "total_liabilities": 332126.0,
+    "revenue": 4111.0,
+    "net_profit": 1239.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:52:30.130853"
+  },
+  "Azlo_2018_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2018,
+    "total_assets": 11.3,
+    "total_liabilities": 333736.0,
+    "revenue": 4324.0,
+    "net_profit": 1356.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:52:47.216484"
+  },
+  "Azlo_2018_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2018,
+    "total_assets": 11.3,
+    "total_liabilities": 332978.0,
+    "revenue": 4357.0,
+    "net_profit": 1400.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:53:12.457523"
+  },
+  "Creditas_2024_Annual.pdf": {
+    "company": "Creditas",
+    "year": 2024,
+    "total_assets": 6544706.0,
+    "total_liabilities": 6310820.0,
+    "revenue": 530699.0,
+    "net_profit": -99650.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:57:12.259010"
+  },
+  "Creditas_2024_Q3.pdf": {
+    "company": "Creditas",
+    "year": 2024,
+    "total_assets": 6096831.0,
+    "total_liabilities": 5765880.0,
+    "revenue": 517435.0,
+    "net_profit": -19049.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:57:17.075576"
+  },
+  "Creditas_2022_Annual.pdf": {
+    "company": "Creditas",
+    "year": 2022,
+    "total_assets": 6952823.0,
+    "total_liabilities": 6373110.0,
+    "revenue": 22.0,
+    "net_profit": -1483738.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:57:23.718108"
+  },
+  "Creditas_2023_Annual.pdf": {
+    "company": "Creditas",
+    "year": 2023,
+    "total_assets": 5906337.0,
+    "total_liabilities": 5559535.0,
+    "revenue": 474932.0,
+    "net_profit": -1154191.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:57:25.085268"
+  },
+  "Card_by_Coinbase_2024_Q1.pdf": {
+    "company": "Card",
+    "year": 2024,
+    "total_assets": 348036477.0,
+    "total_liabilities": 339965483.0,
+    "revenue": 1637570.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:57:30.393572"
+  },
+  "Card_by_Coinbase_2024_Q2.pdf": {
+    "company": "Card",
+    "year": 2024,
+    "total_assets": 286959173.0,
+    "total_liabilities": 278588404.0,
+    "revenue": 1449628.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:57:30.652917"
+  },
+  "Digio_2017_Q3\u3001Q4.pdf": {
+    "company": "Digio",
+    "year": 2017,
+    "total_assets": 1.578,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T10:57:32.862245"
+  },
+  "Digio_2020_Q1\u3001Q2.pdf": {
+    "company": "Digio",
+    "year": 2020,
+    "total_assets": 2.529,
+    "total_liabilities": 2.529,
+    "revenue": null,
+    "net_profit": 9.242,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:57:44.138101"
+  },
+  "Digio_2021_Q3\u3001Q4.pdf": {
+    "company": "Digio",
+    "year": 2021,
+    "total_assets": 3.853,
+    "total_liabilities": 3.853,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:57:46.914901"
+  },
+  "Digio_2022_Q3\u3001Q4.pdf": {
+    "company": "Digio",
+    "year": 2022,
+    "total_assets": 4.973,
+    "total_liabilities": 4.973,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:57:50.484204"
+  },
+  "Digio_2022_Q1\u3001Q2.pdf": {
+    "company": "Digio",
+    "year": 2022,
+    "total_assets": 3.855,
+    "total_liabilities": 3.855,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:57:54.920463"
+  },
+  "Digio_2021_Q1\u3001Q2.pdf": {
+    "company": "Digio",
+    "year": 2021,
+    "total_assets": 3.262,
+    "total_liabilities": 3.262,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:57:55.423174"
+  },
+  "Digio_2023_Q1\u3001Q2.pdf": {
+    "company": "Digio",
+    "year": 2023,
+    "total_assets": 6.515,
+    "total_liabilities": 6.515,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:58:00.267549"
+  },
+  "Digio_2024_Q1\u3001Q2.pdf": {
+    "company": "Digio",
+    "year": 2024,
+    "total_assets": 14.022,
+    "total_liabilities": 14.022,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:58:02.248999"
+  },
+  "Digio_2023_Q3\u3001Q4.pdf": {
+    "company": "Digio",
+    "year": 2023,
+    "total_assets": 7.976,
+    "total_liabilities": 7.976,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:58:02.253573"
+  },
+  "Divvy_2022_Q1.pdf": {
+    "company": "Divvy",
+    "year": 2022,
+    "total_assets": 8564205.0,
+    "total_liabilities": 4454994.0,
+    "revenue": 116403.0,
+    "net_profit": -75685.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:18.022354"
+  },
+  "Discovery_Bank_2022_23_Annual.pdf": {
+    "company": "Discovery",
+    "year": 2022,
+    "total_assets": 301.0,
+    "total_liabilities": 237.0,
+    "revenue": 59.0,
+    "net_profit": 86.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:24.547678"
+  },
+  "Divvy_2022_Q2.pdf": {
+    "company": "Divvy",
+    "year": 2022,
+    "total_assets": 9510958.0,
+    "total_liabilities": 5417631.0,
+    "revenue": 156478.0,
+    "net_profit": -80440.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:26.472519"
+  },
+  "Divvy_2022_Q3.pdf": {
+    "company": "Divvy",
+    "year": 2022,
+    "total_assets": 9183836.0,
+    "total_liabilities": 5115520.0,
+    "revenue": 166911.0,
+    "net_profit": -86720.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:41.021448"
+  },
+  "Divvy_2023_Q2.pdf": {
+    "company": "Divvy",
+    "year": 2023,
+    "total_assets": 9738274.0,
+    "total_liabilities": 5654397.0,
+    "revenue": 260006.0,
+    "net_profit": -95076.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:48.555095"
+  },
+  "Divvy_2023_Q3.pdf": {
+    "company": "Divvy",
+    "year": 2023,
+    "total_assets": 9380885.0,
+    "total_liabilities": 5276548.0,
+    "revenue": 272555.0,
+    "net_profit": -31138.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:52.948492"
+  },
+  "Divvy_2024_Q1.pdf": {
+    "company": "Divvy",
+    "year": 2024,
+    "total_assets": 9620383.0,
+    "total_liabilities": 5502270.0,
+    "revenue": 304985.0,
+    "net_profit": -27861.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:54.004421"
+  },
+  "Divvy_2023_Q1.pdf": {
+    "company": "Divvy",
+    "year": 2023,
+    "total_assets": 9253099.0,
+    "total_liabilities": 5205568.0,
+    "revenue": 229924.0,
+    "net_profit": -81640.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:55.708758"
+  },
+  "Divvy_2024_Q2.pdf": {
+    "company": "Divvy",
+    "year": 2024,
+    "total_assets": 9872411.0,
+    "total_liabilities": 5920566.0,
+    "revenue": 318495.0,
+    "net_profit": -40421.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:58:56.082471"
+  },
+  "Divvy_2024_Q3.pdf": {
+    "company": "Divvy",
+    "year": 2024,
+    "total_assets": 9122258.0,
+    "total_liabilities": 5063525.0,
+    "revenue": 323028.0,
+    "net_profit": -36473.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:03.796742"
+  },
+  "Discovery_Bank_2023_24_Annual.pdf": {
+    "company": "Discovery",
+    "year": 2023,
+    "total_assets": 284.0,
+    "total_liabilities": 226.0,
+    "revenue": 2.3,
+    "net_profit": 31.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:06.270053"
+  },
+  "Easynvest_2021_Q3.pdf": {
+    "company": "Easynvest",
+    "year": 2021,
+    "total_assets": 14926098.0,
+    "total_liabilities": 13020695.0,
+    "revenue": 480907.0,
+    "net_profit": -34357.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:07.144012"
+  },
+  "Easynvest_2022_Annual.pdf": {
+    "company": "Easynvest",
+    "year": 2022,
+    "total_assets": 29916559.0,
+    "total_liabilities": 25025776.0,
+    "revenue": 4792231.0,
+    "net_profit": -364634.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:09.673909"
+  },
+  "Divvy_2025_Q1.pdf": {
+    "company": "Divvy",
+    "year": 2025,
+    "total_assets": 9045061.0,
+    "total_liabilities": 5031816.0,
+    "revenue": 358450.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:10.757937"
+  },
+  "Divvy_2025_Q2.pdf": {
+    "company": "Divvy",
+    "year": 2025,
+    "total_assets": 9674206.0,
+    "total_liabilities": 5864812.0,
+    "revenue": 362554.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:14.557656"
+  },
+  "Easynvest_2023_Q1.pdf": {
+    "company": "Easynvest",
+    "year": 2023,
+    "total_assets": 29489391.0,
+    "total_liabilities": 24280870.0,
+    "revenue": 1618667.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:21.554169"
+  },
+  "Easynvest_2021_Annual.pdf": {
+    "company": "Easynvest",
+    "year": 2021,
+    "total_assets": 19858681.0,
+    "total_liabilities": 15416140.0,
+    "revenue": 1698023.0,
+    "net_profit": -165334.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:24.637695"
+  },
+  "Easynvest_2023_Q2.pdf": {
+    "company": "Easynvest",
+    "year": 2023,
+    "total_assets": 33608083.0,
+    "total_liabilities": 27963484.0,
+    "revenue": 1868640.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:26.667747"
+  },
+  "Easynvest_2022_Q1.pdf": {
+    "company": "Easynvest",
+    "year": 2022,
+    "total_assets": 24258003.0,
+    "total_liabilities": 19467421.0,
+    "revenue": 877267.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:26.906681"
+  },
+  "Easynvest_2023_Q3.pdf": {
+    "company": "Easynvest",
+    "year": 2023,
+    "total_assets": 35693242.0,
+    "total_liabilities": 29803924.0,
+    "revenue": 2136758.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:28.727963"
+  },
+  "Easynvest_2023_Annual.pdf": {
+    "company": "Easynvest",
+    "year": 2023,
+    "total_assets": 43345195.0,
+    "total_liabilities": 36938810.0,
+    "revenue": 8028976.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:29.685070"
+  },
+  "Easynvest_2024_Annual.pdf": {
+    "company": "Easynvest",
+    "year": 2024,
+    "total_assets": 49931214.0,
+    "total_liabilities": 42284138.0,
+    "revenue": 11517075.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:32.657210"
+  },
+  "Easynvest_2022_Q2.pdf": {
+    "company": "Easynvest",
+    "year": 2022,
+    "total_assets": 25188681.0,
+    "total_liabilities": 20450522.0,
+    "revenue": 1157561.0,
+    "net_profit": -29850.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:33.982388"
+  },
+  "Easynvest_2024_Q1.pdf": {
+    "company": "Easynvest",
+    "year": 2024,
+    "total_assets": 43839497.0,
+    "total_liabilities": 37036806.0,
+    "revenue": 2735901.0,
+    "net_profit": 378814.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:35.466140"
+  },
+  "Easynvest_2022_Q3.pdf": {
+    "company": "Easynvest",
+    "year": 2022,
+    "total_assets": 26006988.0,
+    "total_liabilities": 21254306.0,
+    "revenue": 1306867.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:37.630208"
+  },
+  "Easynvest_2024_Q2.pdf": {
+    "company": "Easynvest",
+    "year": 2024,
+    "total_assets": 44802730.0,
+    "total_liabilities": 37879290.0,
+    "revenue": 2848691.0,
+    "net_profit": 487272.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:38.669632"
+  },
+  "Easynvest_2024_Q3.pdf": {
+    "company": "Easynvest",
+    "year": 2024,
+    "total_assets": 48637850.0,
+    "total_liabilities": 40993502.0,
+    "revenue": 2943188.0,
+    "net_profit": 553386.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T10:59:39.269681"
+  },
+  "GXS_Bank_2023_Annual.pdf": {
+    "company": "GXS",
+    "year": 2023,
+    "total_assets": 946944544.0,
+    "total_liabilities": 602176121.0,
+    "revenue": null,
+    "net_profit": -208196372.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:49.349695"
+  },
+  "GXS_Bank_2022_Annual.pdf": {
+    "company": "GXS",
+    "year": 2022,
+    "total_assets": 268209564.0,
+    "total_liabilities": 77215882.0,
+    "revenue": null,
+    "net_profit": -131120894.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:50.075490"
+  },
+  "Green_Link_Digital_Bank_2022_Annual.pdf": {
+    "company": "Green",
+    "year": 2022,
+    "total_assets": 157569685.0,
+    "total_liabilities": 31549363.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T10:59:50.228600"
+  },
+  "Green_Link_Digital_Bank_2023_Annual.pdf": {
+    "company": "Green",
+    "year": 2023,
+    "total_assets": 497163.0,
+    "total_liabilities": 351150.0,
+    "revenue": null,
+    "net_profit": -30007.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:51.377760"
+  },
+  "ING_2007_Annual.pdf": {
+    "company": "ING",
+    "year": 2007,
+    "total_assets": 42103091.0,
+    "total_liabilities": 40163285.0,
+    "revenue": null,
+    "net_profit": 171151.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T10:59:56.339899"
+  },
+  "ING_2010_Q1\u3001Q2.pdf": {
+    "company": "ING",
+    "year": 2010,
+    "total_assets": 46.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:00:00.595204"
+  },
+  "ING_2011_Q1\u3001Q2.pdf": {
+    "company": "ING",
+    "year": 2011,
+    "total_assets": 48203.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:00:03.314169"
+  },
+  "ING_2013_Annual.pdf": {
+    "company": "ING",
+    "year": 2013,
+    "total_assets": 49813765.0,
+    "total_liabilities": 46282169.0,
+    "revenue": null,
+    "net_profit": 271465.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:00:03.441840"
+  },
+  "ING_2010_Annual.pdf": {
+    "company": "ING",
+    "year": 2010,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 275865.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:00:04.438760"
+  },
+  "ING_2011_Annual.pdf": {
+    "company": "ING",
+    "year": 2011,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 304270.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:00:09.801897"
+  },
+  "ING_2015_Annual.pdf": {
+    "company": "ING",
+    "year": 2015,
+    "total_assets": 49870852.0,
+    "total_liabilities": 46370966.0,
+    "revenue": null,
+    "net_profit": 314662.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:00:09.957332"
+  },
+  "ING_2016_Annual.pdf": {
+    "company": "ING",
+    "year": 2016,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 295.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:00:42.432976"
+  },
+  "ING_2017_Annual.pdf": {
+    "company": "ING",
+    "year": 2017,
+    "total_assets": 58144.0,
+    "total_liabilities": 54041.0,
+    "revenue": null,
+    "net_profit": 348.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:00:47.542027"
+  },
+  "ING_2018_Annual.pdf": {
+    "company": "ING",
+    "year": 2018,
+    "total_assets": 64643.0,
+    "total_liabilities": 60171.0,
+    "revenue": null,
+    "net_profit": 401.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:00:54.766624"
+  },
+  "ING_2019_Annual.pdf": {
+    "company": "ING",
+    "year": 2019,
+    "total_assets": 69951.0,
+    "total_liabilities": 65108.0,
+    "revenue": null,
+    "net_profit": 440.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:00:59.969079"
+  },
+  "ING_2021_Annual.pdf": {
+    "company": "ING",
+    "year": 2021,
+    "total_assets": 77749.0,
+    "total_liabilities": 71924.0,
+    "revenue": null,
+    "net_profit": 549.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:01:07.186745"
+  },
+  "ING_2022_Annual.pdf": {
+    "company": "ING",
+    "year": 2022,
+    "total_assets": 83556.0,
+    "total_liabilities": 77444.0,
+    "revenue": null,
+    "net_profit": 589.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:01:07.436998"
+  },
+  "ING_2023_Annual.pdf": {
+    "company": "ING",
+    "year": 2023,
+    "total_assets": 86981.0,
+    "total_liabilities": 80927.0,
+    "revenue": null,
+    "net_profit": 654.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:01:14.667710"
+  },
+  "Inbank_2016_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2016,
+    "total_assets": 4200.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:01:42.884147"
+  },
+  "Inbank_2015_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2015,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 2600.0,
+    "net_profit": 1000.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:01:47.555225"
+  },
+  "ING_2020_Annual.pdf": {
+    "company": "ING",
+    "year": 2020,
+    "total_assets": 73045.0,
+    "total_liabilities": 67890.0,
+    "revenue": null,
+    "net_profit": 375.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:01:48.710054"
+  },
+  "Inbank_2017_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2017,
+    "total_assets": 125000.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:01:48.771295"
+  },
+  "Inbank_2018_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2018,
+    "total_assets": 318000.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:01:57.802518"
+  },
+  "Inbank_2020_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2020,
+    "total_assets": 318.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 9.3,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:02:10.595311"
+  },
+  "Inbank_2024_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2024,
+    "total_assets": 490.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 34.8,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:02:15.389256"
+  },
+  "Inbank_2021_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2021,
+    "total_assets": 462.8,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 10.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:02:15.791202"
+  },
+  "Illimity_Bank_2021_Annual.pdf": {
+    "company": "Illimity",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:02:17.736804"
+  },
+  "Illimity_Bank_2018_Annual.pdf": {
+    "company": "Illimity",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:02:19.092965"
+  },
+  "Inter_2021_Annual.pdf": {
+    "company": "Inter",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": 28.176,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:02:21.661941"
+  },
+  "Inbank_2019_Annual.pdf": {
+    "company": "Inbank",
+    "year": 2019,
+    "total_assets": 318.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 9.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:02:21.794297"
+  },
+  "Inter_2022_Q2.pdf": {
+    "company": "Inter",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": 33.818,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:02:29.754655"
+  },
+  "Inter_2022_Q3.pdf": {
+    "company": "Inter",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": 36.703,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:02:30.939857"
+  },
+  "Inter_2022_Annual.pdf": {
+    "company": "Inter",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": 39.253,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:02:32.523016"
+  },
+  "Jibun_Bank_2010_11_Annual.pdf": {
+    "company": "Jibun",
+    "year": 2010,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:02:36.841008"
+  },
+  "Inter_2023_Q3.pdf": {
+    "company": "Inter",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": 47.71,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:02:38.397968"
+  },
+  "Inter_2024_Annual.pdf": {
+    "company": "Inter",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 972.841,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:02:41.200500"
+  },
+  "Inter_2024_Q1.pdf": {
+    "company": "Inter",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": 54.008,
+    "revenue": null,
+    "net_profit": 195.22,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:02:42.398910"
+  },
+  "Inter_2024_Q2.pdf": {
+    "company": "Inter",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": 57.965,
+    "revenue": null,
+    "net_profit": 222.664,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:02:45.481770"
+  },
+  "Inter_2024_Q3.pdf": {
+    "company": "Inter",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 260.011,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:02:48.837247"
+  },
+  "Kabbage_2011_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2011,
+    "total_assets": 153337.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 4935.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:03:01.462212"
+  },
+  "Kabbage_2008_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2008,
+    "total_assets": 126074.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2699.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:03:03.632411"
+  },
+  "Kabbage_2010_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2010,
+    "total_assets": 147042.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 4057.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:03:05.751122"
+  },
+  "Kabbage_2012_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2012,
+    "total_assets": 153140.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 4482.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:03:30.072881"
+  },
+  "Kabbage_2014_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2014,
+    "total_assets": 159103000000.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 5885000000.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:03:45.600057"
+  },
+  "KakaoBank_2017_Annual.pdf": {
+    "company": "KakaoBank",
+    "year": 2017,
+    "total_assets": null,
+    "total_liabilities": 5174347977648.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:03:59.328036"
+  },
+  "Kabbage_2021_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 17.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:04:04.849620"
+  },
+  "KakaoBank_2019_Annual.pdf": {
+    "company": "KakaoBank",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": 21045386916505.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:04:06.245766"
+  },
+  "KakaoBank_2020_Annual.pdf": {
+    "company": "KakaoBank",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": 23853027948741.0,
+    "revenue": null,
+    "net_profit": 16.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:04:06.764279"
+  },
+  "KakaoBank_2022_Annual.pdf": {
+    "company": "KakaoBank",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": 33800969.0,
+    "revenue": null,
+    "net_profit": 17.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:04:13.155529"
+  },
+  "KakaoBank_2023_Annual.pdf": {
+    "company": "KakaoBank",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": 48370463.0,
+    "revenue": null,
+    "net_profit": 17.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:04:13.612354"
+  },
+  "Kabbage_2013_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2013,
+    "total_assets": 153375.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 5359.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:04:14.273070"
+  },
+  "Kabbage_2009_Annual.pdf": {
+    "company": "Kabbage",
+    "year": 2009,
+    "total_assets": 124088.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2130.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:04:22.873574"
+  },
+  "Klarna_2016_Q1Q2.pdf": {
+    "company": "Klarna",
+    "year": 2016,
+    "total_assets": 9845198.0,
+    "total_liabilities": 7260028.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:12:39.365620"
+  },
+  "Klarna_2016_Q1_Q2.pdf": {
+    "company": "Klarna",
+    "year": 2016,
+    "total_assets": 9845198.0,
+    "total_liabilities": 7260028.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:12:39.804064"
+  },
+  "Klarna_2016_Q1\u3001Q2.pdf": {
+    "company": "Klarna",
+    "year": 2016,
+    "total_assets": 9845198.0,
+    "total_liabilities": 7260028.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:12:40.099112"
+  },
+  "Klarna_2017_Q1Q2.pdf": {
+    "company": "Klarna",
+    "year": 2017,
+    "total_assets": 12804553000.0,
+    "total_liabilities": 9700935000.0,
+    "revenue": 1865908000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:12:55.495882"
+  },
+  "Klarna_2017_Q1_Q2.pdf": {
+    "company": "Klarna",
+    "year": 2017,
+    "total_assets": 12804553000.0,
+    "total_liabilities": 9700935000.0,
+    "revenue": 1865908000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:12:55.641295"
+  },
+  "Klarna_2016_Annual.pdf": {
+    "company": "Klarna",
+    "year": 2016,
+    "total_assets": 12000.0,
+    "total_liabilities": 9000.0,
+    "revenue": 2000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:12:56.311455"
+  },
+  "Klarna_2017_Q1\u3001Q2.pdf": {
+    "company": "Klarna",
+    "year": 2017,
+    "total_assets": 12804553000.0,
+    "total_liabilities": 9700935000.0,
+    "revenue": 1865908000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:12:57.860310"
+  },
+  "Klarna_2019_Q1_Q2.pdf": {
+    "company": "Klarna",
+    "year": 2019,
+    "total_assets": 30452850.0,
+    "total_liabilities": 26342899.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:13:17.592718"
+  },
+  "Klarna_2019_Q1\u3001Q2.pdf": {
+    "company": "Klarna",
+    "year": 2019,
+    "total_assets": 30452850.0,
+    "total_liabilities": 26342899.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:13:19.711026"
+  },
+  "Klarna_2019_Q1Q2.pdf": {
+    "company": "Klarna",
+    "year": 2019,
+    "total_assets": 30452850.0,
+    "total_liabilities": 26342899.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:13:20.388436"
+  },
+  "Klu_2024_Annual.pdf": {
+    "company": "Klu",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:14:23.209902"
+  },
+  "Klarna_2023_Q1Q2.pdf": {
+    "company": "Klarna",
+    "year": 2023,
+    "total_assets": 112211225533.0,
+    "total_liabilities": 110077444488.0,
+    "revenue": 0.8,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:14:29.810342"
+  },
+  "Klarna_2023_Q1_Q2.pdf": {
+    "company": "Klarna",
+    "year": 2023,
+    "total_assets": 112211225533.0,
+    "total_liabilities": 110077444488.0,
+    "revenue": 0.8,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:14:31.428838"
+  },
+  "Klarna_2023_Q1\u3001Q2.pdf": {
+    "company": "Klarna",
+    "year": 2023,
+    "total_assets": 112211225533.0,
+    "total_liabilities": 110077444488.0,
+    "revenue": 0.8,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:14:32.648055"
+  },
+  "Knab_2021_Q1\u3001Q2.pdf": {
+    "company": "Knab",
+    "year": 2021,
+    "total_assets": 17324655.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:14:37.233390"
+  },
+  "Klarna_2023_Annual.pdf": {
+    "company": "Klarna",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 23504.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:14:37.541989"
+  },
+  "Knab_2022_Q1\u3001Q2.pdf": {
+    "company": "Knab",
+    "year": 2022,
+    "total_assets": 16944275.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 16174.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:14:38.235346"
+  },
+  "Knab_2023_Q1\u3001Q2.pdf": {
+    "company": "Knab",
+    "year": 2023,
+    "total_assets": 17122255.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 64481.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:14:40.830797"
+  },
+  "LINE_Pay_2022_Annual.pdf": {
+    "company": "LINE",
+    "year": 2022,
+    "total_assets": 10494808.0,
+    "total_liabilities": 5941605.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:14:59.859031"
+  },
+  "LINE_Pay_2023_Annual.pdf": {
+    "company": "LINE",
+    "year": 2023,
+    "total_assets": 12129838.0,
+    "total_liabilities": 6783335.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:15:00.028330"
+  },
+  "LINE_Pay_2023_Q2.pdf": {
+    "company": "LINE",
+    "year": 2023,
+    "total_assets": 10180152.0,
+    "total_liabilities": 5166701.0,
+    "revenue": null,
+    "net_profit": 232679.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:00.225301"
+  },
+  "LINE_Pay_2024_Q1.pdf": {
+    "company": "LINE",
+    "year": 2024,
+    "total_assets": 12213451.0,
+    "total_liabilities": 6629841.0,
+    "revenue": null,
+    "net_profit": 207862.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:04.075958"
+  },
+  "Livi_Bank_2020_Q1Q2.pdf": {
+    "company": "Livi",
+    "year": 2020,
+    "total_assets": 2421633.0,
+    "total_liabilities": 308131.0,
+    "revenue": null,
+    "net_profit": -184999.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:04.638219"
+  },
+  "Livi_Bank_2020_Q1_Q2.pdf": {
+    "company": "Livi",
+    "year": 2020,
+    "total_assets": 2421633.0,
+    "total_liabilities": 308131.0,
+    "revenue": null,
+    "net_profit": -184999.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:05.759564"
+  },
+  "Livi_Bank_2020_Q1\u3001Q2.pdf": {
+    "company": "Livi",
+    "year": 2020,
+    "total_assets": 2421633.0,
+    "total_liabilities": 308131.0,
+    "revenue": null,
+    "net_profit": -184999.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:06.658812"
+  },
+  "LINE_Pay_2024_Q3.pdf": {
+    "company": "LINE",
+    "year": 2024,
+    "total_assets": 13206388.0,
+    "total_liabilities": 7238301.0,
+    "revenue": null,
+    "net_profit": 112056.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:14.374054"
+  },
+  "Livi_Bank_2023_Q1Q2.pdf": {
+    "company": "Livi",
+    "year": 2023,
+    "total_assets": 3934782.0,
+    "total_liabilities": 2667890.0,
+    "revenue": null,
+    "net_profit": -308011.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:16.506017"
+  },
+  "Livi_Bank_2023_Q1_Q2.pdf": {
+    "company": "Livi",
+    "year": 2023,
+    "total_assets": 3934782.0,
+    "total_liabilities": 2667890.0,
+    "revenue": null,
+    "net_profit": -308011.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:19.913898"
+  },
+  "Livi_Bank_2023_Q1\u3001Q2.pdf": {
+    "company": "Livi",
+    "year": 2023,
+    "total_assets": 3934782.0,
+    "total_liabilities": 2667890.0,
+    "revenue": null,
+    "net_profit": -308011.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:21.013063"
+  },
+  "Livi_Bank_2024_Q1_Q2.pdf": {
+    "company": "Livi",
+    "year": 2024,
+    "total_assets": 4901750.0,
+    "total_liabilities": 3018211.0,
+    "revenue": null,
+    "net_profit": -124537.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:24.000863"
+  },
+  "Livi_Bank_2024_Q1Q2.pdf": {
+    "company": "Livi",
+    "year": 2024,
+    "total_assets": 4901750.0,
+    "total_liabilities": 3018211.0,
+    "revenue": null,
+    "net_profit": -124537.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:24.130840"
+  },
+  "Livi_Bank_2024_Q1\u3001Q2.pdf": {
+    "company": "Livi",
+    "year": 2024,
+    "total_assets": 4901750.0,
+    "total_liabilities": 3018211.0,
+    "revenue": null,
+    "net_profit": -124537.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:15:25.963650"
+  },
+  "Lunar_2021_Q1\u3001Q2.pdf": {
+    "company": "Lunar",
+    "year": 2021,
+    "total_assets": 4368640.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": -0.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:15:41.309049"
+  },
+  "Lunar_2022_Q1\u3001Q2.pdf": {
+    "company": "Lunar",
+    "year": 2022,
+    "total_assets": 11290069.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": -0.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:15:42.414333"
+  },
+  "Lunar_2023_Q1\u3001Q2.pdf": {
+    "company": "Lunar",
+    "year": 2023,
+    "total_assets": 10355210.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": -0.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:15:44.743226"
+  },
+  "Klarna_2024_Q1Q2.pdf": {
+    "company": "Klarna",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:15:53.784601"
+  },
+  "Klarna_2024_Q1_Q2.pdf": {
+    "company": "Klarna",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:15:57.291469"
+  },
+  "Klarna_2024_Q1\u3001Q2.pdf": {
+    "company": "Klarna",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:15:58.784219"
+  },
+  "Magnetis_Investimentos_2007_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2007,
+    "total_assets": 22.927,
+    "total_liabilities": 22.927,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:24.271389"
+  },
+  "Magnetis_Investimentos_2007_Q1\u3001Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2007,
+    "total_assets": 32.709,
+    "total_liabilities": 32.709,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:29.352741"
+  },
+  "Magnetis_Investimentos_2008_Q1\u3001Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2008,
+    "total_assets": 20.459,
+    "total_liabilities": 20.459,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:33.875303"
+  },
+  "Magnetis_Investimentos_2010_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2010,
+    "total_assets": 73.826,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:16:35.907281"
+  },
+  "Magnetis_Investimentos_2011_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2011,
+    "total_assets": 41.85,
+    "total_liabilities": 41.85,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:38.212418"
+  },
+  "Magnetis_Investimentos_2011_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2011,
+    "total_assets": 59.324,
+    "total_liabilities": 59.324,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:38.314658"
+  },
+  "Magnetis_Investimentos_2010_Q1\u3001Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2010,
+    "total_assets": 32.641,
+    "total_liabilities": 32.641,
+    "revenue": null,
+    "net_profit": 6.522,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:16:38.686146"
+  },
+  "Magnetis_Investimentos_2011_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2011,
+    "total_assets": 82.392,
+    "total_liabilities": 75.846,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:43.393446"
+  },
+  "Magnetis_Investimentos_2012_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2012,
+    "total_assets": 72.45,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:16:44.531288"
+  },
+  "Magnetis_Investimentos_2012_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2012,
+    "total_assets": 82.125,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:16:47.289277"
+  },
+  "Magnetis_Investimentos_2013_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2013,
+    "total_assets": 102.55,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 57.888,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:52.871906"
+  },
+  "Magnetis_Investimentos_2012_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2012,
+    "total_assets": 131.258,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:16:53.584787"
+  },
+  "Magnetis_Investimentos_2013_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2013,
+    "total_assets": 102.55,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 57.888,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:54.687438"
+  },
+  "Magnetis_Investimentos_2013_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2013,
+    "total_assets": 117.349,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 1.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:16:56.468005"
+  },
+  "Magnetis_Investimentos_2014_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2014,
+    "total_assets": 122.395,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:16:58.177529"
+  },
+  "Magnetis_Investimentos_2014_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2014,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 23.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:16:58.908435"
+  },
+  "Magnetis_Investimentos_2014_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2014,
+    "total_assets": 114.327,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 1.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:00.044425"
+  },
+  "Magnetis_Investimentos_2015_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2015,
+    "total_assets": 163.235,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:03.483174"
+  },
+  "Magnetis_Investimentos_2014_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2014,
+    "total_assets": 135.283,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 19.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:03.828875"
+  },
+  "Magnetis_Investimentos_2015_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2015,
+    "total_assets": 161.241,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:13.924253"
+  },
+  "Magnetis_Investimentos_2015_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2015,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 35.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:13.977030"
+  },
+  "Magnetis_Investimentos_2017_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2017,
+    "total_assets": 155.138,
+    "total_liabilities": 155.138,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:14.272706"
+  },
+  "Magnetis_Investimentos_2016_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2016,
+    "total_assets": 149.723,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 268.772,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:14.421226"
+  },
+  "Magnetis_Investimentos_2015_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2015,
+    "total_assets": 188.119,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:15.234817"
+  },
+  "Magnetis_Investimentos_2016_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2016,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 28.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:15.784358"
+  },
+  "Magnetis_Investimentos_2016_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2016,
+    "total_assets": 144.147,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2.128,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:17.459932"
+  },
+  "Magnetis_Investimentos_2009_Q1\u3001Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2009,
+    "total_assets": 12.129,
+    "total_liabilities": 12.129,
+    "revenue": null,
+    "net_profit": 5.497,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:17:18.238670"
+  },
+  "Magnetis_Investimentos_2011_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2011,
+    "total_assets": 86.682,
+    "total_liabilities": 86.682,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:19.428554"
+  },
+  "Magnetis_Investimentos_2019_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2019,
+    "total_assets": 176.044,
+    "total_liabilities": 176.044,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:21.404467"
+  },
+  "Magnetis_Investimentos_2016_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2016,
+    "total_assets": 146027259.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2677407.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:21.779411"
+  },
+  "Magnetis_Investimentos_2017_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2017,
+    "total_assets": 151.052,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 480.386,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:22.283693"
+  },
+  "Magnetis_Investimentos_2017_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2017,
+    "total_assets": 143.444,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:29.320837"
+  },
+  "Magnetis_Investimentos_2017_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2017,
+    "total_assets": 143.389,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:33.045310"
+  },
+  "Magnetis_Investimentos_2019_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2019,
+    "total_assets": 182.143,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 37.44,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:38.210245"
+  },
+  "Magnetis_Investimentos_2018_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2018,
+    "total_assets": 168.122,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:38.942270"
+  },
+  "Magnetis_Investimentos_2018_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2018,
+    "total_assets": 153.394,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:41.271435"
+  },
+  "Magnetis_Investimentos_2019_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2019,
+    "total_assets": 188.544,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 353.834,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:42.111670"
+  },
+  "Magnetis_Investimentos_2020_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2020,
+    "total_assets": 245.129,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:43.749379"
+  },
+  "Magnetis_Investimentos_2018_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2018,
+    "total_assets": 179.082,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:44.289091"
+  },
+  "Magnetis_Investimentos_2020_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2020,
+    "total_assets": 236.22,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:46.955118"
+  },
+  "Magnetis_Investimentos_2019_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2019,
+    "total_assets": 179.779,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 62.994,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:17:48.495104"
+  },
+  "Magnetis_Investimentos_2020_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2020,
+    "total_assets": 241.664,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:51.435915"
+  },
+  "Magnetis_Investimentos_2020_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2020,
+    "total_assets": 272.559,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:51.878247"
+  },
+  "Magnetis_Investimentos_2021_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2021,
+    "total_assets": 318.201,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:17:52.273803"
+  },
+  "Magnetis_Investimentos_2021_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2021,
+    "total_assets": 301.413,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 778.795,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:02.543387"
+  },
+  "Magnetis_Investimentos_2022_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2022,
+    "total_assets": 369.588,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:18:05.216826"
+  },
+  "Magnetis_Investimentos_2021_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2021,
+    "total_assets": 301.28,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:18:05.905455"
+  },
+  "Magnetis_Investimentos_2024_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2024,
+    "total_assets": 569.747,
+    "total_liabilities": 511.134,
+    "revenue": null,
+    "net_profit": 795.674,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:13.432281"
+  },
+  "Magnetis_Investimentos_2021_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2021,
+    "total_assets": 340.556,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 861.411,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:13.874299"
+  },
+  "Magnetis_Investimentos_2022_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2022,
+    "total_assets": 398.261,
+    "total_liabilities": 350.555,
+    "revenue": null,
+    "net_profit": 6.911,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:15.273050"
+  },
+  "Magnetis_Investimentos_2022_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2022,
+    "total_assets": 447.008,
+    "total_liabilities": 395.633,
+    "revenue": null,
+    "net_profit": 3.757,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:18.476118"
+  },
+  "Magnetis_Investimentos_2023_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2023,
+    "total_assets": 495.115,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2.233,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:18.873177"
+  },
+  "Magnetis_Investimentos_2023_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2023,
+    "total_assets": 498.41,
+    "total_liabilities": 443.916,
+    "revenue": null,
+    "net_profit": 1.033,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:21.283198"
+  },
+  "Magnetis_Investimentos_2023_Q1.pdf": {
+    "company": "Magnetis",
+    "year": 2023,
+    "total_assets": 473.837,
+    "total_liabilities": 422.346,
+    "revenue": null,
+    "net_profit": 237.103,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:21.465873"
+  },
+  "Magnetis_Investimentos_2024_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2024,
+    "total_assets": 601.934,
+    "total_liabilities": 541.421,
+    "revenue": null,
+    "net_profit": 1.692,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:23.046894"
+  },
+  "Magnetis_Investimentos_2022_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2022,
+    "total_assets": 384.224,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 515.564,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:24.309090"
+  },
+  "Magnetis_Investimentos_2024_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2024,
+    "total_assets": 559.58,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:18:24.311137"
+  },
+  "Magnetis_Investimentos_2023_Q2.pdf": {
+    "company": "Magnetis",
+    "year": 2023,
+    "total_assets": 477.835,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 765.492,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:26.120175"
+  },
+  "Magnetis_Investimentos_2024_Q3.pdf": {
+    "company": "Magnetis",
+    "year": 2024,
+    "total_assets": 613.163,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 3.297,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:28.535412"
+  },
+  "MariBank_2022_Annual.pdf": {
+    "company": "MariBank",
+    "year": 2022,
+    "total_assets": 237916.0,
+    "total_liabilities": 104080.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:31.003492"
+  },
+  "Metro_Bank_2018_Q1.pdf": {
+    "company": "Metro",
+    "year": 2018,
+    "total_assets": 54000000.0,
+    "total_liabilities": 16803000000.0,
+    "revenue": 48000000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:31.009541"
+  },
+  "MariBank_2023_Annual.pdf": {
+    "company": "MariBank",
+    "year": 2023,
+    "total_assets": 956608.0,
+    "total_liabilities": 560780.0,
+    "revenue": 10068.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:33.598321"
+  },
+  "Metro_Bank_2016_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2016,
+    "total_assets": 10.0,
+    "total_liabilities": 7556749.0,
+    "revenue": null,
+    "net_profit": -16968.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:34.483280"
+  },
+  "Metro_Bank_2018_Q1\u3001Q2\u3001Q3.pdf": {
+    "company": "Metro",
+    "year": 2018,
+    "total_assets": 41000000.0,
+    "total_liabilities": 19163000000.0,
+    "revenue": 41000000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:34.733931"
+  },
+  "Metro_Bank_2017_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2017,
+    "total_assets": 6.0,
+    "total_liabilities": 12282095.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:35.995128"
+  },
+  "Metro_Bank_2018_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2018,
+    "total_assets": 6.0,
+    "total_liabilities": 18039.0,
+    "revenue": null,
+    "net_profit": 15.2,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:37.859618"
+  },
+  "Magnetis_Investimentos_2008_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2008,
+    "total_assets": 19.27,
+    "total_liabilities": 19.27,
+    "revenue": null,
+    "net_profit": 5.03,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:39.471914"
+  },
+  "Metro_Bank_2019_Q1.pdf": {
+    "company": "Metro",
+    "year": 2019,
+    "total_assets": 24000000.0,
+    "total_liabilities": 20788000000.0,
+    "revenue": 17000000.0,
+    "net_profit": 2500000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:18:42.356608"
+  },
+  "Metro_Bank_2019_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2019,
+    "total_assets": 8.0,
+    "total_liabilities": 19590.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:18:46.257609"
+  },
+  "Metro_Bank_2019_Annual.pdf": {
+    "company": "Metro",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": 19817000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:18:47.071582"
+  },
+  "Magnetis_Investimentos_2009_Annual.pdf": {
+    "company": "Magnetis",
+    "year": 2009,
+    "total_assets": 21.914,
+    "total_liabilities": 21.914,
+    "revenue": null,
+    "net_profit": 5.684,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:18:53.005670"
+  },
+  "Mintos_2021_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2021,
+    "total_assets": 6.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:06.546470"
+  },
+  "Mintos_2020_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2020,
+    "total_assets": 6.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:06.561439"
+  },
+  "Mintos_2019_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2019,
+    "total_assets": 4.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:06.611497"
+  },
+  "Mintos_2016_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2016,
+    "total_assets": 532.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": -180.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:19:07.492441"
+  },
+  "Mintos_2017_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2017,
+    "total_assets": 1.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:09.273927"
+  },
+  "Metro_Bank_2022_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2022,
+    "total_assets": 22555.0,
+    "total_liabilities": 21586.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:19:09.676556"
+  },
+  "Metro_Bank_2020_Annual.pdf": {
+    "company": "Metro",
+    "year": 2020,
+    "total_assets": 6.0,
+    "total_liabilities": 21290.0,
+    "revenue": 2.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:19:09.833752"
+  },
+  "Metro_Bank_2020_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2020,
+    "total_assets": 22134.0,
+    "total_liabilities": 20787.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:19:10.051413"
+  },
+  "Metro_Bank_2021_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2021,
+    "total_assets": 23013.0,
+    "total_liabilities": 21866.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:19:10.190550"
+  },
+  "Metro_Bank_2023_Q1\u3001Q2.pdf": {
+    "company": "Metro",
+    "year": 2023,
+    "total_assets": 21747.0,
+    "total_liabilities": 20777.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:19:24.809075"
+  },
+  "Mintos_2024_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2024,
+    "total_assets": 10.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:25.975601"
+  },
+  "Mintos_2023_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2023,
+    "total_assets": 8.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:27.081478"
+  },
+  "Mogo_2017_Annual.pdf": {
+    "company": "Mogo",
+    "year": 2017,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 12972.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:29.485447"
+  },
+  "Mintos_2022_Annual.pdf": {
+    "company": "Mintos",
+    "year": 2022,
+    "total_assets": 6.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:30.945992"
+  },
+  "Mogo_2018_Annual.pdf": {
+    "company": "Mogo",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 26433.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:33.319874"
+  },
+  "Mogo_2018_Q1.pdf": {
+    "company": "Mogo",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 5418000.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:43.911685"
+  },
+  "Mogo_2019_Q1.pdf": {
+    "company": "Mogo",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 8018000.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:44.690321"
+  },
+  "Mogo_2020_Q1.pdf": {
+    "company": "Mogo",
+    "year": 2020,
+    "total_assets": 111797000.0,
+    "total_liabilities": 119262000.0,
+    "revenue": 8099000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:19:46.040786"
+  },
+  "Mogo_2019_Q2.pdf": {
+    "company": "Mogo",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 8214000.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:48.035528"
+  },
+  "Mogo_2018_Q3.pdf": {
+    "company": "Mogo",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 7229000.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:49.219910"
+  },
+  "Mogo_2019_Q3.pdf": {
+    "company": "Mogo",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 8800000.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:49.393667"
+  },
+  "Mogo_2018_Q2.pdf": {
+    "company": "Mogo",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 5856000.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:19:50.098579"
+  },
+  "Mogo_2020_Q2.pdf": {
+    "company": "Mogo",
+    "year": 2020,
+    "total_assets": 103040000.0,
+    "total_liabilities": 109297000.0,
+    "revenue": 16378000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:19:51.446800"
+  },
+  "Mogo_2019_Annual.pdf": {
+    "company": "Mogo",
+    "year": 2019,
+    "total_assets": 151098.0,
+    "total_liabilities": 149346.0,
+    "revenue": 34494.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:19:54.146016"
+  },
+  "Mogo_2020_Q3.pdf": {
+    "company": "Mogo",
+    "year": 2020,
+    "total_assets": 101459000.0,
+    "total_liabilities": 104778000.0,
+    "revenue": 16585000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:19:59.742944"
+  },
+  "Mogo_2021_Annual.pdf": {
+    "company": "Mogo",
+    "year": 2021,
+    "total_assets": 393867.0,
+    "total_liabilities": 124090.0,
+    "revenue": 23111.0,
+    "net_profit": -33209.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:19:59.900615"
+  },
+  "Mogo_2020_Annual.pdf": {
+    "company": "Mogo",
+    "year": 2020,
+    "total_assets": 104468.0,
+    "total_liabilities": 99232.0,
+    "revenue": 25131.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:20:04.054834"
+  },
+  "Mogo_2023_Q1.pdf": {
+    "company": "Mogo",
+    "year": 2023,
+    "total_assets": 212497000.0,
+    "total_liabilities": 108411000.0,
+    "revenue": 6431000.0,
+    "net_profit": -6884000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:14.596308"
+  },
+  "Mogo_2022_Q1.pdf": {
+    "company": "Mogo",
+    "year": 2022,
+    "total_assets": 377758000.0,
+    "total_liabilities": 122967000.0,
+    "revenue": 6596000.0,
+    "net_profit": -18870000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:22.613867"
+  },
+  "Mogo_2022_Q3.pdf": {
+    "company": "Mogo",
+    "year": 2022,
+    "total_assets": 302115000.0,
+    "total_liabilities": 115669000.0,
+    "revenue": 6852000.0,
+    "net_profit": -19996000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:22.809963"
+  },
+  "Mogo_2021_Q2.pdf": {
+    "company": "Mogo",
+    "year": 2021,
+    "total_assets": 390136000.0,
+    "total_liabilities": 112261000.0,
+    "revenue": 5447000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:20:24.005470"
+  },
+  "Mogo_2021_Q3.pdf": {
+    "company": "Mogo",
+    "year": 2021,
+    "total_assets": 380953000.0,
+    "total_liabilities": 111279000.0,
+    "revenue": 5952000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:20:24.263389"
+  },
+  "Mogo_2023_Annual.pdf": {
+    "company": "Mogo",
+    "year": 2023,
+    "total_assets": 207763.0,
+    "total_liabilities": 114039.0,
+    "revenue": 26436.0,
+    "net_profit": -17887.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:24.368293"
+  },
+  "Mogo_2021_Q1.pdf": {
+    "company": "Mogo",
+    "year": 2021,
+    "total_assets": 251196000.0,
+    "total_liabilities": 110939000.0,
+    "revenue": 5418000.0,
+    "net_profit": -2817000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:25.779369"
+  },
+  "Mogo_2023_Q2.pdf": {
+    "company": "Mogo",
+    "year": 2023,
+    "total_assets": 201853000.0,
+    "total_liabilities": 107236000.0,
+    "revenue": 6375000.0,
+    "net_profit": -10008000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:25.883365"
+  },
+  "Mogo_2024_Q1.pdf": {
+    "company": "Mogo",
+    "year": 2024,
+    "total_assets": 206462000.0,
+    "total_liabilities": 115805000.0,
+    "revenue": 7234000.0,
+    "net_profit": -3610000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:26.665492"
+  },
+  "Mogo_2023_Q3.pdf": {
+    "company": "Mogo",
+    "year": 2023,
+    "total_assets": 196323000.0,
+    "total_liabilities": 111029000.0,
+    "revenue": 6661000.0,
+    "net_profit": -9504000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:29.072838"
+  },
+  "Mogo_2022_Annual.pdf": {
+    "company": "Mogo",
+    "year": 2022,
+    "total_assets": 221494.0,
+    "total_liabilities": 110608.0,
+    "revenue": 27208.0,
+    "net_profit": -165678.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:29.078884"
+  },
+  "Mogo_2022_Q2.pdf": {
+    "company": "Mogo",
+    "year": 2022,
+    "total_assets": 321855000.0,
+    "total_liabilities": 117211000.0,
+    "revenue": 6956000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:20:29.326687"
+  },
+  "Mogo_2024_Q2.pdf": {
+    "company": "Mogo",
+    "year": 2024,
+    "total_assets": 191606000.0,
+    "total_liabilities": 112928000.0,
+    "revenue": 7117000.0,
+    "net_profit": -12351000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:29.795953"
+  },
+  "Mogo_2024_Q3.pdf": {
+    "company": "Mogo",
+    "year": 2024,
+    "total_assets": 183221000.0,
+    "total_liabilities": 112625000.0,
+    "revenue": 6996000.0,
+    "net_profit": -8112000.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:20:33.280686"
+  },
+  "MyBank_2019_Annual.pdf": {
+    "company": "MyBank",
+    "year": 2019,
+    "total_assets": 1395.5,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:20:50.871782"
+  },
+  "MyBank_2015_Annual.pdf": {
+    "company": "MyBank",
+    "year": 2015,
+    "total_assets": 30244865536.0,
+    "total_liabilities": 26313608326.0,
+    "revenue": 252939600.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:20:54.170910"
+  },
+  "MyBank_2022_Annual.pdf": {
+    "company": "MyBank",
+    "year": 2022,
+    "total_assets": 4411.0,
+    "total_liabilities": null,
+    "revenue": 157.0,
+    "net_profit": 35.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:21:02.903712"
+  },
+  "Neon_Bank_2023_Q3\u3001Q4.pdf": {
+    "company": "Neon",
+    "year": 2023,
+    "total_assets": 7.879,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:21:08.564380"
+  },
+  "Neon_Bank_2024_Q1\u3001Q2.pdf": {
+    "company": "Neon",
+    "year": 2024,
+    "total_assets": 5.519,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:21:11.431362"
+  },
+  "MyBank_2023_Annual.pdf": {
+    "company": "MyBank",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 187.43,
+    "net_profit": 42.03,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:21:26.630925"
+  },
+  "Nubank_2022_Annual.pdf": {
+    "company": "Nubank",
+    "year": 2022,
+    "total_assets": 29916559.0,
+    "total_liabilities": 25025776.0,
+    "revenue": 4792231.0,
+    "net_profit": -364634.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:21:31.457758"
+  },
+  "Nubank_2023_Q1.pdf": {
+    "company": "Nubank",
+    "year": 2023,
+    "total_assets": 29489391.0,
+    "total_liabilities": 24280870.0,
+    "revenue": 1618667.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:21:44.074394"
+  },
+  "Nubank_2022_Q1.pdf": {
+    "company": "Nubank",
+    "year": 2022,
+    "total_assets": 24258003.0,
+    "total_liabilities": 19467421.0,
+    "revenue": 877267.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:21:45.961966"
+  },
+  "Nubank_2023_Q3.pdf": {
+    "company": "Nubank",
+    "year": 2023,
+    "total_assets": 35693242.0,
+    "total_liabilities": 29803924.0,
+    "revenue": 2136758.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:21:49.392020"
+  },
+  "Nubank_2023_Q2.pdf": {
+    "company": "Nubank",
+    "year": 2023,
+    "total_assets": 33608083.0,
+    "total_liabilities": 27963484.0,
+    "revenue": 1868640.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:21:49.561651"
+  },
+  "Nubank_2021_Annual.pdf": {
+    "company": "Nubank",
+    "year": 2021,
+    "total_assets": 19858681.0,
+    "total_liabilities": 15416140.0,
+    "revenue": 1698023.0,
+    "net_profit": -165334.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:21:50.612083"
+  },
+  "Nubank_2022_Q2.pdf": {
+    "company": "Nubank",
+    "year": 2022,
+    "total_assets": 132.406,
+    "total_liabilities": 132.406,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:21:51.165588"
+  },
+  "Nubank_2024_Q1.pdf": {
+    "company": "Nubank",
+    "year": 2024,
+    "total_assets": 43839497.0,
+    "total_liabilities": 37036806.0,
+    "revenue": 2735901.0,
+    "net_profit": 378814.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:21:58.334975"
+  },
+  "Nubank_2024_Annual.pdf": {
+    "company": "Nubank",
+    "year": 2024,
+    "total_assets": 49931214.0,
+    "total_liabilities": 42284138.0,
+    "revenue": 11517075.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:22:03.272230"
+  },
+  "Nubank_2024_Q2.pdf": {
+    "company": "Nubank",
+    "year": 2024,
+    "total_assets": 44802730.0,
+    "total_liabilities": 37879290.0,
+    "revenue": 2848691.0,
+    "net_profit": 487272.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:22:03.423941"
+  },
+  "Nubank_2022_Q3.pdf": {
+    "company": "Nubank",
+    "year": 2022,
+    "total_assets": 140.772,
+    "total_liabilities": 140.772,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:22:05.755842"
+  },
+  "Nubank_2024_Q3.pdf": {
+    "company": "Nubank",
+    "year": 2024,
+    "total_assets": 48637850.0,
+    "total_liabilities": 40993502.0,
+    "revenue": 2943188.0,
+    "net_profit": 553386.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:22:07.676443"
+  },
+  "Ollo_1998_Annual.pdf": {
+    "company": "Ollo",
+    "year": null,
+    "total_assets": 131417.5,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 1325.3,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:22:19.659458"
+  },
+  "Ollo_1999_Annual.pdf": {
+    "company": "Ollo",
+    "year": null,
+    "total_assets": 148789.2,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 1527.3,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:22:21.945421"
+  },
+  "Ollo_2000_Annual.pdf": {
+    "company": "Ollo",
+    "year": 2000,
+    "total_assets": 168410.1,
+    "total_liabilities": null,
+    "revenue": 1999.0,
+    "net_profit": 1602.1,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:22:22.367658"
+  },
+  "Ollo_2004_Annual.pdf": {
+    "company": "Ollo",
+    "year": 2004,
+    "total_assets": 324139.0,
+    "total_liabilities": 301722.0,
+    "revenue": 20331.0,
+    "net_profit": 2913.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:22:22.870194"
+  },
+  "Ollo_2001_Annual.pdf": {
+    "company": "Ollo",
+    "year": 2001,
+    "total_assets": 192720.9,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:22:24.423952"
+  },
+  "Ollo_2008_Annual.pdf": {
+    "company": "Ollo",
+    "year": 2008,
+    "total_assets": 2.0,
+    "total_liabilities": 1.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:22:36.394511"
+  },
+  "Ollo_2006_Annual.pdf": {
+    "company": "Ollo",
+    "year": 2006,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2394.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:22:58.649062"
+  },
+  "PAO_Bank_2020_Annual.pdf": {
+    "company": "PAO",
+    "year": 2020,
+    "total_assets": 1220177.0,
+    "total_liabilities": 608885.0,
+    "revenue": 7973.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:14.772941"
+  },
+  "PAO_Bank_2020_Q1Q2.pdf": {
+    "company": "PAO",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": 111487000.0,
+    "revenue": 4515000.0,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:20.196091"
+  },
+  "PAO_Bank_2021_Q1Q2.pdf": {
+    "company": "PAO",
+    "year": 2021,
+    "total_assets": 1436869000.0,
+    "total_liabilities": 641290000.0,
+    "revenue": 6982000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:20.465004"
+  },
+  "PAO_Bank_2021_Q1_Q2.pdf": {
+    "company": "PAO",
+    "year": 2021,
+    "total_assets": 1436869000.0,
+    "total_liabilities": 641290000.0,
+    "revenue": 6982000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:21.417860"
+  },
+  "PAO_Bank_2020_Q1\u3001Q2.pdf": {
+    "company": "PAO",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": 111487000.0,
+    "revenue": 4515000.0,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:22.687929"
+  },
+  "PAO_Bank_2020_Q1_Q2.pdf": {
+    "company": "PAO",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": 111487000.0,
+    "revenue": 4515000.0,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:23.045925"
+  },
+  "PAO_Bank_2021_Annual.pdf": {
+    "company": "PAO",
+    "year": 2021,
+    "total_assets": 2483953.0,
+    "total_liabilities": 1786305.0,
+    "revenue": 34008.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:23.686857"
+  },
+  "PAO_Bank_2021_Q1\u3001Q2.pdf": {
+    "company": "PAO",
+    "year": 2021,
+    "total_assets": 1436869000.0,
+    "total_liabilities": 641290000.0,
+    "revenue": 6982000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:26.611046"
+  },
+  "PAO_Bank_2022_Q1Q2.pdf": {
+    "company": "PAO",
+    "year": 2022,
+    "total_assets": 2809891000.0,
+    "total_liabilities": 2185468000.0,
+    "revenue": 48239000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:28.527322"
+  },
+  "PAO_Bank_2023_Q1Q2.pdf": {
+    "company": "PAO",
+    "year": 2023,
+    "total_assets": 3078119000.0,
+    "total_liabilities": 2316113000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:30.186534"
+  },
+  "PAO_Bank_2022_Q1\u3001Q2.pdf": {
+    "company": "PAO",
+    "year": 2022,
+    "total_assets": 2809891000.0,
+    "total_liabilities": 2185468000.0,
+    "revenue": 48239000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:31.011788"
+  },
+  "PAO_Bank_2022_Q1_Q2.pdf": {
+    "company": "PAO",
+    "year": 2022,
+    "total_assets": 2809891000.0,
+    "total_liabilities": 2185468000.0,
+    "revenue": 48239000.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:31.669503"
+  },
+  "PAO_Bank_2022_Annual.pdf": {
+    "company": "PAO",
+    "year": 2022,
+    "total_assets": 3192634.0,
+    "total_liabilities": 2344735.0,
+    "revenue": 96900.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:23:33.756706"
+  },
+  "PAO_Bank_2023_Q1_Q2.pdf": {
+    "company": "PAO",
+    "year": 2023,
+    "total_assets": 3078119000.0,
+    "total_liabilities": 2316113000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:33.847378"
+  },
+  "PAO_Bank_2023_Annual.pdf": {
+    "company": "PAO",
+    "year": 2023,
+    "total_assets": 3304686.0,
+    "total_liabilities": 2636683.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:37.441557"
+  },
+  "PAO_Bank_2023_Q1\u3001Q2.pdf": {
+    "company": "PAO",
+    "year": 2023,
+    "total_assets": 3078119000.0,
+    "total_liabilities": 2316113000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:39.311410"
+  },
+  "PAO_Bank_2024_Q1_Q2.pdf": {
+    "company": "PAO",
+    "year": 2024,
+    "total_assets": 5217256000.0,
+    "total_liabilities": 4306466000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:39.863215"
+  },
+  "PAO_Bank_2024_Q1Q2.pdf": {
+    "company": "PAO",
+    "year": 2024,
+    "total_assets": 5217256000.0,
+    "total_liabilities": 4306466000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:39.969234"
+  },
+  "PAO_Bank_2024_Q1\u3001Q2.pdf": {
+    "company": "PAO",
+    "year": 2024,
+    "total_assets": 5217256000.0,
+    "total_liabilities": 4306466000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:40.120516"
+  },
+  "Picpay_2020_Annual.pdf": {
+    "company": "Picpay",
+    "year": 2020,
+    "total_assets": 2.228,
+    "total_liabilities": 1.857,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:52.118183"
+  },
+  "Picpay_2023_Q1\u3001Q2.pdf": {
+    "company": "Picpay",
+    "year": 2023,
+    "total_assets": 6.0,
+    "total_liabilities": 5.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:54.023860"
+  },
+  "Picpay_2024_Q1\u3001Q2.pdf": {
+    "company": "Picpay",
+    "year": 2024,
+    "total_assets": 7.0,
+    "total_liabilities": 6.71,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:54.357003"
+  },
+  "Picpay_2023_Annual.pdf": {
+    "company": "Picpay",
+    "year": 2023,
+    "total_assets": 7.0,
+    "total_liabilities": 6.087,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:54.928248"
+  },
+  "Picpay_2022_Annual.pdf": {
+    "company": "Picpay",
+    "year": 2022,
+    "total_assets": 5.976,
+    "total_liabilities": 4.911,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:23:56.812649"
+  },
+  "Paytm_2020_21_Annual.pdf": {
+    "company": "Paytm",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 3186.8,
+    "net_profit": -1701.01,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:24:03.966119"
+  },
+  "Paytm_2019_20_Annual.pdf": {
+    "company": "Paytm",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 3628.85,
+    "net_profit": -2942.36,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:24:04.946564"
+  },
+  "Picpay_2022_Q1\u3001Q2.pdf": {
+    "company": "Picpay",
+    "year": 2022,
+    "total_assets": 13.273,
+    "total_liabilities": 12.449,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:24:08.959290"
+  },
+  "Quadpay_2019_Annual.pdf": {
+    "company": "Quadpay",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 1.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:24:12.766167"
+  },
+  "Quadpay_2024_Annual.pdf": {
+    "company": "Quadpay",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 417.4,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:24:32.033507"
+  },
+  "Quadpay_2021_Annual.pdf": {
+    "company": "Quadpay",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 176.0,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:24:33.746045"
+  },
+  "RecargaPay_2022_Q1\u3001Q2.pdf": {
+    "company": "RecargaPay",
+    "year": 2022,
+    "total_assets": 1.418,
+    "total_liabilities": 10.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:26:19.720246"
+  },
+  "RecargaPay_2022_Annual.pdf": {
+    "company": "RecargaPay",
+    "year": 2022,
+    "total_assets": 3.703,
+    "total_liabilities": 262.682,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:26:20.558290"
+  },
+  "RecargaPay_2023_Q1\u3001Q2.pdf": {
+    "company": "RecargaPay",
+    "year": 2023,
+    "total_assets": 3.063,
+    "total_liabilities": 505.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:26:21.288871"
+  },
+  "RecargaPay_2023_Annual.pdf": {
+    "company": "RecargaPay",
+    "year": 2023,
+    "total_assets": 3.56,
+    "total_liabilities": 443.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:26:23.835636"
+  },
+  "Revolut_2021_Annual.pdf": {
+    "company": "Revolut",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 2021.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:26:30.163955"
+  },
+  "RecargaPay_2024_Q1\u3001Q2.pdf": {
+    "company": "RecargaPay",
+    "year": 2024,
+    "total_assets": 11.836,
+    "total_liabilities": 739.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:26:31.203994"
+  },
+  "SBI_Sumishin_Net_Bank_2022_23_Annual.pdf": {
+    "company": "SBI",
+    "year": 2022,
+    "total_assets": 8534021.0,
+    "total_liabilities": 8388628.0,
+    "revenue": null,
+    "net_profit": 17116.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:26:33.141848"
+  },
+  "Seven_Bank_2008_Annual.pdf": {
+    "company": "Seven",
+    "year": 2008,
+    "total_assets": 259676.0,
+    "total_liabilities": 214013.0,
+    "revenue": null,
+    "net_profit": 25.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:26:33.871969"
+  },
+  "Seven_Bank_2011_Annual.pdf": {
+    "company": "Seven",
+    "year": 2011,
+    "total_assets": 3.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:26:40.298647"
+  },
+  "Seven_Bank_2012_Annual.pdf": {
+    "company": "Seven",
+    "year": 2012,
+    "total_assets": 8.8,
+    "total_liabilities": 8.6,
+    "revenue": null,
+    "net_profit": 7.8,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:26:44.017913"
+  },
+  "Seven_Bank_2010_Annual.pdf": {
+    "company": "Seven",
+    "year": 2010,
+    "total_assets": 4.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:26:53.587544"
+  },
+  "Seven_Bank_2009_Annual.pdf": {
+    "company": "Seven",
+    "year": 2009,
+    "total_assets": 4.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:26:58.361112"
+  },
+  "Sharesies_2022_23_Annual.pdf": {
+    "company": "Sharesies",
+    "year": 2022,
+    "total_assets": 393923.0,
+    "total_liabilities": 221.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:27:12.326947"
+  },
+  "SBI_Sumishin_Net_Bank_2023_24_Annual.pdf": {
+    "company": "SBI",
+    "year": 2023,
+    "total_assets": 8679004.0,
+    "total_liabilities": 8547313.0,
+    "revenue": null,
+    "net_profit": 19944.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:27:13.100624"
+  },
+  "Shawbrook_Bank_2013_Annual.pdf": {
+    "company": "Shawbrook",
+    "year": 2013,
+    "total_assets": 1661601.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:27:24.780048"
+  },
+  "Seven_Bank_2015_Annual.pdf": {
+    "company": "Seven",
+    "year": 2015,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 1.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:27:28.214833"
+  },
+  "Seven_Bank_2013_Annual.pdf": {
+    "company": "Seven",
+    "year": 2013,
+    "total_assets": null,
+    "total_liabilities": 674486.0,
+    "revenue": null,
+    "net_profit": 19377.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:27:32.069434"
+  },
+  "Shawbrook_Bank_2015_Q1\u3001Q2.pdf": {
+    "company": "Shawbrook",
+    "year": 2015,
+    "total_assets": 3057.1,
+    "total_liabilities": 2729.8,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:27:34.779512"
+  },
+  "Shawbrook_Bank_2017_Q1\u3001Q2.pdf": {
+    "company": "Shawbrook",
+    "year": 2017,
+    "total_assets": 4952.5,
+    "total_liabilities": 4494.1,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:27:47.056584"
+  },
+  "Shawbrook_Bank_2018_Q1\u3001Q2.pdf": {
+    "company": "Shawbrook",
+    "year": 2018,
+    "total_assets": 6377.8,
+    "total_liabilities": 5727.9,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:28:01.096699"
+  },
+  "Shawbrook_Bank_2019_Q1\u3001Q2.pdf": {
+    "company": "Shawbrook",
+    "year": 2019,
+    "total_assets": 7671.0,
+    "total_liabilities": 6952.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:28:08.318017"
+  },
+  "SoFi_2021_Q3.pdf": {
+    "company": "SoFi",
+    "year": 2021,
+    "total_assets": 8083324.0,
+    "total_liabilities": 3514421.0,
+    "revenue": 272006.0,
+    "net_profit": -30047.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:28:47.334068"
+  },
+  "SoFi_2022_Q1.pdf": {
+    "company": "SoFi",
+    "year": 2022,
+    "total_assets": 12246576.0,
+    "total_liabilities": 6715903.0,
+    "revenue": 330344.0,
+    "net_profit": -110357.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:28:59.964014"
+  },
+  "SoFi_2023_Q2.pdf": {
+    "company": "SoFi",
+    "year": 2023,
+    "total_assets": 25561449.0,
+    "total_liabilities": 19983414.0,
+    "revenue": 13.0,
+    "net_profit": -47549.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:29:01.012899"
+  },
+  "SoFi_2022_Q2.pdf": {
+    "company": "SoFi",
+    "year": 2022,
+    "total_assets": 12670886.0,
+    "total_liabilities": 7164332.0,
+    "revenue": 362527.0,
+    "net_profit": -95835.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:29:10.233960"
+  },
+  "SoFi_2022_Q3.pdf": {
+    "company": "SoFi",
+    "year": 2022,
+    "total_assets": 15834903.0,
+    "total_liabilities": 10333526.0,
+    "revenue": 423985.0,
+    "net_profit": -74209.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:29:14.088437"
+  },
+  "SoFi_2024_Q1.pdf": {
+    "company": "SoFi",
+    "year": 2024,
+    "total_assets": 31305760.0,
+    "total_liabilities": 25159781.0,
+    "revenue": 14.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:29:26.260116"
+  },
+  "Stori_2024_Annual.pdf": {
+    "company": "Stori",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:29:26.818515"
+  },
+  "SoFi_2023_Q1.pdf": {
+    "company": "SoFi",
+    "year": 2023,
+    "total_assets": 22452961.0,
+    "total_liabilities": 16898515.0,
+    "revenue": 13.0,
+    "net_profit": -34422.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:29:29.955669"
+  },
+  "SoFi_2024_Q2.pdf": {
+    "company": "SoFi",
+    "year": 2024,
+    "total_assets": 32641979.0,
+    "total_liabilities": 26740485.0,
+    "revenue": 15.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:29:31.963289"
+  },
+  "SoFi_2024_Q3.pdf": {
+    "company": "SoFi",
+    "year": 2024,
+    "total_assets": 34380176.0,
+    "total_liabilities": 28258695.0,
+    "revenue": 15.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:29:37.476894"
+  },
+  "Superdigital_2019_Annual.pdf": {
+    "company": "Superdigital",
+    "year": 2019,
+    "total_assets": 303.293,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 74.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:29:43.387102"
+  },
+  "Superdigital_2022_Annual.pdf": {
+    "company": "Superdigital",
+    "year": 2022,
+    "total_assets": 594.446,
+    "total_liabilities": 594.446,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:29:46.089998"
+  },
+  "Superdigital_2020_Q1\u3001Q2.pdf": {
+    "company": "Superdigital",
+    "year": 2020,
+    "total_assets": 2.0,
+    "total_liabilities": 2.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:29:46.190719"
+  },
+  "Superdigital_2021_Q1\u3001Q2.pdf": {
+    "company": "Superdigital",
+    "year": 2021,
+    "total_assets": 329.044,
+    "total_liabilities": 329.044,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:29:49.342806"
+  },
+  "Superdigital_2024_Q1\u3001Q2.pdf": {
+    "company": "Superdigital",
+    "year": 2024,
+    "total_assets": 480.541,
+    "total_liabilities": 212.551,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:29:58.693800"
+  },
+  "Tonik_2020_Annual.pdf": {
+    "company": "Tonik",
+    "year": 2020,
+    "total_assets": 104900426.0,
+    "total_liabilities": 105237044.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:30:41.099548"
+  },
+  "Tonik_2022_Annual.pdf": {
+    "company": "Tonik",
+    "year": 2022,
+    "total_assets": 10585492306.0,
+    "total_liabilities": 8354808620.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:30:48.337415"
+  },
+  "Wise__fmr_TransferWise_2021_22_Q1_Q2.pdf": {
+    "company": "Wise",
+    "year": 2021,
+    "total_assets": 5652.0,
+    "total_liabilities": 5313.4,
+    "revenue": 256.3,
+    "net_profit": 12.7,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:31:05.128869"
+  },
+  "Wise__fmr_TransferWise_2022_23_Q1_Q2.pdf": {
+    "company": "Wise",
+    "year": 2022,
+    "total_assets": 10224.0,
+    "total_liabilities": 9766.6,
+    "revenue": 3.0,
+    "net_profit": 37.3,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:31:05.255805"
+  },
+  "ZA_Bank_2020_Q1Q2.pdf": {
+    "company": "ZA",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:08.819265"
+  },
+  "ZA_Bank_2021_Annual.pdf": {
+    "company": "ZA",
+    "year": 2021,
+    "total_assets": 9912034.0,
+    "total_liabilities": 8129471.0,
+    "revenue": null,
+    "net_profit": -252096.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:31:12.743837"
+  },
+  "ZA_Bank_2021_Q1Q2.pdf": {
+    "company": "ZA",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:12.815163"
+  },
+  "ZA_Bank_2022_Q1Q2.pdf": {
+    "company": "ZA",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:13.933856"
+  },
+  "ZA_Bank_2022_Annual.pdf": {
+    "company": "ZA",
+    "year": 2022,
+    "total_assets": 10715157.0,
+    "total_liabilities": 8456388.0,
+    "revenue": null,
+    "net_profit": -257104.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:31:19.010701"
+  },
+  "ZA_Bank_2023_Q1Q2.pdf": {
+    "company": "ZA",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:19.177699"
+  },
+  "ZA_Bank_2023_Annual.pdf": {
+    "company": "ZA",
+    "year": 2023,
+    "total_assets": 13030228.0,
+    "total_liabilities": 10979394.0,
+    "revenue": 20987.0,
+    "net_profit": -199910.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:31:22.464078"
+  },
+  "ZA_Bank_2024_Q1Q2.pdf": {
+    "company": "ZA",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:22.554777"
+  },
+  "ZA_Bank_2024_Annual.pdf": {
+    "company": "ZA",
+    "year": 2024,
+    "total_assets": 19952965.0,
+    "total_liabilities": 18042037.0,
+    "revenue": null,
+    "net_profit": -109258.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:31:27.086012"
+  },
+  "bunq_2022_Annual.pdf": {
+    "company": "bunq",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:32.025210"
+  },
+  "bunq_2023_Annual.pdf": {
+    "company": "bunq",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:32.839388"
+  },
+  "bunq_2021_Annual.pdf": {
+    "company": "bunq",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:31:42.293303"
+  },
+  "digibank_DBS_Bank_2020_Annual.pdf": {
+    "company": "digibank",
+    "year": 2020,
+    "total_assets": 87632242000000.0,
+    "total_liabilities": 78420930000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:31:56.819951"
+  },
+  "digibank_DBS_Bank_2020_Q1Q2Q3.pdf": {
+    "company": "digibank",
+    "year": 2020,
+    "total_assets": 90781028000000.0,
+    "total_liabilities": 81429070000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:31:58.561865"
+  },
+  "digibank_DBS_Bank_2021_Annual.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 86154871000000.0,
+    "total_liabilities": 76479600000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:01.197825"
+  },
+  "digibank_DBS_Bank_2021_Q1.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 85324826000000.0,
+    "total_liabilities": 75839253000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:03.368540"
+  },
+  "digibank_DBS_Bank_2021_Q1Q2.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 81980431000000.0,
+    "total_liabilities": 72313541000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:06.062513"
+  },
+  "digibank_DBS_Bank_2022_Annual.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 99281571000000.0,
+    "total_liabilities": 88781168000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:08.401361"
+  },
+  "digibank_DBS_Bank_2021_Q1Q2Q3.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 84068288000000.0,
+    "total_liabilities": 74541503000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:08.619931"
+  },
+  "digibank_DBS_Bank_2022_Q1.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 89841955000000.0,
+    "total_liabilities": 80046370000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:10.253542"
+  },
+  "digibank_DBS_Bank_2023_Annual.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 112971991000000.0,
+    "total_liabilities": 100790732000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:12.622492"
+  },
+  "digibank_DBS_Bank_2022_Q1Q2.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 95762445000000.0,
+    "total_liabilities": 85587998000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:12.682761"
+  },
+  "digibank_DBS_Bank_2022_Q1Q2Q3.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 99225474000000.0,
+    "total_liabilities": 88953099000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:13.983025"
+  },
+  "digibank_DBS_Bank_2023_Q1.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 101475777000000.0,
+    "total_liabilities": 90348284000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:16.444431"
+  },
+  "digibank_DBS_Bank_2023_Q1Q2.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 105273539000000.0,
+    "total_liabilities": 93854541000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:17.240166"
+  },
+  "digibank_DBS_Bank_2023_Q1Q2Q3.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 111379146000000.0,
+    "total_liabilities": 99435591000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:19.251513"
+  },
+  "digibank_DBS_Bank_2024_Q1.pdf": {
+    "company": "digibank",
+    "year": 2024,
+    "total_assets": 119603042000000.0,
+    "total_liabilities": 106965740000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:20.501065"
+  },
+  "digibank_DBS_Bank_2024_Q1Q2.pdf": {
+    "company": "digibank",
+    "year": 2024,
+    "total_assets": 131553399000000.0,
+    "total_liabilities": 118549575000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:20.921066"
+  },
+  "digibank_DBS_Bank_2024_Q1Q2Q3.pdf": {
+    "company": "digibank",
+    "year": 2024,
+    "total_assets": 1000000.0,
+    "total_liabilities": 1000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:23.081627"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2020_Annual.pdf": {
+    "company": "digibank",
+    "year": 2020,
+    "total_assets": 87632242000000.0,
+    "total_liabilities": 78420930000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:41.674884"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2021_Annual.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 86154871000000.0,
+    "total_liabilities": 76479600000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:53.650677"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2021_Q1.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 85324826000000.0,
+    "total_liabilities": 75839253000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:56.036787"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2021_Q1\u3001Q2.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 81980431000000.0,
+    "total_liabilities": 72313541000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:56.654628"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2021_Q1\u3001Q2\u3001Q3.pdf": {
+    "company": "digibank",
+    "year": 2021,
+    "total_assets": 84068288000000.0,
+    "total_liabilities": 74541503000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:57.683831"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2022_Annual.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 99281571000000.0,
+    "total_liabilities": 88781168000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:57.730681"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2022_Q1.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 89841955000000.0,
+    "total_liabilities": 80046370000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:32:57.976519"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2022_Q1\u3001Q2.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 95762445000000.0,
+    "total_liabilities": 85587998000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:00.261337"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2023_Annual.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 112971991000000.0,
+    "total_liabilities": 100790732000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:01.658110"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2022_Q1\u3001Q2\u3001Q3.pdf": {
+    "company": "digibank",
+    "year": 2022,
+    "total_assets": 99225474000000.0,
+    "total_liabilities": 88953099000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:02.510265"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2023_Q1.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 101475777000000.0,
+    "total_liabilities": 90348284000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:04.262875"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2023_Q1\u3001Q2.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 105273539000000.0,
+    "total_liabilities": 93854541000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:08.679130"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2024_Q1.pdf": {
+    "company": "digibank",
+    "year": 2024,
+    "total_assets": 119603042000000.0,
+    "total_liabilities": 106965740000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:10.295640"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2023_Q1\u3001Q2\u3001Q3.pdf": {
+    "company": "digibank",
+    "year": 2023,
+    "total_assets": 111379146000000.0,
+    "total_liabilities": 99435591000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:11.047674"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2024_Q1\u3001Q2.pdf": {
+    "company": "digibank",
+    "year": 2024,
+    "total_assets": 131553399000000.0,
+    "total_liabilities": 118549575000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:11.112093"
+  },
+  "digibank_\uff08DBS_Bank\uff09_2024_Q1\u3001Q2\u3001Q3.pdf": {
+    "company": "digibank",
+    "year": 2024,
+    "total_assets": 1000000.0,
+    "total_liabilities": 1000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:33:12.895027"
+  },
+  "navi_2019_20_Annual.pdf": {
+    "company": "navi",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:33:44.062716"
+  },
+  "navi_2020_21_Annual.pdf": {
+    "company": "navi",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:33:46.240231"
+  },
+  "navi_2021_22_Annual.pdf": {
+    "company": "navi",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:33:46.666472"
+  },
+  "navi_2022_23_Annual.pdf": {
+    "company": "navi",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:33:47.741303"
+  },
+  "navi_2023_24_Annual.pdf": {
+    "company": "navi",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": null,
+    "timestamp": "2025-08-12T11:33:48.998590"
+  },
+  "weLab_Bank_2018_Annual.pdf": {
+    "company": "weLab",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": -493146.0,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:33:53.739278"
+  },
+  "Azlo_2019_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2019,
+    "total_assets": 11.3,
+    "total_liabilities": 344262.0,
+    "revenue": 4286.0,
+    "net_profit": 1271.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:19.623837"
+  },
+  "Azlo_2021_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2021,
+    "total_assets": 10.6,
+    "total_liabilities": 420535.0,
+    "revenue": 4220.0,
+    "net_profit": 1826.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:25.797492"
+  },
+  "Azlo_2020_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2020,
+    "total_assets": 10.2,
+    "total_liabilities": 396203.0,
+    "revenue": 4517.0,
+    "net_profit": 915.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:27.404630"
+  },
+  "Azlo_2019_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2019,
+    "total_assets": 11.2,
+    "total_liabilities": 356380.0,
+    "revenue": 4439.0,
+    "net_profit": 1374.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:30.395452"
+  },
+  "Azlo_2020_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2020,
+    "total_assets": 10.8,
+    "total_liabilities": 408507.0,
+    "revenue": 4281.0,
+    "net_profit": 1532.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:39.971586"
+  },
+  "Azlo_2019_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2019,
+    "total_assets": 11.1,
+    "total_liabilities": 359461.0,
+    "revenue": 4493.0,
+    "net_profit": 1392.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:42.078102"
+  },
+  "Azlo_2021_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2021,
+    "total_assets": 9.3,
+    "total_liabilities": 497218.0,
+    "revenue": 5197.0,
+    "net_profit": 1490.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:44.181136"
+  },
+  "Azlo_2020_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2020,
+    "total_assets": 10.7,
+    "total_liabilities": 406030.0,
+    "revenue": 4076.0,
+    "net_profit": 3655.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:46.241472"
+  },
+  "Azlo_2021_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2021,
+    "total_assets": 9.2,
+    "total_liabilities": 499527.0,
+    "revenue": 4667.0,
+    "net_profit": 1103.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:35:54.141401"
+  },
+  "Azlo_2023_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2023,
+    "total_assets": 7.5,
+    "total_liabilities": 508861.0,
+    "revenue": 5293.0,
+    "net_profit": 1500.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:02.644419"
+  },
+  "Azlo_2022_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2022,
+    "total_assets": 8.2,
+    "total_liabilities": 492030.0,
+    "revenue": 4692.0,
+    "net_profit": 1429.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:05.197174"
+  },
+  "Azlo_2023_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2023,
+    "total_assets": 7.4,
+    "total_liabilities": 512703.0,
+    "revenue": 5603.0,
+    "net_profit": 1694.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:07.134301"
+  },
+  "Azlo_2022_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2022,
+    "total_assets": 7.1,
+    "total_liabilities": 512754.0,
+    "revenue": 5549.0,
+    "net_profit": 1640.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:07.182520"
+  },
+  "Azlo_2023_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2023,
+    "total_assets": 7.6,
+    "total_liabilities": 507853.0,
+    "revenue": 5233.0,
+    "net_profit": 1570.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:07.458971"
+  },
+  "Azlo_2024_Q1.pdf": {
+    "company": "Azlo",
+    "year": 2024,
+    "total_assets": 8.0,
+    "total_liabilities": 514788.0,
+    "revenue": 5145.0,
+    "net_profit": 1344.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:10.600062"
+  },
+  "Azlo_2024_Q3.pdf": {
+    "company": "Azlo",
+    "year": 2024,
+    "total_assets": 8.8,
+    "total_liabilities": 509152.0,
+    "revenue": 5432.0,
+    "net_profit": 1505.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:18.293820"
+  },
+  "Azlo_2024_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2024,
+    "total_assets": 8.3,
+    "total_liabilities": 503838.0,
+    "revenue": 5411.0,
+    "net_profit": 1477.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:18.711268"
+  },
+  "Better.com_2024_Q1.pdf": {
+    "company": "Better.com",
+    "year": 2024,
+    "total_assets": 841586.0,
+    "total_liabilities": 765296.0,
+    "revenue": 2817.0,
+    "net_profit": -51492.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:33.590364"
+  },
+  "Better.com_2023_Q3.pdf": {
+    "company": "Better.com",
+    "year": 2023,
+    "total_assets": 937055.0,
+    "total_liabilities": 779823.0,
+    "revenue": null,
+    "net_profit": -340033.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:36:33.934822"
+  },
+  "Azlo_2022_Q2.pdf": {
+    "company": "Azlo",
+    "year": 2022,
+    "total_assets": 7.7,
+    "total_liabilities": 493098.0,
+    "revenue": 5116.0,
+    "net_profit": 1496.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:34.157352"
+  },
+  "Better.com_2024_Q3.pdf": {
+    "company": "Better.com",
+    "year": 2024,
+    "total_assets": 845163.0,
+    "total_liabilities": 844775.0,
+    "revenue": 3070.0,
+    "net_profit": -54210.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:40.262214"
+  },
+  "Better.com_2024_Q2.pdf": {
+    "company": "Better.com",
+    "year": 2024,
+    "total_assets": 957883.0,
+    "total_liabilities": 912975.0,
+    "revenue": 2881.0,
+    "net_profit": -41365.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:36:41.038531"
+  },
+  "CIMB_2008_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2008,
+    "total_assets": 206735710.0,
+    "total_liabilities": 188373261.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:36:59.690469"
+  },
+  "CIMB_2007_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2007,
+    "total_assets": 182831642.0,
+    "total_liabilities": 165977032.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:37:00.686311"
+  },
+  "CIMB_2006_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2006,
+    "total_assets": 159607244.0,
+    "total_liabilities": 146917924.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:37:01.631756"
+  },
+  "CIMB_2017_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2017,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": 506.5,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T11:37:08.663335"
+  },
+  "Card_by_Coinbase_2021_Q1.pdf": {
+    "company": "Card",
+    "year": 2021,
+    "total_assets": 10201112.0,
+    "total_liabilities": 7344667.0,
+    "revenue": 1801112.0,
+    "net_profit": 771463.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:37:11.311438"
+  },
+  "Card_by_Coinbase_2021_Q2.pdf": {
+    "company": "Card",
+    "year": 2021,
+    "total_assets": 15790208.0,
+    "total_liabilities": 11166783.0,
+    "revenue": 2227962.0,
+    "net_profit": 1606349.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:37:18.838269"
+  },
+  "Card_by_Coinbase_2021_Q3.pdf": {
+    "company": "Card",
+    "year": 2021,
+    "total_assets": 18454271.0,
+    "total_liabilities": 13093774.0,
+    "revenue": 1311908.0,
+    "net_profit": 406100.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:37:22.663174"
+  },
+  "Card_by_Coinbase_2022_Q1.pdf": {
+    "company": "Card",
+    "year": 2022,
+    "total_assets": 20895194.0,
+    "total_liabilities": 14399101.0,
+    "revenue": 1166436.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:37:34.669668"
+  },
+  "Card_by_Coinbase_2022_Q2.pdf": {
+    "company": "Card",
+    "year": 2022,
+    "total_assets": 105468243.0,
+    "total_liabilities": 99654854.0,
+    "revenue": 808325.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:37:40.938982"
+  },
+  "Card_by_Coinbase_2023_Q1.pdf": {
+    "company": "Card",
+    "year": 2023,
+    "total_assets": 139301859.0,
+    "total_liabilities": 133626913.0,
+    "revenue": 772529.0,
+    "net_profit": -78896.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:37:48.064613"
+  },
+  "Card_by_Coinbase_2022_Q3.pdf": {
+    "company": "Card",
+    "year": 2022,
+    "total_assets": 111168363.0,
+    "total_liabilities": 105542048.0,
+    "revenue": 590339.0,
+    "net_profit": null,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T11:37:49.489664"
+  },
+  "Card_by_Coinbase_2023_Q2.pdf": {
+    "company": "Card",
+    "year": 2023,
+    "total_assets": 137650575.0,
+    "total_liabilities": 131895872.0,
+    "revenue": 707911.0,
+    "net_profit": -97405.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:37:52.421787"
+  },
+  "Card_by_Coinbase_2023_Q3.pdf": {
+    "company": "Card",
+    "year": 2023,
+    "total_assets": 127305595.0,
+    "total_liabilities": 121384470.0,
+    "revenue": 674148.0,
+    "net_profit": -2265.0,
+    "success_level": "Complete",
+    "timestamp": "2025-08-12T11:37:58.455334"
+  },
+  "Fusion_Bank_2022_Q1_Q2.pdf": {
+    "company": "Fusion",
+    "year": 2022,
+    "total_assets": 4185956000.0,
+    "total_liabilities": 3450477000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:42.151390"
+  },
+  "Fusion_Bank_2022_Q1Q2.pdf": {
+    "company": "Fusion",
+    "year": 2022,
+    "total_assets": 4185956000.0,
+    "total_liabilities": 3450477000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:42.377503"
+  },
+  "Fusion_Bank_2022_Q1\u3001Q2.pdf": {
+    "company": "Fusion",
+    "year": 2022,
+    "total_assets": 4185956000.0,
+    "total_liabilities": 3450477000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:42.972385"
+  },
+  "Fusion_Bank_2023_Q1Q2.pdf": {
+    "company": "Fusion",
+    "year": 2023,
+    "total_assets": 3491423000.0,
+    "total_liabilities": 2870504000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:46.010883"
+  },
+  "Fusion_Bank_2023_Q1_Q2.pdf": {
+    "company": "Fusion",
+    "year": 2023,
+    "total_assets": 3491423000.0,
+    "total_liabilities": 2870504000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:47.006798"
+  },
+  "Fusion_Bank_2023_Q1\u3001Q2.pdf": {
+    "company": "Fusion",
+    "year": 2023,
+    "total_assets": 3491423000.0,
+    "total_liabilities": 2870504000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:47.270557"
+  },
+  "Fusion_Bank_2024_Q1Q2.pdf": {
+    "company": "Fusion",
+    "year": 2024,
+    "total_assets": 7098969000.0,
+    "total_liabilities": 6225409000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:49.020937"
+  },
+  "Fusion_Bank_2023_Annual.pdf": {
+    "company": "Fusion",
+    "year": 2023,
+    "total_assets": 5677505000000.0,
+    "total_liabilities": 4676630000000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:49.038363"
+  },
+  "Fusion_Bank_2024_Q1_Q2.pdf": {
+    "company": "Fusion",
+    "year": 2024,
+    "total_assets": 7098969000.0,
+    "total_liabilities": 6225409000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:49.192669"
+  },
+  "Fusion_Bank_2024_Q1\u3001Q2.pdf": {
+    "company": "Fusion",
+    "year": 2024,
+    "total_assets": 7098969000.0,
+    "total_liabilities": 6225409000.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T11:38:49.688967"
+  },
+  "Azlo_2022_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2022,
+    "total_assets": null,
+    "total_liabilities": 511451.0,
+    "revenue": 21120.0,
+    "net_profit": 6113.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T14:10:54.476859"
+  },
+  "Azlo_2023_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2023,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 21490.0,
+    "net_profit": 5647.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T14:11:28.966342"
+  },
+  "Azlo_2020_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2020,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 16901.0,
+    "net_profit": 7558.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T14:11:30.391127"
+  },
+  "Azlo_2021_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": null,
+    "revenue": 19211.0,
+    "net_profit": 5725.0,
+    "success_level": "Partial(2/4)",
+    "timestamp": "2025-08-12T14:11:31.594543"
+  },
+  "Azlo_2019_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": 360952.0,
+    "revenue": 17827.0,
+    "net_profit": 5418.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T14:11:32.204316"
+  },
+  "CIMB_2018_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2018,
+    "total_assets": null,
+    "total_liabilities": 59.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T14:15:39.617390"
+  },
+  "CIMB_2019_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2019,
+    "total_assets": null,
+    "total_liabilities": 11.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T14:15:40.099949"
+  },
+  "CIMB_2021_Annual.pdf": {
+    "company": "CIMB",
+    "year": 2021,
+    "total_assets": null,
+    "total_liabilities": 32.0,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T14:15:53.051705"
+  },
+  "Azlo_2024_Annual.pdf": {
+    "company": "Azlo",
+    "year": 2024,
+    "total_assets": null,
+    "total_liabilities": 505569.0,
+    "revenue": 21555.0,
+    "net_profit": 5953.0,
+    "success_level": "Partial(3/4)",
+    "timestamp": "2025-08-12T16:05:32.299194"
+  },
+  "Broxel_2023_Annual.pdf": {
+    "company": "Broxel",
+    "year": 2023,
+    "total_assets": 9765272000.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T16:05:54.837465"
+  },
+  "Broxel_2022_Annual.pdf": {
+    "company": "Broxel",
+    "year": 2022,
+    "total_assets": 8595483000.0,
+    "total_liabilities": null,
+    "revenue": null,
+    "net_profit": null,
+    "success_level": "Partial(1/4)",
+    "timestamp": "2025-08-12T16:05:59.659702"
+  }
+}

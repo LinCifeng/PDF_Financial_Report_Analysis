@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-12T17:24:46.518011",
+  "stats": {
+    "total": 543,
+    "valid": 543,
+    "invalid": 0,
+    "corrupted": 0,
+    "too_small": 0,
+    "too_large": 0,
+    "scanned": 0,
+    "not_financial": 0,
+    "deleted_size_mb": 0
+  },
+  "invalid_files": [],
+  "valid_count": 543
+}

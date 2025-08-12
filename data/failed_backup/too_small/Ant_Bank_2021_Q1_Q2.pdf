@@ -1,0 +1,297 @@
+<!DOCTYPE html><html><head><script>window.injectInfo = { appName: "hk-site", env: "PROD" };</script><script>window.publicPath = window.__basement_public_path__ = "https://gw.alipayobjects.com/render/p/yuyan/180020010000009666/";</script><script>!function(){var e=window;function n(n){if(e.g_monitor&&e.g_monitor.events){var t=e.g_monitor.events;t.length<20&&t.push(n)}}e.g_monitor=e.g_monitor||{listener:{},events:[]};var r=e.g_monitor.listener;function t(t,n){try{e.addEventListener?e.addEventListener(t,n,!0):e.attachEvent?e.attachEvent("on"+t,n):e[t]=n,r[t]=n}catch(n){console.warn("Tracert 监控事件注册失败："+t,n)}}r.error||t("error",n),r.unhandledrejection||t("unhandledrejection",n)}();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="bm_app_id" content="5d904794a459d4b48195eb88">
+<meta name="bm_sprint_id" content="S090011193437">
+<meta name="data-aspm" content="a2882">
+<meta name="data-bizType" content="ckb">
+<link rel="shortcut icon" href="https://gw.alipayobjects.com/zos/basement_prod/994d2c0f-1f3b-431d-8589-95ad2f1e1dac.ico">
+<title>螞蟻銀行(香港)</title>
+<link rel="stylesheet" href="https://gw.alipayobjects.com/render/p/yuyan/180020010000009666/umi.2c0cd59e.css">
+<script>// prettier-ignore
+!function(n,o,e,t,a,i){n.yuyanMonitor={config: function(){}, logError: function() {}, log: function(){}};var r=o.createElement("script"),c=o.querySelector("head").getElementsByTagName("script")[0];
+      r.async=1,r.src="https://gw.alipayobjects.com/render/p/yuyan_npm/@alipay_yuyan-monitor-sdk/1.3.0/dist/index.umd.min.js",r.crossOrigin="anonymous",r.onload=function(){
+        YuyanMonitor&&(n.yuyanMonitor=new YuyanMonitor({"_appId":"5d904794a459d4b48195eb88","yuyanId":"180020010000009666","sprintId":"S090011193437","isH5":false}));n.injectInfo && n.yuyanMonitor.config({ env: n.injectInfo.env })},o.querySelector("head").insertBefore(r,c)}(window,window.document)</script>
+<script>
+  !function(src) {
+    var _windowVM__TERN__;
+    function assignProperty(target, k, v) {
+      if (target.hasOwnProperty(k) && target[k] !== undefined) return;
+      if (v === undefined) return;
+      target[k] = v;
+    }
+    window._to = {};
+    if ((_windowVM__TERN__ = window.__TERN__) !== null && _windowVM__TERN__ !== void 0 && (_windowVM__TERN__ = _windowVM__TERN__.user) !== null && _windowVM__TERN__ !== void 0 && (_windowVM__TERN__ = _windowVM__TERN__.clientUser) !== null && _windowVM__TERN__ !== void 0 && _windowVM__TERN__.userId) {
+      window._to.role_id = window.__TERN__.user.clientUser.userId;
+    }
+    window._to.yuyanId=180020010000009666;
+    window._to._isPrimaryApp=false;
+    assignProperty(window._to, 'spmAPos', "a2882");
+assignProperty(window._to, 'bizType', "ckb");
+assignProperty(window._to, 'autoExpo', true);
+assignProperty(window._to, 'ifRouterNeedPv', true);
+assignProperty(window._to, 'enableMicroAppInstance', false);
+assignProperty(window._to, 'autoLogPv', false);
+
+    
+  (function loader() {
+    if (Object.prototype.toString.call(window.TracertCmdCache) === '[object Array]') {
+      window.TracertCmdCache = [];
+    }
+    var Tracert = {
+      _isInit: true,
+      _readyToRun: [],
+      // 生成uuid
+      _guid: function _guid() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+          var r = Math.random() * 16 | 0;
+          var v = c === 'x' ? r : r & 0x3 | 0x8;
+          return v.toString(16);
+        });
+      },
+      get: function get(key) {
+        if (key === 'pageId') {
+          window._tracert_loader_cfg = window._tracert_loader_cfg || {};
+          if (window._tracert_loader_cfg.pageId) {
+            return window._tracert_loader_cfg.pageId;
+          }
+          var metaa = document.querySelectorAll('meta[name=data-aspm]');
+          var spma = metaa && metaa[0] && metaa[0].getAttribute('content');
+          var spmb = document.body && document.body.getAttribute('data-aspm');
+          var pageId = spma && spmb ? "".concat(spma, ".").concat(spmb, "_").concat(Tracert._guid(), "_").concat(Date.now()) : "-_".concat(Tracert._guid(), "_").concat(Date.now());
+          window._tracert_loader_cfg.pageId = pageId;
+          return pageId;
+        }
+        return this[key];
+      },
+      call: function call() {
+        var args = arguments;
+        var argsList;
+        try {
+          argsList = [].slice.call(args, 0);
+        } catch (ex) {
+          var argsLen = args.length;
+          argsList = [];
+          for (var i = 0; i < argsLen; i++) {
+            argsList.push(args[i]);
+          }
+        }
+        Tracert.addToRun(function () {
+          Tracert.call.apply(Tracert, argsList);
+        });
+      },
+      addToRun: function addToRun(_fn) {
+        var fn = _fn;
+        if (typeof fn === 'function') {
+          fn._logTimer = new Date() - 0;
+          Tracert._readyToRun.push(fn);
+        }
+      },
+      createTracert: undefined,
+      spmAPos: undefined,
+      autoLogPv: undefined,
+      autoExpo: undefined,
+      bizType: undefined,
+      ifRouterNeedPv: undefined,
+      enableMicroAppInstance: undefined,
+      v: undefined
+    };
+    var fnlist = ['config', 'logPv', 'info', 'error', 'click', 'expo', 'pageName', 'pageState', 'time', 'timeEnd', 'parse', 'expoCheck', 'stringify', 'report', 'set', 'before'];
+    for (var i = 0; i < fnlist.length; i++) {
+      var fn = fnlist[i];
+      (function (fn) {
+        Tracert[fn] = function () {
+          var args = arguments;
+          var argsList;
+          try {
+            argsList = [].slice.call(args, 0);
+          } catch (ex) {
+            var argsLen = args.length;
+            argsList = [];
+            for (var _i2 = 0; _i2 < argsLen; _i2++) {
+              argsList.push(args[_i2]);
+            }
+          }
+          argsList.unshift(fn);
+          Tracert.addToRun(function () {
+            Tracert.call.apply(Tracert, argsList);
+          });
+        };
+      })(fn);
+    }
+    if (window.Proxy) {
+      var handler = {
+        get: function get(target, property) {
+          var _targetVMhasOwnPropert;
+          if (target !== null && target !== void 0 && (_targetVMhasOwnPropert = target.hasOwnProperty) !== null && _targetVMhasOwnPropert !== void 0 && _targetVMhasOwnPropert.call(target, property)) {
+            return target[property];
+          }
+          return target.call.bind(this, property);
+        }
+      };
+      var proxyTracert = new window.Proxy(Tracert, handler);
+      window.Tracert = proxyTracert;
+    } else {
+      window.Tracert = Tracert;
+    }
+  })();
+
+
+    var _windowVMdocument, _windowVMdocumentVMcrea;
+    var curScript = (_windowVMdocument = window.document) === null || _windowVMdocument === void 0 || (_windowVMdocumentVMcrea = _windowVMdocument.createElement) === null || _windowVMdocumentVMcrea === void 0 ? void 0 : _windowVMdocumentVMcrea.call(_windowVMdocument, 'script');
+    if (!curScript) return;
+    curScript.async = true;
+    var _windowVMdocumentVMquer, _documentVMquerySelect;
+    curScript.crossOrigin = 'anonymous';
+    curScript.src = src;
+    var insertScript = ((_windowVMdocumentVMquer = window.document.querySelector('head')) === null || _windowVMdocumentVMquer === void 0 ? void 0 : _windowVMdocumentVMquer.getElementsByTagName('script')[0]) || null;
+    if (!insertScript) return;
+    (_documentVMquerySelect = document.querySelector('head')) === null || _documentVMquerySelect === void 0 ? void 0 : _documentVMquerySelect.insertBefore(curScript, insertScript);
+    curScript.onerror = function () {
+      console.warn("[Bigfish] Tracert script load error, please check your network and spma.");
+      var fallback = function fallback() {
+        console.warn("[Bigfish] Tracert run error, please make sure the script import right.");
+      };
+      var fnlist = ["call", "start", "config", "logPv", "info", "err", "click", "expo", "pageName", "pageState", "time", "timeEnd", "parse", "checkExpo", "stringify", "report", "set", "before"];
+      if (Object.prototype.toString.call(window.Tracert) != '[object Object]') {
+        window.Tracert = {};
+      }
+      for (var i = 0; i < fnlist.length; i++) {
+        window.Tracert[fnlist[i]] = fallback;
+      }
+    };
+  }('https://ur.alipay.com/tracert_a2882.js');
+</script>
+<script type="umi-route-chunk-files-map">{"p":"hk-site","b":"webpack","f":[["85.fbf9ffdd.async.js",85],["p__questions__index.324b495a.chunk.css",233],["p__questions__index.e668ed72.async.js",233],["p__getMovementRecord__index.7b6f5712.chunk.css",358],["p__getMovementRecord__index.ba17a6b8.async.js",358],["p__contacts__index.02579f16.chunk.css",674],["p__contacts__index.0603a2a7.async.js",674],["p__timeDeposit__index.6a0a4d12.chunk.css",679],["p__timeDeposit__index.f06e5f7e.async.js",679],["p__payLaterFullLaunch__index.64ad536a.chunk.css",810],["p__payLaterFullLaunch__index.976d1930.async.js",810],["889.e2ac60b9.chunk.css",889],["889.72acc4cc.async.js",889],["957.ee1934ca.async.js",957],["1033.53c62ff7.async.js",1033],["1088.24780368.chunk.css",1088],["1088.8c9c374e.async.js",1088],["p__termloan__index.51dbec6d.chunk.css",1168],["p__termloan__index.d76565f9.async.js",1168],["p__taxOffer__index.d2514794.chunk.css",1268],["p__taxOffer__index.03f65df5.async.js",1268],["1410.90739f19.async.js",1410],["p__payrollpromote__index.04b214a3.chunk.css",1444],["p__payrollpromote__index.f91a66ef.async.js",1444],["1577.3be32118.async.js",1577],["p__insurance__index.55c8347b.chunk.css",1671],["p__insurance__index.08c8ad14.async.js",1671],["layouts__index.ed49f8a6.chunk.css",1717],["layouts__index.56d3ce57.async.js",1717],["p__SmeProduct__index.0d173b89.chunk.css",1824],["p__SmeProduct__index.d8336954.async.js",1824],["p__qrcode__index.f94eafdc.async.js",1880],["1919.182d3d5f.async.js",1919],["p__newDetail__index.50de3a84.chunk.css",1949],["p__newDetail__index.3f371c5d.async.js",1949],["p__notice__index.5d79eee8.chunk.css",1999],["p__notice__index.07f3b106.async.js",1999],["2077.96b960ee.async.js",2077],["p__newPaylaterWelcomeOffer__index.5b0840f6.chunk.css",2128],["p__newPaylaterWelcomeOffer__index.306e1b16.async.js",2128],["2374.203792df.async.js",2374],["p__emPlus__index.bddb24c5.chunk.css",2389],["p__emPlus__index.8775e554.async.js",2389],["2491.86fd2494.chunk.css",2491],["2491.1e96ec37.async.js",2491],["2805.df685119.async.js",2805],["p__pLoan__index.ff6aeebe.chunk.css",3009],["p__pLoan__index.e659f7a8.async.js",3009],["3178.d17cd729.async.js",3178],["3381.1a0d7cfb.chunk.css",3381],["3444.fe474a10.async.js",3444],["p__luckyDraw__index.37e5b417.chunk.css",3491],["p__luckyDraw__index.56cd2892.async.js",3491],["p__paylaterDepositChallenge__index.66482e3c.chunk.css",4229],["p__paylaterDepositChallenge__index.2a978733.async.js",4229],["p__exchange__index.e04f3777.chunk.css",4315],["p__exchange__index.a967c42f.async.js",4315],["p__fund__index.f7ed5af7.chunk.css",4329],["p__fund__index.7d9eacbe.async.js",4329],["p__marketing__imgonly__index.4d55a712.chunk.css",5141],["p__marketing__imgonly__index.c9771b89.async.js",5141],["5218.fa2029ac.async.js",5218],["5314.a0f84b64.async.js",5314],["p__edm__index.972a5ca6.chunk.css",5401],["p__edm__index.88408d54.async.js",5401],["5485.8d08d6d9.async.js",5485],["p__mainlandRecommend__index.de3cd0a3.chunk.css",6007],["p__mainlandRecommend__index.78a54aee.async.js",6007],["p__recommend__index.2f7e2c1a.chunk.css",6182],["p__recommend__index.2cf9249a.async.js",6182],["6184.7328d7ac.async.js",6184],["p__interestReward__index.4cc3cbf3.chunk.css",6231],["p__interestReward__index.50d6fefb.async.js",6231],["p__dzd__index.7235a7bf.chunk.css",6326],["p__dzd__index.80d707e1.async.js",6326],["6390.8b3419c9.async.js",6390],["6621.b67add99.async.js",6621],["p__applePayLaterFullLaunch__index.e7025176.chunk.css",6837],["p__applePayLaterFullLaunch__index.7b64eee2.async.js",6837],["p__downloadApp__index.dbb4c21d.chunk.css",6905],["p__downloadApp__index.42542bb2.async.js",6905],["p__transfer__index.5b112e21.chunk.css",7123],["p__transfer__index.78f98d3e.async.js",7123],["7396.308a40fb.async.js",7396],["p__sandboxPromotion__index.732dd6b7.chunk.css",7426],["p__sandboxPromotion__index.f04f3e2f.async.js",7426],["p__doubleRate__index.8c8b140f.chunk.css",7509],["p__doubleRate__index.ca9aadc8.async.js",7509],["p__paylaterIntro__index.e0c6e8ea.chunk.css",7525],["p__paylaterIntro__index.8a8ea672.async.js",7525],["7538.eaf69c7d.async.js",7538],["7857.bd2b35fd.async.js",7857],["p__ploanOffer__index.2bdc29c6.chunk.css",8142],["p__ploanOffer__index.90a6ff20.async.js",8142],["p__promotions__promotion5__index.6a9f02fa.chunk.css",8458],["p__promotions__promotion5__index.3c5e7151.async.js",8458],["8732.1513057a.async.js",8732],["p__paylater__index.e3c29696.chunk.css",8761],["p__paylater__index.d469773c.async.js",8761],["p__pdfViewer__index.ed49f8a6.chunk.css",8939],["p__pdfViewer__index.e473340e.async.js",8939],["p__dzdmarketing__index.f46673b0.chunk.css",8965],["p__dzdmarketing__index.bc763aea.async.js",8965],["p__MusicFestival__index.f400f8bb.chunk.css",9032],["p__MusicFestival__index.3f40c84b.async.js",9032],["9255.8520c653.async.js",9255],["p__mainlandRegister__index.e80bcffb.chunk.css",9345],["p__mainlandRegister__index.ba01b622.async.js",9345],["p__install__index.7300d8dd.async.js",9350],["9361.775aaab5.async.js",9361],["p__marketing__coupons__index.b7c33ea2.chunk.css",9511],["p__marketing__coupons__index.7a3b0735.async.js",9511],["p__home__index.f0f0cb46.chunk.css",9512],["p__home__index.8ca45bb3.async.js",9512],["p__fundPromotion__index.e19ab618.chunk.css",9546],["p__fundPromotion__index.ea74eead.async.js",9546],["p__AccountOpeningOffer__index.129aaa2a.chunk.css",9895],["p__AccountOpeningOffer__index.9d667576.async.js",9895]],"r":{"/":[14,15,16,24,27,28,32,40,43,44,45,48,49,61,62,65,83,96,109],"/pdf-viewer":[14,15,16,24,32,40,43,44,45,48,49,61,62,65,83,96,99,100,109],"/edm":[49,62,63,64],"/install":[108],"/download-app":[24,79,80],"/get-movement-record":[3,4,14,32,70,96],"/promotion5":[13,21,40,49,62,65,76,94,95,105,109,14,15,16,24,27,28,32,43,44,45,48,61,83,96],"/recommend":[13,24,32,40,49,62,65,68,69,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/mainland-recommend":[13,24,32,40,49,62,65,66,67,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/notice":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/paylater":[13,14,15,16,21,24,32,40,43,44,45,48,49,61,62,65,76,83,96,97,98,105,109,27,28],"/paylater-intro":[13,21,24,32,40,49,62,65,76,83,88,89,105,109,14,15,16,27,28,43,44,45,48,61,96],"/policy":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/terms":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/interest-reward":[13,21,24,32,40,49,62,65,71,72,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/account-opening-offer":[13,21,24,32,40,49,62,65,83,109,116,117,14,15,16,27,28,43,44,45,48,61,96],"/paylater-deposit-challenge":[13,21,24,32,40,49,53,54,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/paylater-welcome-offer":[9,10,13,24,32,40,49,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/lucky-draw":[13,24,32,40,49,51,52,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/new-paylater-welcome-offer":[13,21,24,32,38,39,40,49,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/p-loan-promotion":[13,14,15,16,21,24,32,37,40,43,44,45,46,47,48,49,61,62,65,76,83,91,96,105,109,27,28],"/mainland-register":[13,24,32,40,49,61,62,65,76,83,105,106,107,109,14,15,16,27,28,43,44,45,48,96],"/payLater-full-launch":[9,10,13,24,32,40,49,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/apple-payLater-full-launch":[13,24,32,40,49,62,65,76,77,78,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/SME-product":[0,13,14,24,29,30,32,40,43,44,49,62,65,76,83,96,105,109,15,16,27,28,45,48,61],"/tax2024":[13,19,20,21,24,32,40,49,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/ploan-offer":[13,21,24,32,40,49,62,65,76,83,92,93,105,109,14,15,16,27,28,43,44,45,48,61,96],"/em-plus-offer":[13,24,32,40,41,42,49,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/personal-banking-services":[13,14,15,16,21,24,32,40,43,44,45,48,49,61,62,65,76,81,82,83,96,105,109,27,28],"/N-Music-Festival":[13,24,32,40,49,62,65,83,103,104,109,14,15,16,27,28,43,44,45,48,61,96],"/open-api":[1,2,11,12,14,15,16,24,32,40,43,44,45,48,49,61,62,65,76,83,96,109,27,28],"/form-downloads":[1,2,11,12,14,15,16,24,32,40,43,44,45,48,49,61,62,65,76,83,96,109,27,28],"/rates":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/charges":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/news":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/upgrade-schedule":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/disclosures":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/accessibility":[11,12,14,15,16,24,32,35,36,40,43,44,45,48,49,61,62,65,70,76,83,96,109,27,28],"/article":[14,15,16,24,32,33,34,40,43,44,45,48,49,61,62,65,83,96,109,27,28],"/contacts":[5,6,14,15,16,24,32,40,43,44,45,48,49,61,62,65,83,96,109,27,28],"/questions":[1,2,11,12,14,15,16,24,32,40,43,44,45,48,49,61,62,65,76,83,96,109,27,28],"/downloads":[1,2,11,12,14,15,16,24,32,40,43,44,45,48,49,61,62,65,76,83,96,109,27,28],"/dzd":[13,14,15,16,21,24,32,37,40,43,44,45,48,49,61,62,65,73,74,76,83,91,96,105,109,27,28],"/termloan":[13,14,15,16,17,18,21,24,32,37,40,43,44,45,48,49,61,62,65,76,83,90,91,96,105,109,27,28],"/insurance":[13,25,26,49,61,62,65,109,14,15,16,24,27,28,32,40,43,44,45,48,83,96],"/dzdmarketing":[13,21,40,49,62,65,76,101,102,105,109,14,15,16,24,27,28,32,43,44,45,48,61,83,96],"/payrollpromote":[13,21,22,23,24,32,40,49,62,65,76,83,105,109,14,15,16,27,28,43,44,45,48,61,96],"/home":[0,13,14,21,40,49,62,65,109,112,113,15,16,24,27,28,32,43,44,45,48,61,83,96],"/qrcode":[13,31,62,14,15,16,24,27,28,32,40,43,44,45,48,49,61,65,83,96,109],"/SME-offer":[14,24,40,43,44,45,49,62,65,84,85,96,15,16,27,28,32,48,61,83,109],"/triple-up":[13,21,24,32,40,49,62,65,76,83,86,87,105,109,14,15,16,27,28,43,44,45,48,61,96],"/time-deposit":[7,8,13,14,15,16,21,24,32,40,43,44,45,48,49,61,62,65,76,83,91,96,105,109,27,28],"/fund":[0,13,14,15,16,24,32,40,43,44,45,48,49,50,57,58,61,62,65,83,96,109,27,28],"/fund-promotion":[0,13,14,40,49,50,62,65,109,114,115,15,16,24,27,28,32,43,44,45,48,61,83,96],"/exchange":[13,14,15,16,21,24,32,40,43,44,45,48,49,55,56,61,62,65,76,83,96,105,109,27,28],"/marketing/coupons":[110,111],"/marketing/imgonly":[49,59,60,62]}}</script>
+<script>
+      if (location.pathname === '/interest-reward' || location.pathname === '/home' || location.pathname === '/recommend') {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KXCM8BC7');
+      }
+      </script><script>
+      if (location.pathname === '/interest-reward' || location.pathname === '/home' || location.pathname === '/recommend') {
+        document.addEventListener('DOMContentLoaded', function (event) {
+          var el = document.createElement('noscript');
+          el.innerHTML = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXCM8BC7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
+          document.body.prepend(el);
+        });
+      }
+      </script><meta name="keywords" content="Ant Bank PayLater、Pay Later、先買後付、迎新、信用卡優惠、免息分期、免手續費分期、淘寶手續費、AlipayHK分期、貸款、Loan、個人貸款、私人貸款、現金周轉、中小企貸款、SME Loan、微小企業貸款、循環貸款、Personal Loan、eM+、AlipayHK餘額、借錢、高息、活期存款、網上貸款、即批過數、特快批核、牛熊、窩輪、微小企業貸款、創業貸款、SME循環貸款、無抵押貸款、隨借隨還、先息後本、還息唔還本、Principal Payment Holiday、免费申请贷款、結婚貸款、裝修貸款、稅貸、 Tax loan、螞蟻銀行香港、installment、Taobao fee、AlipayHK 淘寶、淘寶優惠碼、淘寶集運、淘寶免運費、信用卡交稅優惠 2024、hk income tax、分期交稅、交稅回贈、交稅、交稅方法、稅貸、稅季、tax loan hong kong、hk income tax、低息貸款"><meta name="description" content="淘寶無上限豁免手續費兼領立減券及享運費減免，讓你淘得更盡興！首次申請額外賞HKD 100禮券，立即開通！">
+        <meta charset="utf-8">
+  <meta name="renderer" content="webkit">
+  <script>
+    (function(){
+      var meta = document.createElement('meta');
+      meta.setAttribute('name', 'viewport');
+      var content = 'width=device-width, initial-scale=1.0, '
+      content += location.search.match(/minimal/) ? 'user-scalable=yes' : 'maximum-scale=1.0, minimum-scale=1.0, user-scalable=no';
+      meta.setAttribute('content', content);
+      document.head.appendChild(meta);
+    })()
+  </script>
+  <link rel="manifest" href="https://gw.alipayobjects.com/os/basement_prod/4c657c22-1aa1-43c5-8970-5cedf89e2958.json">
+  <title></title>
+  <style>
+    .root-wrapper{opacity: 0; transition: opacity .5s ease-out;}
+    .root-wrapper_open{opacity: 1;}
+    .main-block-wrapper {
+      padding-top: 120px;
+      padding-bottom: 40px;
+    }
+
+    .main-block {
+      position: relative;
+      min-height: 920px;
+      width: 100%;
+      max-width: 1200px;
+      color: #292f40;
+      line-height: 1.4;
+      background: #fff;
+      border-radius: 10px;
+    }
+  </style>
+  <script>
+      window._to={
+      spmAPos: 'a2882',
+      expoOnce: true,
+      bizType: 'ckb',
+    }
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-31EHB3KEKR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-31EHB3KEKR');
+  </script> -->
+  <script>
+    !function (modules) { function __webpack_require__(moduleId) { if (installedModules[moduleId]) return installedModules[moduleId].exports; var module = installedModules[moduleId] = { exports: {}, id: moduleId, loaded: !1 }; return modules[moduleId].call(module.exports, module, module.exports, __webpack_require__), module.loaded = !0, module.exports } var installedModules = {}; return __webpack_require__.m = modules, __webpack_require__.c = installedModules, __webpack_require__.p = "", __webpack_require__(0) }([function (module, exports) { "use strict"; !function () { if (!window.Tracert) { for (var Tracert = { _isInit: !0, _readyToRun: [], _guid: function () { return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) { var r = 16 * Math.random() | 0, v = "x" === c ? r : 3 & r | 8; return v.toString(16) }) }, get: function (key) { if ("pageId" === key) { if (window._tracert_loader_cfg = window._tracert_loader_cfg || {}, window._tracert_loader_cfg.pageId) return window._tracert_loader_cfg.pageId; var metaa = document.querySelectorAll("meta[name=data-aspm]"), spma = metaa && metaa[0].getAttribute("content"), spmb = document.body && document.body.getAttribute("data-aspm"), pageId = spma && spmb ? spma + "." + spmb + "_" + Tracert._guid() + "_" + Date.now() : "-_" + Tracert._guid() + "_" + Date.now(); return window._tracert_loader_cfg.pageId = pageId, pageId } return this[key] }, call: function () { var argsList, args = arguments; try { argsList = [].slice.call(args, 0) } catch (ex) { var argsLen = args.length; argsList = []; for (var i = 0; i < argsLen; i++)argsList.push(args[i]) } Tracert.addToRun(function () { Tracert.call.apply(Tracert, argsList) }) }, addToRun: function (_fn) { var fn = _fn; "function" == typeof fn && (fn._logTimer = new Date - 0, Tracert._readyToRun.push(fn)) } }, fnlist = ["config", "logPv", "info", "err", "click", "expo", "pageName", "pageState", "time", "timeEnd", "parse", "checkExpo", "stringify", "report", "set", "before", "expoCheck"], i = 0; i < fnlist.length; i++) { var fn = fnlist[i]; !function (fn) { Tracert[fn] = function () { var argsList, args = arguments; try { argsList = [].slice.call(args, 0) } catch (ex) { var argsLen = args.length; argsList = []; for (var i = 0; i < argsLen; i++)argsList.push(args[i]) } argsList.unshift(fn), Tracert.addToRun(function () { Tracert.call.apply(Tracert, argsList) }) } }(fn) } window.Tracert = Tracert } }() }]);
+  </script>
+  <script src="https://gw.alipayobjects.com/as/g/component/tracert/4.2.1/index.js"></script>
+  
+    <meta name="yuyan_id" content="180020010000009666">
+    <meta name="bm_sprint_id" content="S090011193437">
+
+    <script>
+      !function(){var e=window;function n(n){if(e.g_monitor&&e.g_monitor.events){var t=e.g_monitor.events;t.length<20&&t.push(n)}}e.g_monitor=e.g_monitor||{listener:{},events:[]};var r=e.g_monitor.listener;function t(t,n){try{e.addEventListener?e.addEventListener(t,n,!0):e.attachEvent?e.attachEvent("on"+t,n):e[t]=n,r[t]=n}catch(n){console.warn("Tracert 监控事件注册失败："+t,n)}}r.error||t("error",n),r.unhandledrejection||t("unhandledrejection",n)}();
+    </script>
+    <script>
+      (function (window, document) {
+      window.yuyanCmdCache = [];
+      window.yuyanMonitor = {
+        config: function () {},
+        logError: function () {},
+        log: function () { window.yuyanCmdCache.push(arguments); }
+      };
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://gw.alipayobjects.com/os/lib/alipay/yuyan-monitor-sdk/1.1.0/dist/index.umd.min.js';
+      script.crossOrigin = "anonymous";
+      script.onload = function () {
+        if (YuyanMonitor) {
+          window.yuyanMonitor = new YuyanMonitor({ yuyanId: "180020010000009666" });
+          if (window.yuyanCmdCache.length) {
+            for (let i = 0; i < window.yuyanCmdCache.length; i++) {
+              window.yuyanMonitor.log.apply(window.yuyanMonitor, window.yuyanCmdCache[i]);
+            }
+            window.yuyanCmdCache.length = 0;
+          }
+        }
+      }
+      var insertAnchor = document.getElementsByTagName('script')[0];
+      if (insertAnchor.parentNode) {
+        insertAnchor.parentNode.insertBefore(script, insertAnchor);
+      }
+    })(window, window.document);
+    </script>
+  </head>
+<body>
+    <header id="notice-tip" class="notice-tip"></header>
+    <header id="header" class="header" style="display: none"></header>
+    
+<div id="root" class="root-wrapper"></div>
+<script src="https://gw.alipayobjects.com/render/p/yuyan/180020010000009666/umi.2fe8acee.js" crossorigin="anonymous"></script>
+
+    <div id="loadingBar" class="hidden">
+    <div class="progress"></div>
+    <div class="glimmer"></div>
+  </div>
+  <script>
+    try{
+      (function() {
+        setTimeout(function () {
+          document.getElementById('root').classList.add('root-wrapper_open');
+        }, 100)
+      })()
+    } catch (err) {
+      console.error(err)
+    }
+  </script>
+    
+</body></html>

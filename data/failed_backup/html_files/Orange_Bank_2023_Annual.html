@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html xml:lang="fr" lang="fr">
+
+<head>
+
+    <!-- cms:page content="website:/OneBankFR/error404" dialog="mgnl-one-bank-theme:pages/pageProperties" -->
+    <!-- /cms:page -->
+
+
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>404</title>
+
+
+
+
+    <link rel="canonical" href="/error404/" />
+
+
+    <meta name="description" content="Vous avez fait une erreur">
+    <meta property="og:title" content="404" />
+    <meta property="twitter:title" content="404" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="/Error404.html" />
+    <meta property="og:description" content="Vous avez fait une erreur" />
+    <meta property="twitter:description" content="Vous avez fait une erreur" />
+    <meta property="article:author" content="OrangeBank" />
+
+    <link rel="icon" href="/.resources/mgnl-one-bank-theme/webresources/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="/.resources/mgnl-one-bank-theme/webresources/css/main.min~2024-07-09-10-03-26-929~cache.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/.resources/mgnl-one-bank-theme/webresources/css/alternative~2023-11-28-15-45-52-820~cache.css" media="all" />
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            $(document).ready(function() {
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    page_type: "page",
+                    product_name: "undefined",
+                    product_subcategory: "undefined",
+                    product_category: "undefined",
+                    product_quantity: "1",
+                    product_currency: "eur",
+                    product_revenue: "undefined",
+                    product_id: "undefined",
+                    product_option: "undefined"
+                });
+            });
+        });
+    </script>
+    <!-- GRUPOS
+ -->
+    <!-- roles
+    anonymous , 
+    categorization-base , 
+    imaging-base , 
+    oneBank-base , 
+    rest-anonymous , 
+ -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            $(document).ready(function() {
+                $("a,button").click(function() {
+                    var textParent = "";
+                    var text = "";
+                    var separator = "";
+                    if ($(this).closest("header").length) {
+                        var rootNode = "header";
+                        if ($(this).attr('class') == "submenu-item hasImg") {
+                            var text = $(this).children(".submenu-item-text").children(".submenu-item-title").text().trim();
+                        } else if ($(this).attr('class') == "header-logo") {
+                            var text = "Logo";
+                        } else {
+                            var text = $(this).text().trim();
+                        }
+
+                        if ($(this).attr('class') == "menu-item-title hasIcon") {
+                            var textParent = $(this).text().trim();
+                            var text = "";
+                        } else if ($(this).closest(".menu-item-title")) {
+                            var textParent = $(this).parents(".submenu").siblings(".menu-item-title").text().trim();
+                        }
+                    } else if ($(this).closest("main").length) {
+                        if ($(this).parents().attr('class') == "sticky-list" || $(this).attr('class') == "btn sticky-open-box") {
+                            var rootNode = "toogle";
+                            var text = $(this).text().trim();
+                        } else if ($(this).attr('class') == "card-blog") {
+                            var rootNode = "toogle";
+                            var text = $(this).attr('title').trim();
+                        } else {
+                            var rootNode = "main";
+                            var text = $(this).text().trim();
+                        }
+
+                    } else if ($(this).closest("footer").length) {
+                        var rootNode = "footer";
+                        var text = $(this).text().trim();
+                    };
+
+                    if (textParent && text) {
+                        var separator = " | ";
+                    };
+
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        event: "uaevent",
+                        event_action: "click",
+                        event_category: rootNode + "_website",
+                        event_label: textParent + separator + text,
+                        event_labelVariant: ""
+                    });
+                });
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+
+
+
+
+    <header class="header  header-black" id="header">
+        <div class="container">
+            <div class="header-container">
+                <a class="header-logo" href="/" title="Orange Bank">
+                    <picture style="background-image: url(/dam/jcr_04b29bb7-6546-430a-bf40-4c333bc2abae/logo-white--mini.svg)">
+                        <source media="(min-width: 744px)" srcset="/dam/jcr_e37f0725-82b6-4768-9510-d7e0baa70e89/logo-white.svg">
+                        <source srcset="/dam/jcr_04b29bb7-6546-430a-bf40-4c333bc2abae/logo-white--mini.svg"><img alt="Orange Bank Logo" src="/dam/jcr_04b29bb7-6546-430a-bf40-4c333bc2abae/logo-white--mini.svg" loading="lazy">
+                    </picture>
+                </a>
+                <nav class="header-navigation" tabindex="0">
+                    <ul class="navigation-list">
+                        <li class="" tabindex="0">
+                            <a class="menu-item-title hasIcon" href="/" title="Banque en ligne | Orange Bank">Accueil</a>
+                        </li>
+                        <li class="" tabindex="0">
+                            <a class="menu-item-title hasIcon" href="/#credit_solde" title="Crédit">Crédit</a>
+                        </li>
+                    </ul>
+                    <ul class="navigation-list">
+                        <li class="" tabindex="0">
+                            <a class="menu-item-title hasIcon" href="/nous-contacter/" title="Nous contacter">Nous contacter</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <button class="toggle-menu" type="button"><span></span></button>
+            </div>
+        </div>
+    </header>
+    <main class="mainContent" id="content">
+
+
+        <section class="section">
+            <div class="container">
+                <div class="banner-item reverse">
+                    <div class="banner-item-img">
+                        <picture>
+                            <source media="(min-width: 1440px)" srcset="/.imaging/focalpoint/309x341/dam/jcr_af74f114-3b95-46fb-9fc8-169311a31a25/_thumb_104481.png" />
+                            <source media="(min-width: 744px)" srcset="/.imaging/focalpoint/221x312/dam/jcr_af74f114-3b95-46fb-9fc8-169311a31a25/_thumb_104481.png" />
+                            <source media="(min-width: 375px)" srcset="/.imaging/focalpoint/375x188/dam/jcr_af74f114-3b95-46fb-9fc8-169311a31a25/_thumb_104481.png" />
+                            <source srcset="/.imaging/focalpoint/309x341/dam/jcr_af74f114-3b95-46fb-9fc8-169311a31a25/_thumb_104481.png" />
+                            <img src="/.imaging/focalpoint/309x341/dam/jcr_af74f114-3b95-46fb-9fc8-169311a31a25/_thumb_104481.png" alt="" loading="lazy" />
+                        </picture>
+                    </div>
+                    <div class="banner-item-text">
+                        <span class="banner-item-text-tag gray-tag"><span class="text-big"><span class="text-orange">Oups!</span></span>
+                        </span>
+                        <h1 class="banner-item-text-title">Il semble que la page que vous recherchez n&#039;existe pas.</h1>
+                        <div class="banner-item-text-description">
+                            <p>Vous pouvez revenir &agrave; la page d&#39;accueil !</p>
+
+                        </div>
+                        <ul class="banner-item-text-icon-list icon-list-module">
+                            <li> </li>
+                        </ul>
+
+                        <div class="banner-item-text-button">
+
+                            <a class="btn btn-primary " href="/" title="Banque en ligne | Orange Bank"><span>Retour à la page d&#039;accueil</span></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+            .faq-item-description a:not(.tooltipstered) {
+                display: none;
+            }
+            
+            .header-navigation .navigation-list .cta {
+                display: none !important;
+            }
+        </style>
+    </main>
+    <script defer src="/.resources/mgnl-one-bank-theme/webresources/js/main.min~2024-07-09-10-03-26-981~cache.js"></script>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-navigation">
+                <div class="footer-column">
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-column-title">Informations</h2>
+                    <ul class="column-list">
+
+                        <li>
+                            <a href="/informations-financieres/" title="Informations financières | Orange Bank">Informations financières</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+
+                    <h2 class="footer-column-title">Documentation</h2>
+                    <ul class="column-list">
+
+                        <li>
+                            <a href="/documents-conditions-reglementaires/" title="Documentation réglementaire | Orange Bank">Documentation réglementaire</a>
+                        </li>
+                        <li>
+                            <a href="/Documentation-r-glementaire-GBanque/" title="Documentation réglementaire des offres Orange Bank en partenariat avec Groupama">Documentation réglementaire des offres Orange Bank en partenariat avec Groupama</a>
+                        </li>
+                    </ul>
+                    <h2 class="footer-column-title"> </h2>
+                    <ul class="column-list">
+                    </ul>
+                </div>
+                <div class="footer-column">
+                </div>
+            </div>
+            <div class="footer-links">
+                <ul class="footer-links-list">
+
+                    <li>
+                        <a href="/nous-contacter/" title="Nous contacter">Réclamations</a>
+                    </li>
+                    <li>
+                        <a href="/mentions-legales/" title="Mentions légales | Orange Bank">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="/protection-donnees-personnelles/" title="Protection des données personnelles | Orange Bank">Protection des données</a>
+                    </li>
+                    <li>
+                        <a href="https://orange.integrityline.org/" target="_blank" title="Lancer une alerte">Lancer une alerte</a>
+                    </li>
+                    <li>
+                        <a href="/accessibilite/" title="Accessibilité | Orange Bank">Accessibilité</a>
+                    </li>
+                </ul>
+                <span class="footer-copyright"><p>&copy; Orange Bank 2025</p>
+</span> </div>
+        </div>
+    </footer>
+    <div class="inactiveBox"></div>
+    <div class="modals-box">
+        <div class="modal fade modal-video" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="modalVideo">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content content-iframe">
+                    <div class="modal-header"><i aria-hidden="true" class="closeModal obf-icon-close" data-dismiss="modal"></i></div>
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-image" id="modalImage" tabindex="-1" role="dialog" aria-labelledby="modalImage">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header"><i aria-hidden="true" class="closeModal obf-icon-close" data-dismiss="modal"></i></div>
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-conditions" id="modalConditions" tabindex="-1" role="dialog" aria-labelledby="modalConditions">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

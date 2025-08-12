@@ -1,43 +1,68 @@
-# Configuration
-PyYAML>=6.0
+# Financial Analysis System Requirements
+# Python 3.9+ required
+# Updated: 2025-08-10
 
-# Web scraping and automation
-selenium>=4.10.0
-webdriver-manager>=4.0.0
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-lxml>=4.9.0
-html5lib>=1.1
+# ========== Core Dependencies ==========
+numpy==1.24.3  # Fixed version for compatibility
+pandas==1.5.3  # Fixed version for compatibility
+PyYAML==6.0.1
+packaging==23.2
+scipy==1.9.1
 
-# Data processing
-pandas>=1.3.5
-numpy>=1.22.0
-openpyxl==3.1.2
+# ========== PDF Processing ==========
+pdfplumber==0.9.0  # Main PDF extraction library
+PyPDF2==3.0.1
+PyMuPDF==1.23.8  # For PDF to image conversion
+reportlab==4.0.4
 
-# PDF processing
-pdfplumber>=0.7.0
-PyPDF2>=2.10.0
-reportlab>=4.0.0
-fpdf==1.7.2
-PyMuPDF>=1.23.0  # For PDF to image conversion
+# ========== Web Scraping ==========
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+html5lib==1.1
+aiohttp==3.8.5  # For async downloads
 
-# OCR and table extraction (optional - install as needed)
-# pytesseract>=0.3.10
-# paddlepaddle>=2.5.0
-# paddleocr>=2.7.0
-# camelot-py[cv]>=0.11.0
-# tabula-py>=2.8.0
-# opencv-python>=4.8.0
+# ========== Data Processing ==========
+openpyxl==3.1.2  # Excel support
+python-dateutil==2.8.2
+tqdm==4.66.1  # Progress bars
 
-# Image processing
-Pillow>=10.0.0
-numpy>=1.22.0
+# ========== Visualization ==========
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.17.0  # Interactive charts
 
-# Visualization
-matplotlib>=3.5.1
-seaborn>=0.11.2
+# ========== OCR Support (Optional) ==========
+# Note: Requires system dependencies
+# macOS: brew install tesseract tesseract-lang
+# Linux: apt-get install tesseract-ocr tesseract-ocr-chi-sim
+pytesseract==0.3.10
+Pillow==10.0.0
 
-# Other utilities
-python-magic==0.4.27
-scikit-learn>=1.0.2
-tqdm>=4.65.0 
+# PaddleOCR - Better Chinese OCR (Optional)
+# Uncomment if needed:
+# paddlepaddle==2.5.1
+# paddleocr==2.7.0
+
+# EasyOCR - Alternative OCR (Optional)
+# easyocr==1.7.0
+
+# ========== LLM Support (Optional) ==========
+# For DeepSeek API (uses requests library)
+# openai==0.28.1  # If using OpenAI API
+
+# ========== Development Tools (Optional) ==========
+pytest==7.4.3
+pylint==3.0.2
+black==23.11.0
+mypy==1.7.0
+ipython==8.12.3
+
+# ========== Machine Learning (Optional) ==========
+# scikit-learn==1.3.0
+# transformers==4.35.0  # For advanced NLP
+
+# ========== Database (Optional) ==========
+# sqlite3 (built-in)
+# sqlalchemy==2.0.23
+# pymongo==4.5.0  # For MongoDB
